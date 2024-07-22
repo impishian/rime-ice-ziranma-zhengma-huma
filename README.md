@@ -4,19 +4,21 @@
 
 雾凇拼音提供了一套开箱即用的 Rime 完整配置，包含了输入方案（全拼、双拼）、长期维护的词库及各项扩展功能。
 
-雾凇拼音: https://dvel.me/posts/rime-ice/  github: https://github.com/iDvel/rime-ice/
+[雾凇拼音](https://dvel.me/posts/rime-ice/)
+<br>
+[github](https://github.com/iDvel/rime-ice/)
 
 ## 搜狗细胞词库
 
-搜狗标准词库： https://pinyin.sogou.com/dict/detail/index/11640  
-
-搜狗细胞词库的其他词库： https://pinyin.sogou.com/dict/
+[搜狗标准词库](https://pinyin.sogou.com/dict/detail/index/11640)
+<br>
+[搜狗细胞词库的其他词库](https://pinyin.sogou.com/dict/)
 
 在雾凇的码表基础上，补充了搜狗词库后，总共约 225 万拼音、双拼共用的字词。
 
 ## 单字减少重码的方法
 
-雾凇里已整合了“部件拆字”的功能，输入同音的单字，可减少翻页。
+雾凇里已整合了“部件拆字”的功能。使用该功能，输入同音的单字时，可减少翻页。
 
 此外，在 custom_phrase_double.txt 里添加了近 7000 常用字（带单辅码）的编码。
 
@@ -28,19 +30,18 @@
 
 ## CJK-E 郑码
 
-郑码:（来自Rime作者佛振）https://github.com/lotem/rime-zhengma.git  , 主要提取其中 CJK-E 字，补充到不知郑码中。
+[郑码（来自Rime作者佛振）](https://github.com/lotem/rime-zhengma.git) , 主要提取其中 CJK-E 字，补充到不知郑码中。
 
-不知郑码: https://github.com/GongMu/rime-zhengma.git  使用了 bzzm.*.yaml 等文件。约 18 万字词。
+[不知郑码](https://github.com/GongMu/rime-zhengma.git) 采用了 bzzm.*.yaml 等文件。约 18 万字词。
 
 
 ## 双辅自然码
 
-自然码：https://github.com/mutoe/rime ，  使用了 zrm2000.dict.yaml 和 zrm2000.schema.yaml 两个文件，可用双辅码。约96万字词。
+[自然码](https://github.com/mutoe/rime) ，采用了 zrm2000.dict.yaml 和 zrm2000.schema.yaml 两个文件。这是可用原本双辅码的自然码方案。约96万字词。
 
 ## 搜狗词库转 Rime 格式
 
-https://github.com/lewangdev/scel2txt
-
+[scel2txt](https://github.com/lewangdev/scel2txt)
 
 # 文件列表
 
@@ -204,13 +205,13 @@ ugrep '[\x{2B820}-\x{2CEAF}]' zhengma.dict.yaml |wc -l
 
 ## CJK 和 Unicode
 
-支持大字集的字体：https://zh.wikipedia.org/wiki/Wikipedia:Unicode%E6%89%A9%E5%B1%95%E6%B1%89%E5%AD%97
+[支持大字集的字体](https://zh.wikipedia.org/wiki/Wikipedia:Unicode%E6%89%A9%E5%B1%95%E6%B1%89%E5%AD%97)
 
-CJK: https://zh.wikipedia.org/wiki/%E4%B8%AD%E6%97%A5%E9%9F%93%E7%B5%B1%E4%B8%80%E8%A1%A8%E6%84%8F%E6%96%87%E5%AD%97
+[CJK](https://zh.wikipedia.org/wiki/%E4%B8%AD%E6%97%A5%E9%9F%93%E7%B5%B1%E4%B8%80%E8%A1%A8%E6%84%8F%E6%96%87%E5%AD%97)
 
-https://zh.wikipedia.org/wiki/%E9%80%9A%E7%94%A8%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97%E8%A1%A8
+[通用规范汉字表](https://zh.wikipedia.org/wiki/%E9%80%9A%E7%94%A8%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97%E8%A1%A8)
 
-为覆盖到《通用规范汉字表》的字，字体和输入法，至少应支持到 CJK-E
+为覆盖到《通用规范汉字表》的字，字体和输入法至少应支持到 CJK-E
 
 ## 从 CJK, CJK-A 到 CJK-I
 
