@@ -74,7 +74,7 @@ MacOS 安装鼠须管，备份、清空 ~/Library/Rime，将本仓库内容复�
 │   └── tencent.dict.yaml
 ├── custom_phrase.txt
 ├── custom_phrase_double.txt（新增，自然码双拼单辅的近7000常用单字）
-├── default.yaml（修改schema_list、page_size，增加一个swither的hotkey，启用，.翻页）
+├── default.yaml（修改schema_list、page_size，增加一个switcher的hotkey，启用，.翻页）
 ├── double_pinyin.schema.yaml（修改 schema name ，由“自然码双拼”改为“双拼”。删除其他双拼方案的schema.yaml文件）
 ├── en_dicts
 │   ├── cn_en.txt
