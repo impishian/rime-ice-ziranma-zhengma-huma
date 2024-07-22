@@ -58,8 +58,7 @@ schema_list:
   # 除了 t9，它依赖于 rime_ice，用九宫格别删 rime_ice.schema.yaml
   - schema: rime_ice      # 雾凇拼音（全拼）
   #- schema: t9           # 九宫格（仓输入法）
-  - schema: double_pinyin # 双拼(自然码方案)，并用自定义短语，对常用近7000字定义了单辅码。日常用。拼音大词库，约225万词，雾凇 +
-地名、古诗词等搜狗细胞词库。
+  - schema: double_pinyin # 双拼(自然码方案)，并用自定义短语，对常用近7000字定义了单辅码。日常用。拼音大词库，约225万词，雾凇 + 地名、古诗词等搜狗细胞词库。
   - schema: zrm2000       # 自然码2009 （带辅码）。可打单字，但词也不少。https://github.com/mutoe/rime 的 zrm2000.*.yaml
   - schema: bzzm          # 以不知郑码(CJK-D)为基础，添加 lotem (佛振) 码表 CJK-E 的 5815 字，和9个急用字编码。
                           # 可打 CJK-E 以内的超8万单字，以及数万词。当然，还是建议多用双拼打长词。
