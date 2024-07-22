@@ -195,8 +195,40 @@ https://github.com/lewangdev/scel2txt
 
 #6.人工整理 新的 dict.yaml，在前面加些行。
 #...
+
+#7.提取 CJK-E 字
+ugrep '[\x{2B820}-\x{2CEAF}]' zhengma.dict.yaml |wc -l
+5815
+#可以导入5815个字到bzzm
 ```
 
+## 其他
+
+支持大字集的字体：https://zh.wikipedia.org/wiki/Wikipedia:Unicode%E6%89%A9%E5%B1%95%E6%B1%89%E5%AD%97
+
+CJK: https://zh.wikipedia.org/wiki/%E4%B8%AD%E6%97%A5%E9%9F%93%E7%B5%B1%E4%B8%80%E8%A1%A8%E6%84%8F%E6%96%87%E5%AD%97
+
+为覆盖到《通用规范汉字表》的字，字体和输入法，至少应支持到 CJK-E
+https://zh.wikipedia.org/wiki/%E9%80%9A%E7%94%A8%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97%E8%A1%A8
+
+
+```
+CJK, CJK-A, ... CJK-I
+
+CJK , Unicode1.0-1.1  1993-   20915字
+CJK-A   3.0  1999   6582字
+CJK-B 3.1 2001 42711字  （4.1: 22字，5.1: 8字）
+CJK-C 5.2 2009 4149字 + 8字
+CJK-D 6.0 2010 222字 + 1字
+CJK-E 8.0 2015-06-17  5762字+9字
+CJK-F 10.0 2017-06-20 7473字+21  (11.0: 5字)
+CJK-G 13.0 2020-03  4939字 +23字+7字  （14.0: 3+2+4字）
+CJK-H 15.0 2022-09  4192字 + 1字
+CJK-I  15.1  2023-09 622字  ， 
+
+共有 97681 CJK字（加上非 CJK 的，共有约15万）
+
+```
 # 感谢 ❤️
 
 感谢上述提到的词库、方案及功能参考。
