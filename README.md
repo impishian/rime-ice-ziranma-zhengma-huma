@@ -37,11 +37,14 @@
 
 自然码：https://github.com/mutoe/rime ，  使用了 zrm2000.dict.yaml 和 zrm2000.schema.yaml 两个文件，可用双辅码。约96万字词。
 
-## 搜狗词库转 Rime 格式：[lewangdev/scel2txt] (https://github.com/lewangdev/scel2txt)
+## 搜狗词库转 Rime 格式：
+
+https://github.com/lewangdev/scel2txt
 
 
 # 文件列表
 
+```
 不知郑码：
 
 ├── bzzm.dict.yaml（修改，增加3行）
@@ -168,7 +171,9 @@
 
 ├── zrm2000.dict.yaml
 ├── zrm2000.schema.yaml
+```
 
 # 感谢 ❤️
 
 感谢上述提到的词库、方案及功能参考。
+
