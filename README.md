@@ -43,7 +43,11 @@ MacOS 安装鼠须管，备份、清空 ~/Library/Rime，将本仓库内容复�
 
 ## 双辅自然码
 
-[自然码](https://github.com/mutoe/rime) ，采用了 zrm2000.dict.yaml 和 zrm2000.schema.yaml 两个文件。这是可用原本双辅码的自然码方案。约96万字词。
+自然码 ，采用了 zrm2000.dict.yaml 和 zrm2000.schema.yaml 两个文件。这是可用原本双辅码的自然码方案。约96万字词。
+
+https://github.com/mutoe/rime
+或
+https://github.com/henices/rime
 
 ## 搜狗词库转 Rime 格式
 
