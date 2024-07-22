@@ -173,6 +173,30 @@ https://github.com/lewangdev/scel2txt
 ├── zrm2000.schema.yaml
 ```
 
+
+## 提取词库的一些命令行
+
+```
+#1.汇总现有词库
+#cat base.dict.yaml 8105.dict.yaml 41448.dict.yaml ext.dict.yaml others.dict.yaml tencent.dict.yaml > ice.txt
+
+#2.去掉注释行
+#grep -v "^#" ice.txt > ice1.txt
+
+#3.只取有中文的行
+#ugrep '[\x{4E00}-\x{9FFF}\x{3400}-\x{4DFF}\x{20000}-\x{2A6DD}\x{9FA6}-\x{9FBB}\x{FA70}-\x{FAD9}\x{9FBC}-\x{9FC3}\x{2A700}-\x{2B734}\x{2B740}-\x{2B81D}\x{2B820}-\x{2CEAF}\x{9FCD}-\x{9FD5}\x{2CEB0}-\x{2EBEF}\x{30000}-\x{3134A}\x{31350}-\x{323AF}\x{2EBF0}-\x{2EE5F}\x{3007}]' ice1.txt > ice2.txt
+
+#4.去掉编码
+#sd "   .*$" "" ice2.txt
+
+#5.找出那些在 sogou_network_pop_new_words.txt 但不在 ice2.txt 的行:
+#python3 scel2txt.py  ./网络流行新词【官方推荐】.scel  ./sogou_network_pop_new_words.txt
+#awk 'NR==FNR {lines[$0]; next} !($0 in lines)' ice2.txt  sogou_network_pop_new_words.txt  > sogou_network_pop_new_words.dict.yaml
+
+#6.人工整理 新的 dict.yaml，在前面加些行。
+#...
+```
+
 # 感谢 ❤️
 
 感谢上述提到的词库、方案及功能参考。
