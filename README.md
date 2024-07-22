@@ -55,7 +55,7 @@ MacOS 安装鼠须管，备份、清空 ~/Library/Rime，将本仓库内容复�
 ├── bzzm.dict.yaml（修改，增加3行）
 ├── bzzm.phrases.dict.yaml
 ├── bzzm.phrases1.dict.yaml
-├── bzzm.schema.yaml
+├── bzzm.schema.yaml (schema name 改为 郑码)
 ├── bzzm.symbols.dict.yaml
 ├── bzzm.words.dict.yaml
 ├── bzzm.words1.dict.yaml（新增）
@@ -73,8 +73,8 @@ MacOS 安装鼠须管，备份、清空 ~/Library/Rime，将本仓库内容复�
 │   ├── sogou_network_pop_new_words.dict.yaml（新增）
 │   └── tencent.dict.yaml
 ├── custom_phrase.txt
-├── custom_phrase_double.txt（新增，自然码双拼单辅的几千常用单字）
-├── default.yaml（修改schema_list、page_size，增加一个swither的hotkey，多启用两组翻页键）
+├── custom_phrase_double.txt（新增，自然码双拼单辅的近7000常用单字）
+├── default.yaml（修改schema_list、page_size，增加一个swither的hotkey，启用，.翻页）
 ├── double_pinyin.schema.yaml（修改 schema name ，由“自然码双拼”改为“双拼”。删除其他双拼方案的schema.yaml文件）
 ├── en_dicts
 │   ├── cn_en.txt
@@ -234,7 +234,7 @@ ugrep '[\x{2B820}-\x{2CEAF}]' zhengma.dict.yaml |wc -l
 
 ## 其他
 
-在此 cue 一下一位打字冠军。某音号：打字快的州州，主要用：搜狗输入法 + 自然码双拼 + 独家词库 + 独家辅码，尽量整句输入。
+在此提一下一位打字冠军。某音号：打字快的州州，主要用：搜狗输入法 + 自然码双拼 + 独家词库 + 独家辅码，尽量整句输入。
 
 不少 Rime 的用户，是担心大厂输入法上传隐私，才使用 Rime。 既然 Rime 不能云计算的整句输入，那就弄好自己的词库吧，尽量用长词来输入。几百万的词库里，好多是几个词连在一起的长词。
 
