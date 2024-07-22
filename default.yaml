@@ -1,23 +1,71 @@
 # Rime default settings
 # encoding: utf-8
 
-
+#
+# modified by Ian
+#
 # 要比共享目录的同名文件的 config_version 大才可以生效
-config_version: '2024-02-05'
+config_version: '2024-07-19'
 
 deploymenet:
   auto_update: false
 
+#  CJK Unified Ideographs 与 Unicode 国际标准： https://zh.wikipedia.org/wiki/中日韓統一表意文字
+#
+#  \u4E00-\u9FA5\u3400-\u4DBF  # CJK    Unicode 1.0-1.1,  1993- , 20915字; CJK-A Unicode 3.0, 1999年, 6582字
+#  \u20000-\u2A6DD             # CJK-B, Unicode 3.1, 2001年, 42711字。
+#  \u9FA6-\u9FBB\uFA70-\uFAD9  #        Unicode 4.1, 22字
+#  \u9FBC-\u9FC3               #        Unicode 5.1, 8字
+#  \u2A700-\u2B734             # CJK-C, Unicode 5.2, 2009年, 4149字+8字
+#  \u2B740-\u2B81D             # CJK-D, Unicode 6.0, 2010年, 222字+1字
+#  \u2B820-\u2CEAF             # CJK-E, Unicode 8.0, 2015-06-17, 5762字
+#  \u9FCD-\u9FD5               #        急用字:9字
+#  \u2CEB0-\u2EBEF             # CJK-F, Unicode 10.0, 2017-06-20, 7473字+21字; Unicode 11.0, 5字
+#  \u30000-\u3134A             # CJK-G, Unicode 13.0, 2020-03, 4939字+23字+7字; Unicode14.0, 3字+2字+4字
+#  \u31350-\u323AF             # CJK-H, Unicode 15.0, 2022-09, 4192字+1字
+#  \u2EBF0-\u2EE5F             # CJK-I, Unicode 15.1, 2023-09, 622字
+#
+
+# 参考:
+# 雾凇拼音：             https://github.com/iDvel/rime-ice         ：github上搜索:rime，stars最多的项目。
+# 自然码2009：           https://github.com/mutoe/rime             : zrm2000.*.yaml (CJK，单字近2.1万）
+# 不知郑码：             https://github.com/GongMu/rime-zhengma    : bzzm*.yaml     (CJK to CJK-D，单字近7.5万)
+# 佛振(rime作者)的郑码： https://github.com/lotem/rime-zhengma     : zhengma*.yaml  (CJK to CJK-E，单字超8万)
+# 注音：                 https://github.com/rime/rime-bopomofo     : bopomofo*.yaml
+#     此注音实现需依赖   https://github.com/rime/rime-terra-pinyin ：terra_pinyin*.yaml, 地球拼音，带调的拼音
+# 粤拼：                 https://github.com/rime/rime-cantonese    : 略
+#
+
+# 定制过程备忘：
+#
+# 1. 以雾凇的库为基础，移除 double_pinyin_*.yaml 等自然码双拼方案以外的其他双拼方案。自然码方案是双拼鼻祖，小鹤等后来方案有些复杂了。抖音上“打字快的州州”是全国大赛打字冠军，她也用自然码双拼，主要依托自制辅码和词库取胜。
+#
+# 2. 在 cn_dicts 下：增加 sogou.dict.yaml。此文件是由搜狗细胞词库转换而来，主要是本人日常打字用到的地名、成语、古诗词等。且都未在 cn_dicts 其他文件中收录的词。
+#
+# 3. 添加自然码。虽只覆盖 CJK 的2万单字。
+#
+# 4. 添加不知郑码，扩充CJK-E 字。
+#    方法：$ ugrep '[\x{2B820}-\x{2CEAF}]' zhengma.dict.yaml ，得到5815个字，附加到 bzzm.words 后
+#    暂时没找到 CJK-F 到CJK-I 的码表。不过10万 CJK-I 的中日韩越古今汉字里面8成的字，绝大部分人一辈子都不会用到。
+#    除郑码外，还可尝试各版本仓颉、各版本五笔、各种魔改五笔，各种受五笔和郑码影响的徐码、宇浩、虎码等。
+#
+# 日常绝大部分时候用双拼（或拼音），因为有200万词条的词库。
+# 打《小学语文》生字表等场景，则用带辅助码的自然码，减少翻页选字。或用郑码。
+# 打古文或古籍录入，用大字集的郑码，并要安装大字符集的字体（比如：天珩的字体）。
 # 方案列表
 schema_list:
   # 可以直接删除或注释不需要的方案，对应的 *.schema.yaml 方案文件也可以直接删除
   # 除了 t9，它依赖于 rime_ice，用九宫格别删 rime_ice.schema.yaml
-  - schema: rime_ice               # 雾凇拼音（全拼）
-  #- schema: t9                     # 九宫格（仓输入法）
-  - schema: double_pinyin          # 双拼（自然码方案）
-  - schema: bopomofo               # 注音（缺省自带）
-  - schema: bzzm                   # 不知郑码 (CJK-D， add 5815 words)
-  - schema: zrm2000                # 自然码（带辅码）
+  - schema: rime_ice      # 雾凇拼音（全拼）
+  #- schema: t9           # 九宫格（仓输入法）
+  - schema: double_pinyin # 双拼(自然码方案)，并用自定义短语，对常用近7000字定义了单辅码。日常用。拼音大词库，约225万词，雾凇 +
+地名、古诗词等搜狗细胞词库。
+  - schema: zrm2000       # 自然码2009 （带辅码）。可打单字，但词也不少。https://github.com/mutoe/rime 的 zrm2000.*.yaml
+  - schema: bzzm          # 以不知郑码(CJK-D)为基础，添加 lotem (佛振) 码表 CJK-E 的 5815 字，和9个急用字编码。
+                          # 可打 CJK-E 以内的超8万单字，以及数万词。当然，还是建议多用双拼打长词。
+                          # $ ugrep '[\x{2B820}-\x{2CEAF}]' zhengma.dict.yaml 可得到5815个字存到 bzzm.words1
+  #- schema: jyutping     # 香港语言学会，粤拼。偶尔用。
+  - schema: bopomofo     # 注音（缺省自带）。偶尔用。
 
 # 菜单
 menu:
@@ -33,7 +81,7 @@ switcher:
     - F4
     - Control+grave
     - Control+Shift+grave
-    - "Shift+Control+0"
+    - Control+Shift+0
     # - Alt+grave
   save_options:  # 开关记忆（方案中的 switches），从方案选单（而非快捷键）切换时会记住的选项，需要记忆的开关不能设定 reset
     - ascii_punct
@@ -161,7 +209,7 @@ recognizer:
     email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"                            # email @ 之后不上屏
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"  # URL
     underscore: "^[A-Za-z]+_.*"  # 下划线不上屏
-    url_2: "^[A-Za-z]+[.].*"   # 句号不上屏，支持 google.com abc.txt 等网址或文件名，使用句号翻页时需要注释掉
+    # url_2: "^[A-Za-z]+[.].*"   # 句号不上屏，支持 google.com abc.txt 等网址或文件名，使用句号翻页时需要注释掉
     # colon: "^[A-Za-z]+:.*"     # 冒号不上屏
 
 
@@ -192,8 +240,8 @@ key_binder:
     - { when: has_menu, accept: period, send: Page_Down }
 
     # 翻页 [ ]
-    - { when: paging, accept: bracketleft, send: Page_Up }
-    - { when: has_menu, accept: bracketright, send: Page_Down }
+    # - { when: paging, accept: bracketleft, send: Page_Up }
+    # - { when: has_menu, accept: bracketright, send: Page_Down }
 
     # 两种按键配置，鼠须管 Control+Shift+4 生效，小狼毫 Control+Shift+dollar 生效，都写上了。
     # numbered_mode_switch:
