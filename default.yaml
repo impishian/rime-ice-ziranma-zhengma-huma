@@ -27,14 +27,16 @@ deploymenet:
 #
 
 # 参考:
-# 雾凇拼音：             https://github.com/iDvel/rime-ice         ：github上搜索:rime，stars最多的项目。
+# 雾凇拼音：             https://github.com/iDvel/rime-ice         : github上搜索:rime，stars最多的项目。
 # 自然码2009：           https://github.com/mutoe/rime             : zrm2000.*.yaml (CJK，单字近2.1万）
 # 不知郑码：             https://github.com/GongMu/rime-zhengma    : bzzm*.yaml     (CJK to CJK-D，单字近7.5万)
 # 佛振(rime作者)的郑码： https://github.com/lotem/rime-zhengma     : zhengma*.yaml  (CJK to CJK-E，单字超8万)
 # 注音：                 https://github.com/rime/rime-bopomofo     : bopomofo*.yaml
-#     此注音实现需依赖   https://github.com/rime/rime-terra-pinyin ：terra_pinyin*.yaml, 地球拼音，带调的拼音
+#     此注音实现需依赖   https://github.com/rime/rime-terra-pinyin : terra_pinyin*.yaml, 地球拼音，带调的拼音
 # 粤拼：                 https://github.com/rime/rime-cantonese    : 略
-#
+# 虎码单字：             https://tiger-code.com 和 http://huma.ysepan.com       
+#                        tiger.*.yaml (CJK to CJK-I, 所有单字，近10万)。tiger.schema.yaml 简化了一下。
+#                        tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些部首等影响正常选字的编码。
 
 # 定制过程备忘：
 #
@@ -49,9 +51,11 @@ deploymenet:
 #    暂时没找到 CJK-F 到CJK-I 的码表。不过10万 CJK-I 的中日韩越古今汉字里面8成的字，绝大部分人一辈子都不会用到。
 #    除郑码外，还可尝试各版本仓颉、各版本五笔、各种魔改五笔，各种受五笔和郑码影响的徐码、宇浩、虎码等。
 #
+# 5. 添加虎码官方单字，可支持到 CJK-I 的字。
+#
 # 日常绝大部分时候用双拼（或拼音），因为有200万词条的词库。
-# 打《小学语文》生字表等场景，则用带辅助码的自然码，减少翻页选字。或用郑码。
-# 打古文或古籍录入，用大字集的郑码，并要安装大字符集的字体（比如：天珩的字体）。
+# 打《小学语文》生字表等场景，则用带辅助码的自然码，减少翻页选字。或用郑码、虎码。
+# 打古文或古籍录入，用大字集的郑码或虎码，并要安装大字符集的字体（比如：天珩的字体）。
 
 # 方案列表
 schema_list:
@@ -65,7 +69,8 @@ schema_list:
                           # 可打 CJK-E 以内的超8万单字，以及数万词。当然，还是建议多用双拼打长词。
                           # $ ugrep '[\x{2B820}-\x{2CEAF}]' zhengma.dict.yaml 可得到5815个字存到 bzzm.words1
   #- schema: jyutping     # 香港语言学会，粤拼。偶尔用。
-  - schema: bopomofo     # 注音（缺省自带）。偶尔用。
+  - schema: bopomofo      # 注音（缺省自带）。偶尔用。
+  - schema: tiger         # 虎码官方单字。CJK-I 在内所有单字。
 
 # 菜单
 menu:
