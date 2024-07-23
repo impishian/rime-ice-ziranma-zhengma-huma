@@ -46,7 +46,7 @@
 
 ## 双辅自然码
 
-采用了 https://github.com/mutoe/rime 或 https://github.com/henices/rimezrm2000.dict.yaml 和 zrm2000.schema.yaml 两个文件。
+采用了 [mutoe](https://github.com/mutoe/rime) 或 [henices](https://github.com/henices/rime) 的zrm2000.dict.yaml 和 zrm2000.schema.yaml 两个文件。
 
 这是可用原本双辅码的自然码方案。
 
