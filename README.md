@@ -225,6 +225,8 @@ ugrep '[\x{2B820}-\x{2CEAF}]' zhengma.dict.yaml |wc -l
 
 ## 从 CJK, CJK-A 到 CJK-I
 
+1.根据 CJK wikipedia 词条正文的表格，整理如下：
+
 | CJK  | 对应的 Unicode 版本   | 时间   |  备注  |
 |------------|------------|------------|------------|
 | CJK | 1.0, 1.1 | 1993-1998 | 20915字 |
@@ -241,6 +243,22 @@ ugrep '[\x{2B820}-\x{2CEAF}]' zhengma.dict.yaml |wc -l
 截至 CJK-E，共有 `8万余` CJK 字。
 
 截至 CJK-I，共有 `97681` CJK 字，加上非 CJK 的，共有约 `15万`
+
+2.根据 CJK wikipedia 词条最后的表格里的“编码范围”，整理如下：
+
+|       | 编码范围 | 已使用 |
+|-------|----------|--------|
+| CJK   | ugrep '[\x{4E00}-\x{9FFF}]'   | 20992 | 
+| CJK-A | ugrep '[\x{3400}-\x{4DBF}]'   | 6592  |
+| CJK-B | ugrep '[\x{20000}-\x{2A6DF}]' | 42720 |
+| CJK-C | ugrep '[\x{2A700}-\x{2B73F}]' | 4154  |
+| CJK-D | ugrep '[\x{2B740}-\x{2B81F}]' | 222   |
+| CJK-E | ugrep '[\x{2B820}-\x{2CEAF}]' | 5762  |
+| CJK-F | ugrep '[\x{2CEB0}-\x{2EBEF}]' | 7473  |
+| CJK-G | ugrep '[\x{30000}-\x{3134F}]' | 4939  |
+| CJK-H | ugrep '[\x{31350}-\x{323AF}]' | 4192  |
+| CJK-I | ugrep '[\x{2EBF0}-\x{2EE5F}]' | 622   |
+| 总计  |                               | 97668 |
 
 ## 其他
 
