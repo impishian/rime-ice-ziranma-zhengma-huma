@@ -49,7 +49,11 @@ https://github.com/mutoe/rime
 或
 https://github.com/henices/rime
 
-## 搜狗词库转 Rime 格式
+## CJK-I 虎码
+
+采用了虎码官方单字 tiger.dict.yaml, tiger.schema.yaml，适当简化。仅用于打单。
+
+## 搜狗词库转 Rime 格式工具
 
 [scel2txt](https://github.com/lewangdev/scel2txt)
 
