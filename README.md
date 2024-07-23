@@ -18,36 +18,39 @@
 <br>
 [搜狗细胞词库的其他词库](https://pinyin.sogou.com/dict/)
 
-在雾凇的码表基础上，补充了搜狗词库后，总共约 225 万拼音、双拼共用的字词。
+在雾凇的码表基础上，补充了一些诗词、地名等搜狗词库后，总共约 225 万拼音、双拼共用的字词。
 
 ## 单字减少重码的方法
 
-雾凇里已整合了“部件拆字”、“以词定字”的功能。输入拼音、双拼，面对大量同音的单字，可减少翻页。
+雾凇里已整合了“部件拆字”、“以词定字”的功能，以减少同音字的重码和翻页。
 
 此外，在 custom_phrase_double.txt 里添加了近 7000 常用字（带单辅码）的编码。
 
-输入同音的单字，为了减少翻页，首选做法：单辅（双拼后多打一键，或许就能看到所要的字）。
+输入同音的单字减少重码减少翻页的方法：
 
-第二种做法，以词定字（打词后用左右中括号[或]定字）、部件拆字（打难字，在双拼后，加`和部件的双拼）等。
+第一种：单辅（声韵双拼后多打一键，或许就能看到所要的字）。
 
-第三种做法，切换到自然码，用双辅（但自然码词库小一些）。[自然码双拼、辅码的简要pdf](https://github.com/impishian/input_method/blob/main/%E5%8F%8C%E6%8B%BC_%E8%87%AA%E7%84%B6%E7%A0%81%E6%96%B9%E6%A1%88/zrm.pdf)
+第二种：以词定字（打词后用左右中括号[或]定字）、部件拆字（打难字，在双拼后，加`和部件的双拼）等。
 
-第四种做法，若面对的不是常用单字，或者大量不知读音的单字，只能用形码（比如：郑码、仓颉、五笔，或受它们影响而诞生的各种像虎码、徐码、宇浩、......等等这样的方案）。
+第三种：切换到自然码，用双辅（但自然码词库小一些）。[自然码双拼、辅码的简要pdf](https://github.com/impishian/input_method/blob/main/%E5%8F%8C%E6%8B%BC_%E8%87%AA%E7%84%B6%E7%A0%81%E6%96%B9%E6%A1%88/zrm.pdf)
+
+第四种：若面对的不是常用单字，或者大量不知读音的单字，只能用形码（比如：郑码、仓颉、五笔，或受它们影响而诞生的各种像虎码、徐码、宇浩、......等等这样的方案）。
 
 ## CJK-E 郑码
 
-[郑码（来自Rime作者佛振）](https://github.com/lotem/rime-zhengma.git) , 主要提取其中 CJK-E 字，补充到不知郑码中。
+采用了 [不知郑码](https://github.com/GongMu/rime-zhengma.git)  的 bzzm.*.yaml 等文件。
 
-[不知郑码](https://github.com/GongMu/rime-zhengma.git) 采用了 bzzm.*.yaml 等文件。约 18 万字词。
+提取 [郑码（来自Rime作者佛振）](https://github.com/lotem/rime-zhengma.git) 的 CJK-E 字，补充到不知郑码中。
 
+约 18 万字词。
 
 ## 双辅自然码
 
-自然码 ，采用了 zrm2000.dict.yaml 和 zrm2000.schema.yaml 两个文件。这是可用原本双辅码的自然码方案。约96万字词。
+采用了 https://github.com/mutoe/rime 或 https://github.com/henices/rimezrm2000.dict.yaml 和 zrm2000.schema.yaml 两个文件。
 
-https://github.com/mutoe/rime
-或
-https://github.com/henices/rime
+这是可用原本双辅码的自然码方案。
+
+约96万字词。
 
 ## CJK-I 虎码
 
@@ -55,9 +58,9 @@ https://github.com/henices/rime
 
 采用了[虎码](https://tiger-code.com) 官方单字 tiger.dict.yaml, tiger.schema.yaml ，适当简化配置，仅用于打单。
 
-完全支持 CJK to CJK-I 所有单字，近10万。
-
 tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些部首和笔画等影响正常选字的编码。
+
+完全支持 CJK to CJK-I 所有单字，近10万。
 
 ## 搜狗词库转 Rime 格式工具
 
@@ -195,7 +198,7 @@ tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些�
 
 虎码
 
-├── tiger.dict.yaml  (官方单字码表，移出一些部首、笔画等)
+├── tiger.dict.yaml  (官方单字码表，移除一些部首、笔画等)
 ├── tiger.dict.yaml.orig (官方单字码表)
 ├── tiger.schema.yaml (官方 schema 适当简化，减少依赖等)
 ```
