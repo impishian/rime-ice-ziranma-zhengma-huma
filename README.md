@@ -246,6 +246,8 @@ ugrep '[\x{2B820}-\x{2CEAF}]' zhengma.dict.yaml |wc -l
 
 2.根据 CJK wikipedia 词条最后的表格里的“编码范围”，整理如下：
 
+已统一：
+
 |       | 编码范围 | 已使用 |
 |-------|----------|--------|
 | CJK   | ugrep '[\x{4E00}-\x{9FFF}]'   | 20992 | 
@@ -259,6 +261,54 @@ ugrep '[\x{2B820}-\x{2CEAF}]' zhengma.dict.yaml |wc -l
 | CJK-H | ugrep '[\x{31350}-\x{323AF}]' | 4192  |
 | CJK-I | ugrep '[\x{2EBF0}-\x{2EE5F}]' | 622   |
 | 总计  |                               | 97668 |
+
+```
+ugrep '[\x{4E00}-\x{9FFF}]'
+ugrep '[\x{3400}-\x{4DBF}]'
+ugrep '[\x{20000}-\x{2A6DF}]'
+ugrep '[\x{2A700}-\x{2B73F}]'
+ugrep '[\x{2B740}-\x{2B81F}]'
+ugrep '[\x{2B820}-\x{2CEAF}]'
+ugrep '[\x{2CEB0}-\x{2EBEF}]'
+ugrep '[\x{30000}-\x{3134F}]'
+ugrep '[\x{31350}-\x{323AF}]'
+ugrep '[\x{2EBF0}-\x{2EE5F}]'
+
+ugrep '[\x{4E00}-\x{9FFF}\x{3400}-\x{4DBF}\x{20000}-\x{2A6DF}\x{2A700}-\x{2B73F}\x{2B740}-\x{2B81F}\x{2B820}-\x{2CEAF}\x{2CEB0}-\x{2EBEF}\x{30000}-\x{3134F}\x{31350}-\x{323AF}\x{2EBF0}-\x{2EE5F}]' ...
+```
+
+未统一：
+
+|       | 编码范围 | 已使用 |
+|-------|----------|--------|
+| 汉字部首补充       | ugrep '[\x{2E80}-\x{2EFF}]' | 115 | 
+| 康熙部首           | ugrep '[\x{2F00}-\x{2FDF}]' | 214  |
+| 表意文字描述字符   | ugrep '[\x{2FF0}-\x{2FFF}]' | 12 |
+| 符号和标点         | ugrep '[\x{3000}-\x{303F}]' | 64  |
+| 笔画               | ugrep '[\x{31C0}-\x{31EF}]' | 36   |
+| 带圈字符及月份     | ugrep '[\x{3200}-\x{32FF}]' | 255  |
+| 兼容字符           | ugrep '[\x{3300}-\x{33FF}]' | 256  |
+| 兼容表意文字       | ugrep '[\x{F900}-\x{FAFF}]' | 472  |
+| 兼容形式           | ugrep '[\x{FE30}-\x{FE4F}]' | 32  |
+| 带圈表意文字补充   | ugrep '[\x{1F200}-\x{1F2FF}]' | 64   |
+| 兼容表意文字补充   | ugrep '[\x{2F800}-\x{2FA1F}]' | 542 |
+| 总计  |                               | 2062 |
+
+```
+ugrep '[\x{2E80}-\x{2EFF}]' 
+ugrep '[\x{2F00}-\x{2FDF}]' 
+ugrep '[\x{2FF0}-\x{2FFF}]' 
+ugrep '[\x{3000}-\x{303F}]' 
+ugrep '[\x{31C0}-\x{31EF}]' 
+ugrep '[\x{3200}-\x{32FF}]' 
+ugrep '[\x{3300}-\x{33FF}]' 
+ugrep '[\x{F900}-\x{FAFF}]' 
+ugrep '[\x{FE30}-\x{FE4F}]' 
+ugrep '[\x{1F200}-\x{1F2FF}]' 
+ugrep '[\x{2F800}-\x{2FA1F}]' 
+
+ugrep '[\x{2E80}-\x{2EFF}\x{2F00}-\x{2FDF}\x{2FF0}-\x{2FFF}\x{3000}-\x{303F}\x{31C0}-\x{31EF}\x{3200}-\x{32FF}\x{3300}-\x{33FF}\x{F900}-\x{FAFF}\x{FE30}-\x{FE4F}\x{1F200}-\x{1F2FF}\x{2F800}-\x{2FA1F}]' ...
+```
 
 ## 其他
 
