@@ -192,6 +192,12 @@ tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些�
 
 ├── zrm2000.dict.yaml
 ├── zrm2000.schema.yaml
+
+虎码
+
+├── tiger.dict.yaml  (官方单字码表，移出一些部首、笔画等)
+├── tiger.dict.yaml.orig (官方单字码表)
+├── tiger.schema.yaml (官方 schema 适当简化，减少依赖等)
 ```
 
 
