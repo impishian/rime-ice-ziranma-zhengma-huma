@@ -99,7 +99,7 @@ uUnqtu 牡（nq = 牛，tu = 土）
 
 2. [自然码双拼和辅码参考pdf](https://github.com/impishian/input_method/blob/main/%E5%8F%8C%E6%8B%BC_%E8%87%AA%E7%84%B6%E7%A0%81%E6%96%B9%E6%A1%88/zrm.pdf) 
 
-pdf说明：
+   pdf说明：
 ```
 (1) 自然码辅码，均为声母。只要会念，就会了。
 
