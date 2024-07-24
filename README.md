@@ -89,8 +89,7 @@ uUmojn 幕（mo = 莫，jn = 巾）
 uUnqtu 牡（nq = 牛，tu = 土）
 ```
 
-第三种：切换到自然码，用双辅（但自然码词库小一些）。[自然码双拼、辅码的简要pdf](https://github.com/impishian/input_method/blob/main/%E5%8F%8C%E6%8B%BC_%E8%87%AA%E7%84%B6%E7%A0%81%E6%96%B9%E6%A1%88/zrm.pdf)
-
+第三种：切换到自然码，用双辅（但自然码词库小一些）。
 
 ```
 mud = 沐 (d = 氵)
@@ -110,6 +109,8 @@ munt = 牡（n = 牛，t = 土）
 ## 双辅自然码
 
 [自然码2000官网](http://ziranma.com.cn/uiysuomy.htm)
+
+[自然码双拼和辅码](https://github.com/impishian/input_method/blob/main/%E5%8F%8C%E6%8B%BC_%E8%87%AA%E7%84%B6%E7%A0%81%E6%96%B9%E6%A1%88/zrm.pdf)
 
 在此采用 [mutoe](https://github.com/mutoe/rime) 或 [henices](https://github.com/henices/rime) 的zrm2000.dict.yaml 和 zrm2000.schema.yaml 两个文件。
 
