@@ -7,7 +7,7 @@ schema:
   name: "自然码"
   version: "2009新春版"
   author:
-    - "发明人: 周志农 先生"
+    - 发明人: 周志农 先生
   description: |
     描　述: 自然码输入系统2000, 2009新春版
     码　表: 《自然码2009新春版》V7.27
@@ -65,8 +65,8 @@ key_binder:
     #- { when: has_menu, accept: equal, send: Page_Down }        # 后翻页键(=)
     - { when: has_menu, accept: bracketleft, send: Page_Up }    # 前翻页键([):定义has_menu而非paging.候选首页未后移/后翻,确保前翻页键无动作
     - { when: has_menu, accept: bracketright, send: Page_Down } # 后翻页键(])
-    - { when: has_menu, accept: comma, send: comma }            # 屏蔽default.yaml定义的前翻键(,)
-    - { when: has_menu, accept: period, send: period }          # 屏蔽default.yaml定义的后翻键(.)
+    - { when: has_menu, accept: comma, send: comma }            # 屏蔽default.yaml定义的前翻键(,)    # 自然单字:声+韵+,,+形1+形2
+    - { when: has_menu, accept: period, send: period }          # 屏蔽default.yaml定义的后翻键(.)    # 自然切形:形1声+形1韵+..+形2声+形2韵
 
 recognizer:
   import_preset: default
