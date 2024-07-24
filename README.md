@@ -1,6 +1,6 @@
 # 雾凇拼音加搜狗词库 + 双辅自然码 + CJK-E郑码 + CJK-I虎码
 
-`【TLDR】`
+【TLDR】
 
 简单将自己常用的几种输入法放到一套 rime 配置里。在 MacOS 安装好鼠须管，备份并清空 ~/Library/Rime，将本仓库内容复制到该路径下，重新部署即可。其他平台，也基本类似。
 
@@ -118,11 +118,19 @@ munt = 牡（n = 牛，t = 土）
 
 1.自然单字:声+韵+,,+形1+形2 。
 
-举例：想查询"栋"的辅码，只需在声韵双拼之后加两个逗号，即：ds,, 即可看到多个 dong 字的辅码。下次直接输入 dsmd 即得到"栋"。
+举例：
+
+```
+想查询"栋"的辅码，只需在声韵双拼之后加两个逗号，即：ds,, 即可看到多个 dong 字的辅码。下次直接输入 dsmd 即得到"栋"。
+```
 
 2.自然切形:形1声+形1韵+..+形2声+形2韵。
 
-举例：想查询"岶"的编码，只需分别输入"山"和"白"的双拼编码、中间用 ".." 连接，即输入：uj..bl (shan..bai)，便可查到该字的编码 poub。
+举例：
+
+```
+想查询"岶"的编码，只需分别输入"山"和"白"的双拼编码、中间用 ".." 连接，即输入：uj..bl (shan..bai)，便可查到该字的编码 poub。
+```
 
 ## CJK-E 郑码
 
@@ -239,31 +247,13 @@ tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些�
 │   │   ├── en_dicts.recipe.yaml
 │   │   ├── full.recipe.yaml（删除其他双拼方案的5行）
 │   │   └── opencc.recipe.yaml
-│   ├── script
-│   │   ├── go.mod
-│   │   ├── go.sum
-│   │   ├── main.go
-│   │   └── rime
-│   │       ├── check.go
-│   │       ├── cn_en.go
-│   │       ├── dir_mac.go
-│   │       ├── dir_windows.go
-│   │       ├── emoji.go
-│   │       ├── others.go
-│   │       ├── pinyin.go
-│   │       ├── polyphone.go
-│   │       ├── rime.go
-│   │       ├── sort.go
-│   │       ├── 错别字.txt
-│   │       ├── 需要注音.txt
-│   │       └── 汉字拼音映射.txt
 │   └── sponsor.webp
 ├── pinyin_simp.dict.yam  l（袖珍简化字拼音，源自 Android 拼音。bzzm 依赖它）
 ├── pinyin_simp.schema.yaml（袖珍简化字拼音，源自 Android 拼音。bzzm 依赖它）
 ├── radical_pinyin.dict.yaml
 ├── radical_pinyin.schema.yaml（修改speller的algebra，由全拼改为自然码双拼。删除5行其他双拼）
 ├── rime.lua
-├── rime_ice.dict.yaml（启动41448大字表；增加搜狗标准词库、搜狗网络新词词库、其他常用的搜狗细胞词库）
+├── rime_ice.dict.yaml（启用41448大字表；增加搜狗标准词库、搜狗网络新词词库、其他常用的搜狗细胞词库）
 ├── rime_ice.schema.yaml（schema name 由雾凇拼音改为拼音）
 ├── squirrel.yaml（增加roseo_maple皮肤，作为自用首选皮肤；增加 candidate_list_layout: linear）
 ├── symbols_caps_v.yaml
@@ -283,7 +273,6 @@ tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些�
 ├── tiger.schema.yaml (官方 schema 适当简化，减少依赖等)
 ```
 
-
 ## 提取词库的一些命令行
 
 ```
@@ -297,7 +286,7 @@ tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些�
 #ugrep '[\x{4E00}-\x{9FFF}\x{3400}-\x{4DFF}\x{20000}-\x{2A6DD}\x{9FA6}-\x{9FBB}\x{FA70}-\x{FAD9}\x{9FBC}-\x{9FC3}\x{2A700}-\x{2B734}\x{2B740}-\x{2B81D}\x{2B820}-\x{2CEAF}\x{9FCD}-\x{9FD5}\x{2CEB0}-\x{2EBEF}\x{30000}-\x{3134A}\x{31350}-\x{323AF}\x{2EBF0}-\x{2EE5F}\x{3007}]' ice1.txt > ice2.txt
 
 #4.去掉编码
-#sd "   .*$" "" ice2.txt
+#sd "\t.*$" "" ice2.txt
 
 #5.找出那些在 sogou_network_pop_new_words.txt 但不在 ice2.txt 的行:
 #python3 scel2txt.py  ./网络流行新词【官方推荐】.scel  ./sogou_network_pop_new_words.txt
