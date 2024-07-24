@@ -109,12 +109,15 @@ munt = 牡（n = 牛，t = 土）
 
 再次提醒注意：**自然码辅码**，与雾凇整合的 **拆字辅码**，是不同的。二者均是减少重码的好手段。
 
-[自然码双拼和辅码参考](https://github.com/impishian/input_method/blob/main/%E5%8F%8C%E6%8B%BC_%E8%87%AA%E7%84%B6%E7%A0%81%E6%96%B9%E6%A1%88/zrm.pdf) ：
+[自然码双拼和辅码参考pdf](https://github.com/impishian/input_method/blob/main/%E5%8F%8C%E6%8B%BC_%E8%87%AA%E7%84%B6%E7%A0%81%E6%96%B9%E6%A1%88/zrm.pdf) 
 
+pdf说明：
 ```
 (1) 自然码辅码，均为声母。只要会念，就会了。
 
-(2) 括号和蓝色字：形近归并的项。(3) 红色字：难念的项，特别标出了拼音，以便理解记忆。
+(2) 括号里的蓝色字：形近归并的项。
+
+(3) 红色字：难念的项，特别标出了拼音，以便理解记忆。
 ```
 
 在此采用 [mutoe](https://github.com/mutoe/rime) 或 [henices](https://github.com/henices/rime) 的zrm2000.dict.yaml 和 zrm2000.schema.yaml 两个文件。
