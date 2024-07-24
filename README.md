@@ -12,7 +12,7 @@
 
 [雾凇拼音github](https://github.com/iDvel/rime-ice/)
 
-- **拆字辅码**：输完拼音，` ，接着是汉字部件的音作为拆字辅码（**注意：与自然码辅码 不同**），减少重码。
+- **拆字辅码**：输完拼音，` ，接着是汉字部件的音作为拆字辅码（**注意：与自然码辅码 不同**），减少重码。（注：通过[汉字部件拆字](https://github.com/mirtlecn/rime-radical-pinyin)实现）
 
 - **拆字反查**：uU 开头，接各部件的音，常用于输多个常见字作为部件，组成的难字。(反查时前缀会消失，影响打英文，所以设定为两个字母，或可改成一个非字母符号)
 
@@ -38,7 +38,7 @@
 
 [搜狗标准词库](https://pinyin.sogou.com/dict/detail/index/11640) （只是名字叫这个，可能不是搜狗官方词库？）
 <br>
-[搜狗细胞词库的其他词库](https://pinyin.sogou.com/dict/)
+[搜狗细胞词库的其他词库](https://pinyin.sogou.com/dict/) （选了些诗词、名句、地名、明星、网络热词）
 
 在雾凇的词库基础上，补充了一些诗词、地名等搜狗词库后，去重，总共约 220 万拼音、双拼共用的字词。
 
@@ -107,7 +107,15 @@ munt = 牡（n = 牛，t = 土）
 
 [自然码2000官网](http://ziranma.com.cn/uiysuomy.htm)
 
-[自然码双拼和辅码](https://github.com/impishian/input_method/blob/main/%E5%8F%8C%E6%8B%BC_%E8%87%AA%E7%84%B6%E7%A0%81%E6%96%B9%E6%A1%88/zrm.pdf)
+再次提醒注意：**自然码辅码**，与雾凇整合的 **拆字辅码**，是不同的。二者均是减少重码的好手段。
+
+[自然码双拼和辅码参考](https://github.com/impishian/input_method/blob/main/%E5%8F%8C%E6%8B%BC_%E8%87%AA%E7%84%B6%E7%A0%81%E6%96%B9%E6%A1%88/zrm.pdf) ：
+
+```
+(1) 自然码辅码，均为声母。只要会念，就会了。
+
+(2) 括号和蓝色字：形近归并的项。(3) 红色字：难念的项，特别标出了拼音，以便理解记忆。
+```
 
 在此采用 [mutoe](https://github.com/mutoe/rime) 或 [henices](https://github.com/henices/rime) 的zrm2000.dict.yaml 和 zrm2000.schema.yaml 两个文件。
 
