@@ -1,4 +1,4 @@
-# 雾凇拼音 + 搜狗词库 + CJK-E郑码 + 双辅自然码 + CJK-I虎码
+# 雾凇拼音 + 搜狗词库 + 双辅自然码 + CJK-E郑码 + CJK-I虎码
 
 `【TLDR】`
 
@@ -36,14 +36,6 @@
 
 第四种：若面对的不是常用单字，或者大量不知读音的单字，只能用形码（比如：郑码、仓颉、五笔，或受它们影响而诞生的各种像虎码、徐码、宇浩、......等等这样的方案）。
 
-## CJK-E 郑码
-
-采用了 [不知郑码](https://github.com/GongMu/rime-zhengma.git)  的 bzzm.*.yaml 等文件。
-
-提取 [郑码（来自Rime作者佛振）](https://github.com/lotem/rime-zhengma.git) 的 CJK-E 字，补充到不知郑码中。
-
-约 18 万字词。
-
 ## 双辅自然码
 
 [自然码2000官网](http://ziranma.com.cn/uiysuomy.htm)
@@ -59,6 +51,14 @@
 2.自然切形:形1声+形1韵+..+形2声+形2韵。
 
 举例：想查询"岶"的编码，只需分别输入"山"和"白"的双拼编码、中间用 ".." 连接，即输入：uj..bl (shan..bai)，便可查到该字的编码 poub。
+
+## CJK-E 郑码
+
+采用了 [不知郑码](https://github.com/GongMu/rime-zhengma.git)  的 bzzm.*.yaml 等文件。
+
+提取 [郑码（来自Rime作者佛振）](https://github.com/lotem/rime-zhengma.git) 的 CJK-E 字，补充到不知郑码中。
+
+约 18 万字词。
 
 ## CJK-I 虎码
 
