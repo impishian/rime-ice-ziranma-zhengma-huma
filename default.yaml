@@ -38,6 +38,8 @@ deploymenet:
 #                        tiger.*.yaml (CJK to CJK-I, 所有单字，近10万)。tiger.schema.yaml 简化了一下。
 #                        tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些部首等影响正常选字的编码。
 
+# 辅助码的音形分离插件： https://github.com/HowcanoeWang/rime-lua-aux-code
+
 # 定制过程备忘：
 #
 # 1. 以雾凇的库为基础，移除 double_pinyin_*.yaml 等自然码双拼方案以外的其他双拼方案。自然码方案是双拼鼻祖，小鹤等后来方案有些复杂了。抖音上“打字快的州州”是全国大赛打字冠军，她也用自然码双拼，主要依托自制辅码和词库取胜。
@@ -61,15 +63,16 @@ deploymenet:
 schema_list:
   # 可以直接删除或注释不需要的方案，对应的 *.schema.yaml 方案文件也可以直接删除
   # 除了 t9，它依赖于 rime_ice，用九宫格别删 rime_ice.schema.yaml
-  - schema: rime_ice      # 雾凇拼音（全拼）
+  #- schema: rime_ice      # 雾凇拼音（全拼）
   #- schema: t9           # 九宫格（仓输入法）
   - schema: double_pinyin # 双拼(自然码方案)，并用自定义短语，对常用近7000字定义了单辅码。日常用。拼音大词库，约225万词，雾凇 + 地名、古诗词等搜狗细胞词库。
+  - schema: double_pinyin2 # 双拼(自然码方案)。部件拆字辅码，换为自然辅码。同样还是 ` 触发。用辅助码的音形分离插件实现。
   - schema: zrm2000       # 自然码2009 （带辅码）。可打单字，但词也不少。https://github.com/mutoe/rime 的 zrm2000.*.yaml
   - schema: bzzm          # 以不知郑码(CJK-D)为基础，添加 lotem (佛振) 码表 CJK-E 的 5815 字，和9个急用字编码。
                           # 可打 CJK-E 以内的超8万单字，以及数万词。当然，还是建议多用双拼打长词。
                           # $ ugrep '[\x{2B820}-\x{2CEAF}]' zhengma.dict.yaml 可得到5815个字存到 bzzm.words1
   #- schema: jyutping     # 香港语言学会，粤拼。偶尔用。
-  - schema: bopomofo      # 注音（缺省自带）。偶尔用。
+  #- schema: bopomofo      # 注音（缺省自带）。偶尔用。
   - schema: tiger         # 虎码官方单字。CJK-I 在内所有单字。
 
 # 菜单
