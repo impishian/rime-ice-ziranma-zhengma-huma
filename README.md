@@ -92,7 +92,7 @@ uUnqtu 牡（nq = 牛，tu = 土）
 
 后者是将拆字辅码方案，改为自然码辅码方案。
 
-是通过这个[辅助码的音形分离插件](https://github.com/HowcanoeWang/rime-lua-aux-code) 来实现的。
+是通过这个[辅助码的音形分离插件](https://github.com/HowcanoeWang/rime-lua-aux-code) 来实现的（触发码由;改为`）。
 
 
 ```
