@@ -449,7 +449,7 @@ ugrep '[\x{2E80}-\x{2EFF}\x{2F00}-\x{2FDF}\x{2FF0}-\x{2FFF}\x{3000}-\x{303F}\x{3
 
 几百万的词库里，好多是几个词连在一起的长词。
 
-用了[辅助码的音形分离插件](https://github.com/HowcanoeWang/rime-lua-aux-code) 的“双拼2”，差不多可以整句输入了，非常舒适。
+用了[辅助码的音形分离插件](https://github.com/HowcanoeWang/rime-lua-aux-code) 的“双拼2”，可以整句输入了，非常好用。不妨试试打“施氏食狮史”。
 
 ----
 
