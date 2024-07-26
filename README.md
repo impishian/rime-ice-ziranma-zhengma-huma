@@ -92,8 +92,6 @@ uUnqtu 牡（nq = 牛，tu = 土）
 
 后者是将拆字辅码方案，改为自然码辅码方案。
 
-是通过这个[辅助码的音形分离插件](https://github.com/HowcanoeWang/rime-lua-aux-code) 来实现的（触发码由;改为`）。
-
 
 ```
 自然码辅码：
@@ -105,6 +103,14 @@ mu`cj = 幕
 mu`jm = 幕
 
 mu`nt = 牡
+```
+
+是通过这个[辅助码的音形分离插件](https://github.com/HowcanoeWang/rime-lua-aux-code) 来实现的（触发码由;改为`）。
+
+如果想用小鹤音形的形码作为辅码，或想用86五笔作为辅码，可以修改 double_pinyin2.schema.yaml 里的这行配置：
+
+```
+- lua_filter@*aux_code@ZRM_Aux-code_4.3         # rime-lua-aux-code。几种选择：(1) 自然码辅码：ZRM_Aux-code_4.3；(2) 鹤形辅码：flypy_full；(3) 86五笔作为辅码：wubi86-code
 ```
 
 第三种：切换到自然码，用双辅（但自然码词库小一些）。
@@ -294,7 +300,7 @@ tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些�
 ├── radical_pinyin.dict.yaml
 ├── radical_pinyin.schema.yaml（修改speller的algebra，由全拼改为自然码双拼。删除5行其他双拼）
 ├── rime.lua
-├── rime_ice.dict.yaml（启用41448大字表；增加搜狗标准词库、搜狗网络新词词库、其他常用的搜狗细胞词库）
+├── rime_ice.dict.yaml（启用41448大字表？日常打字还是不建议启用，实在用不着；增加搜狗标准词库、搜狗网络新词词库、其他常用的搜狗细胞词库）
 ├── rime_ice.schema.yaml（schema name 由雾凇拼音改为拼音）
 ├── squirrel.yaml（增加roseo_maple皮肤，作为自用首选皮肤；增加 candidate_list_layout: linear）
 ├── symbols_caps_v.yaml
