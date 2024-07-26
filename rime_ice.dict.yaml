@@ -9,7 +9,7 @@ import_tables:
   #- cn_dicts/41448  # 大字表（按需启用）
   - cn_dicts/base     # 基础词库
   - cn_dicts/ext      # 扩展词库
-  - cn_dicts/tencent  # 腾讯词向量（大词库，部署时间较长）
+  #- cn_dicts/tencent  # 腾讯词向量（大词库，部署时间较长）
   - cn_dicts/others   # 一些杂项
   - cn_dicts/sogou_biaozhun    # 搜狗标准词库，去重（即: 上面出现的词，不再列入此文件）。by Ian
   - cn_dicts/sogou_network_pop_new_words  # 搜狗网络新词，去重。by Ian
