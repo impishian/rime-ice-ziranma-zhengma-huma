@@ -120,14 +120,17 @@ mu`nt = 牡
 
 双拼2，很简单地通过[辅助码的音形分离插件](https://github.com/HowcanoeWang/rime-lua-aux-code) 来实现的（触发码由;改为`）。
 
-**辅码的码表，与现有的拼音码表分离的，是独立的文件。带了自然码辅码、鹤形辅码、五笔86辅码。** 想用哪个都可以。
+这个插件的**辅码码表，与现有的拼音码表，是分离的，是独立的文件。带了自然码辅码、鹤形辅码、五笔86辅码。** 想用哪个都可以。
 
 如果想用小鹤音形的形码作为辅码，或想用86五笔作为辅码，可以修改 double_pinyin2.schema.yaml 里的这行配置：
 
 ```
-- lua_filter@*aux_code@ZRM_Aux-code_4.3         # rime-lua-aux-code。几种选择：(1) 自然码辅码：ZRM_Aux-code_4.3；(2) 鹤形辅码：flypy_full；(3) 86五笔作为辅码：wubi86-code
+- lua_filter@*aux_code@ZRM_Aux-code_4.3
+# rime-lua-aux-code。几种选择：(1) 自然码辅码：ZRM_Aux-code_4.3；(2) 鹤形辅码：flypy_full；(3) 86五笔作为辅码：wubi86-code
 
 ```
+
+辅码表格式也很简单，如果有自己的定制其他方案的辅码码表，也可替换。双拼方案 + 辅码方案，可以自由组合。
 
 **"自然鹤形" （自然码的双拼 + 小鹤的形辅）**，这样的搭配是不是也挺有意思呢。
 
