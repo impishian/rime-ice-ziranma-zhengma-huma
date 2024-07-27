@@ -242,13 +242,16 @@ tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些�
 ├── custom_phrase_double.txt（新增，自然码双拼单辅的近7000常用单字）
 ├── default.yaml（修改schema_list、page_size，增加一个switcher的hotkey，启用，.翻页）
 ├── double_pinyin.schema.yaml（修改 schema name ，由“自然码双拼”改为“双拼”。删除其他双拼方案的schema.yaml文件）
+├── double_pinyin2.schema.yaml（添加“双拼2”。 部件拆字的辅码，改为自然码辅码，或鹤形辅码、五笔86辅码。）
 ├── en_dicts
 │   ├── cn_en.txt
 │   ├── cn_en_double_pinyin.txt（只留下自然码双拼，删除其他双拼方案的txt文件）
 │   ├── en.dict.yaml
 │   └── en_ext.dict.yaml
 ├── lua
+│   ├── ZRM_Aux-code_4.3.txt （添加：辅码插件的 自然码辅码表）
 │   ├── autocap_filter.lua
+│   ├── aux_code.lua   （添加：独立处理辅码的插件）
 │   ├── cn_en_spacer.lua
 │   ├── cold_word_drop
 │   │   ├── drop_words.lua
@@ -262,6 +265,7 @@ tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些�
 │   ├── corrector.lua
 │   ├── date_translator.lua
 │   ├── en_spacer.lua
+│   ├── flypy_full.txt（添加：辅码插件的 鹤形辅码表）
 │   ├── is_in_user_dict.lua
 │   ├── long_word_filter.lua
 │   ├── lunar.lua
@@ -272,7 +276,8 @@ tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些�
 │   ├── select_character.lua
 │   ├── t9_preedit.lua
 │   ├── unicode.lua
-│   └── v_filter.lua
+│   ├── v_filter.lua
+│   └── wubi86-code.txt（添加：辅码插件的 五笔86的辅码表）
 ├── melt_eng.dict.yaml
 ├── melt_eng.schema.yaml（修改speller的algebra，由全拼改为自然码双拼。删除5行其他双拼）
 ├── opencc
