@@ -143,7 +143,7 @@ mu`nt = 牡
 
 小鹤音形，应该也是受自然码启发而作，只是双拼键位稍微换了些位置，并且二者的辅码字根也有些是相同的。
 
-[鹤形辅码](https://github.com/impishian/input_method/blob/main/%E9%B9%A4%E5%BD%A2%E8%BE%85%E7%A0%81/README.md) 的字根和规则，似乎梳理得有规律些，字根也多些。
+[鹤形辅码](https://github.com/impishian/input_method/blob/main/%E9%B9%A4%E5%BD%A2%E8%BE%85%E7%A0%81/%E9%B9%A4%E5%BD%A2.md) 的字根和规则，似乎梳理得有规律些，字根也多些。
 
 可是鹤形主要是8105个规范汉字。（按一些专家观点，这也已经[覆盖日常打字99.999%以上的字](https://flypy.cc/#/zf)了） 
 
