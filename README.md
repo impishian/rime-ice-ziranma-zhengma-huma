@@ -193,7 +193,7 @@ tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些�
 
 ### CJK-I 虎码字词
 
-采用了 [fcitx5_字词.txt](https://github.com/humaIME/huma) 这个字词码表（而不是 tigress*.dict.yaml)。
+采用了 [fcitx5_字词.txt](https://github.com/humaIME/huma) 这个字词码表（而不是 tigress*.dict.yaml)。似乎这是虎码官方的小企鹅输入法的词库？
 
 支持 28127字（CJK 全 20992 字 + CJK-A 全 6592 字 + B 158字, C 83字, D 10字, E 153字, F 37, G 56, H 37, I 6 字），通用规范汉字表 8105 个字全覆盖。
 
@@ -325,6 +325,9 @@ tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些�
 ├── tiger.dict.yaml  (官方单字码表，移除一些部首、笔画等)
 ├── tiger.dict.yaml.orig (官方单字码表)
 ├── tiger.schema.yaml (官方 schema 适当简化，减少依赖等)
+
+├── tiger2.dict.yaml  (码表是从 https://github.com/humaIME/huma 的 fcitx5_字词.txt 转换而来)
+├── tiger2.schema.yaml (从官方 tigress.schema.yaml 修改，改用 tiger2 词库)
 ```
 
 ### 提取词库的一些命令行
