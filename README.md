@@ -193,9 +193,10 @@ tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些�
 
 ### CJK-I 虎码字词
 
-采用了 [fcitx5_字词.txt](https://github.com/humaIME/huma) 这个字词码表（而不是 tigress*.dict.yaml).
+采用了 [fcitx5_字词.txt](https://github.com/humaIME/huma) 这个字词码表（而不是 tigress*.dict.yaml)。
 
 支持 28127字（CJK 全 20992 字 + CJK-A 全 6592 字 + B 158字, C 83字, D 10字, E 153字, F 37, G 56, H 37, I 6 字），通用规范汉字表 8105 个字全覆盖。
+
 支持 十几万词。
 
 ### 搜狗词库转 Rime 格式工具
