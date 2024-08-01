@@ -73,7 +73,10 @@ schema_list:
                           # $ ugrep '[\x{2B820}-\x{2CEAF}]' zhengma.dict.yaml 可得到5815个字存到 bzzm.words1
   #- schema: jyutping     # 香港语言学会，粤拼。偶尔用。
   #- schema: bopomofo      # 注音（缺省自带）。偶尔用。
-  - schema: tiger         # 虎码官方单字。CJK-I 在内所有单字。
+  - schema: tiger         # 虎码官方单字。CJK-I 在内所有单字，近10万字。
+  - schema: tiger2        # 虎码字词，码表来自：https://github.com/humaIME/huma/  的 fcitx5_字词.txt 
+                          # 支持十几万词。支持 28127 字，包括：CJK 全 20992 字 + CJK-A 全 6592 字
+                          # + B 158字/ C 83字/ D 10字/ E 153字/ F 37字/ G 56字/ H 37字/ I 6 字。
 
 # 菜单
 menu:
