@@ -93,7 +93,7 @@
 
 ```
 - lua_filter@*aux_code@ZRM_Aux-code_4.3
-# rime-lua-aux-code。几种选择：(1) 自然码辅码：ZRM_Aux-code_4.3；(2) 鹤形辅码：flypy_full；(3) 86五笔作为辅码：wubi86-code；(4) 郑码作为辅码：tiger；(5) 虎码作为辅码：tiger
+# rime-lua-aux-code。几种选择：(1) 自然码辅码：ZRM_Aux-code_4.3；(2) 鹤形辅码：flypy_full；(3) 86五笔作为辅码：wubi86-code；(4) 郑码作为辅码：zhengma；(5) 虎码作为辅码：tiger
 ```
 
 辅码表格式也很简单，如果有自己的定制其他方案的辅码码表，也可自行替换。**双拼方案 + 辅码方案，可以自由组合**。
