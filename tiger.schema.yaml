@@ -90,7 +90,13 @@ punctuator:
 key_binder:
 #  import_preset: default
   bindings:
-    - {accept: semicolon, send: 2, when: has_menu}
+    - { accept: semicolon, send: 2, when: has_menu } # 分号次选
+    - { when: has_menu, accept: apostrophe, send: 3 } # 引号三选
+    - { when: composing, accept: Tab, send: Escape } # tab清屏
+    - { when: has_menu, accept: minus, send: Page_Up } # - 向后翻页
+    - { when: has_menu, accept: equal, send: Page_Down } # = 向前翻页
+    # - { when: composing, accept: bracketleft, send: Page_Up } # [ 后翻
+    # - { when: composing, accept: bracketright, send: Page_Down } # ] 前翻
 
 recognizer:
   import_preset: default
