@@ -195,11 +195,13 @@
 
 [虎码资源下载](http://huma.ysepan.com)
 
-采用了[虎码](https://tiger-code.com) 官方单字 tiger.dict.yaml, tiger.schema.yaml ，适当简化配置，仅用于打单。但仍支持拼音滤镜、拆字滤镜（Ctrl + Shift + 0， <- ->， Enter，启用/禁用）。
+采用了[虎码](https://tiger-code.com) 官方单字 tiger.dict.yaml, tiger.schema.yaml ，适当简化配置，仅用于打单。
 
 tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些部首和笔画等影响正常选字的编码。
 
 完全支持 CJK to CJK-I 所有单字，近10万。适合录入古籍。
+
+支持拼音滤镜、拆字滤镜（Ctrl + Shift + 0， <- 和 ->， Enter，启用/禁用），在输入的同时，可看到某个字的读音 或者 拆法。
 
 ### 7. 虎码字词
 
