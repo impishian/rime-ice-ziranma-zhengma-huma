@@ -276,6 +276,11 @@ tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些�
 ├── melt_eng.dict.yaml
 ├── melt_eng.schema.yaml（修改speller的algebra，由全拼改为自然码双拼。删除5行其他双拼）
 ├── opencc
+│   ├── pinyin.json       (虎码，拼音滤镜)
+│   ├── PYCharacters.txt
+│   ├── PYPhrases.txt
+│   ├── hu_cf.json        (虎码，拆分滤镜)
+│   ├── hu_cf.tx
 │   ├── emoji.json
 │   ├── emoji.txt
 │   └── others.txt
@@ -480,15 +485,33 @@ ugrep '[\x{2E80}-\x{2EFF}\x{2F00}-\x{2FDF}\x{2FF0}-\x{2FFF}\x{3000}-\x{303F}\x{3
 
 ----
 
-本人的日常习惯，绝大部分时候用双拼（自然码方案），打句打词为主，因为有数百万级别词条的词库。
+不同场景，不同的人，输入法的选择和打字习惯，都不一样。比如：
 
 打《小学语文》生字表等常用字打单的场景，可用带辅助码的自然码，减少翻页选字，或者用郑码、虎码打单。
 
-打古文或古籍录入，可用大字集的郑码或虎码打单，并且需要安装大字符集的字体（比如：[天珩字体](http://cheonhyeong.com/Simplified/download.html) ）。
+打古文或古籍录入，可用大字集的五笔、郑码或虎码打单，并且需要安装大字符集的字体（比如：[天珩字体](http://cheonhyeong.com/Simplified/download.html) ）。
 
-打繁体字，偶尔用[注音](https://github.com/rime/rime-bopomofo)（Rime自带，在default.yaml里启用就行。若要更符合港台习惯，则最好另找更好的注音词库）。
+打繁体字，则可用[注音](https://github.com/rime/rime-bopomofo)（Rime自带，在default.yaml里启用就行。若要更符合港台习惯，则最好另找更好的注音词库）。
 
-用广东话打字，偶尔用[粤拼](https://github.com/rime/rime-cantonese) （Rime不自带）。
+用广东话打字，则可用[粤拼](https://github.com/rime/rime-cantonese) （Rime不自带）。
+
+----
+
+本人的日常习惯：
+
+(1) 绝大部分时候用双拼（自然码方案），打词打句为主，因为有数百万级别词条的词库。
+
+(2) 以词定字。
+
+(3) ` 以虎码作为辅助码，因为它是比自然码辅码、鹤形辅码更全能和精准的形码。(可改掉自定义短语文件，比如 custom_phrase_double__.txt，单辅也不用) 。
+
+每分钟能打 60-100 字。
+
+----
+
+btw, 虎码比五笔拆字更直观简单，比郑码打字打词规则一致。不要背字根，需按官网练习程序，字根练习超过3万分，则字根过关，可开始打字。
+
+若以打字为业，或日常需大量打字，则应好好练练虎码，形成肌肉记忆，逐步提速。B站不少人，用虎码每分钟能打 100-250 字。
 
 ### 感谢 ❤️
 
