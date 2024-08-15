@@ -2,38 +2,29 @@ schema:
   author:
     - {}
   dependencies:
-    - pinyin_simp
+    - pinyin_simp  # 拼音方案
   description: |
     虎码 https://github.com/humaIME/huma fcitx5_字词.txt
     敲 ` 鍵進入拼音反查    
-  name: "虎码"
+  name: "虎码字词"
   schema_id: tiger2
   version: 0.9
 
-switches:
+switches: # 0 默认关，1 默认开
   - name: ascii_mode
     reset: 0
-    states: [ 中文, 西文 ]
-#  - name: full_shape
-#    states: [ 半角, 全角 ]
-#  - name: extended_charset
-#    states: [ 常用, 增廣 ]
-#  - name: ascii_punct
-#    states: [ 。，, ．， ]
-  - options: [ gbk, gb2312, utf8 ]
-    states:	 
-    - GBK
-    - GB2312
-    - UTF-8
-
-
-
-
-#  - options: [ _keyboard_emoji, _keyboard_emoji ]
-#    states: [ "🎏", "😂"]
-
-  - options: [ _keyboard_default, _keyboard_defaultzj]
-    states: [ "助记关", "助记开"]
+    states: [ 中文, 西文 ]  #中英文状态
+  - name: extended_charset  #自定义字集
+    states: [ 常用字 , 全字集 ]
+  - name: pinyin  #拼音滤镜
+    reset: 0
+    states: [ 拼, pīn ]
+  - name: chaifen
+    reset: 0 
+    states: [ 拆隐, 拆显 ]
+  - name: full_shape
+    reset: 0
+    states: [ 半角, 全角 ]
 
 engine:
   processors:
@@ -44,8 +35,8 @@ engine:
     - punctuator
     - selector
     - navigator
-    - express_editor
-  segmentors:
+    - express_editor #计算
+  segmentors:  # 分段
     - ascii_segmentor
     - matcher
     - abc_segmentor
@@ -53,49 +44,56 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - reverse_lookup_translator
+    - reverse_lookup_translator #拼音反查
     - table_translator
   filters:
-#    - simplifier
-    - uniquifier
-    - charset_filter@gbk
-    - charset_filter@utf8
-    - charset_filter@gb2312
-#    - charset_filter@big5
-#    - reverse_lookup_filter@reverse_lookup
+    # - reverse_lookup_filter@reverse_lookup #反查词典滤镜
+    - simplifier@pinyin #拼音滤镜
+    - simplifier@chaifen #拆分滤镜
+    - uniquifier #过滤重复
 
 speller:
-  auto_clear: max_length
+  auto_clear: max_length # 3种选择， manual|auto|max_length 空码按下一键确认清屏|空码自动清|达到最长码时后码顶上清屏
   auto_select: true
   max_code_length: 4
-
+  alphabet: "[;'zyxwvutsrqponmlkjihgfedcba]"
+  # initials: "abcdefghijklmnopqrstuvwxyz;'"
+  auto_select_pattern: ^;\w+ #自动上屏规则  对 [;] 引导的编码实行候选唯一自动上屏
+  # 若要添加四码上屏功能，在  ^;\w+ 后面 加上  |^\w{4}$  即可
 
 translator:
   dictionary: tiger2
-  enable_charset_filter: false
+  enable_charset_filter: true
   enable_encoder: true
   enable_sentence: false
   encode_commit_history: true
   max_phrase_length: 4
   enable_user_dict: false
+  enable_completion: true	# 编码提示 true 开启  false 关闭
 
+# 拼音反查
 reverse_lookup:
   dictionary: pinyin_simp
+  prefix: "`"
+  tips: "〔拼音〕"
   preedit_format:
     - "xform/([nl])v/$1ü/"
     - "xform/([nl])ue/$1üe/"
     - "xform/([jqxy])v/$1u/"
-  prefix: "`"
-  suffix: "'"
-  tips: "〔拼音〕"
-
-punctuator:
-  import_preset: symbols
+  # suffix: "'"
 
 key_binder:
 #  import_preset: default
   bindings:
-    - {accept: semicolon, send: 2, when: has_menu}
+    - { accept: semicolon, send: 2, when: has_menu } # 分号次选
+    - { when: has_menu, accept: apostrophe, send: 3 } # 引号三选
+    - { when: composing, accept: Tab, send: Escape } # tab清屏
+    - { when: has_menu, accept: minus, send: Page_Up } # - 向后翻页
+    - { when: has_menu, accept: equal, send: Page_Down } # = 向前翻页
+    # - { when: composing, accept: bracketleft, send: Page_Up } # [ 后翻
+    # - { when: composing, accept: bracketright, send: Page_Down } # ] 前翻
+    - { when: has_menu, accept: Right, send: Down } # 右方向键 向后移动焦点
+    - { when: has_menu, accept: Left, send: Up } # 左方向键 向前移动焦点
 
 recognizer:
   import_preset: default
@@ -112,8 +110,33 @@ ascii_composer:
     Shift_L: commit_code
     Shift_R: commit_text
 
-
 menu:
   page_size: 10
+# ↓拼音滤镜
+pinyin:
+  opencc_config: pinyin.json
+  option_name: pinyin
+  show_in_comment: true #作为注解在后面显示
+  comment_format:
+    - 'xform/&nbsp;/ /'
+    # - "xform/^/ /"
+  tips: char
+  tags:
+    - abc
 
+# 拆分滤镜
+chaifen:
+  opencc_config: hu_cf.json
+  option_name: chaifen
+  show_in_comment: true 
+  comment_format:     
+    - "xform/&nbsp;/ /"
+  tags:     
+    - abc
+    - tiger
+    - tigress
+    - reverse_lookup
+  tips: char # char: 只给单字加滤镜；all：字词都加滤镜
 
+punctuator:
+  import_preset: symbols
