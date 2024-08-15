@@ -201,7 +201,7 @@ tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些�
 
 完全支持 CJK to CJK-I 所有单字，近10万。
 
-### CJK-I 虎码字词
+### 虎码字词
 
 采用了 [fcitx5_字词.txt](https://github.com/humaIME/huma) 这个字词码表（而不是 tigress*.dict.yaml)。似乎这是虎码官方的小企鹅输入法的词库？
 
