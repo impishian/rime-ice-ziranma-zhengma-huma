@@ -84,6 +84,13 @@
 | 自然码辅码 | 在双拼后,<br> \`+部件的辅码 |mu\`dm = 沐<br><br>mu\`cj = 幕<br>或<br>mu\`jm = 幕<br><br>mu\`nt = 牡 |  |
 
 对比 double_pinyin.schema.yaml 和 double_pinyin2.schema.yaml，可看到 “双拼”和 “双拼2” 这二者的细微区别。
+```
+  schema_id: double_pinyin               |         schema_id: double_pinyin2
+  name: 双拼                              |         name: 双拼2
+    - lua_filter@search@radical_pinyin   |           #- lua_filter@search@radical_pinyin  # 部件拆字辅码
+                                         >           - lua_filter@*aux_code@tiger  # 几种辅码：ZRM_Aux-code_4.3, flypy_full, wubi86-code, tiger
+                                         >         aux_code_trigger: "`"
+```
 
 双拼2，很简单地通过[辅助码的音形分离插件](https://github.com/HowcanoeWang/rime-lua-aux-code) 来实现的（btw, 触发码由;改为`）。
 
