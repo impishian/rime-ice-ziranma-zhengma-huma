@@ -112,7 +112,7 @@
 
 它适用于这样的使用者：已习惯多年的自然码双拼布局，但因自然码的辅码在官方手册描述不多，想找一个其他的详细描述规则的辅码方案。
 
-若使用手心输入法，可参考：[手心输入法中使用自然鹤形打单](https://github.com/impishian/input_method/blob/main/%E9%B9%A4%E5%BD%A2%E8%BE%85%E7%A0%81/README.md) 
+若使用手心输入法，可参考：[手心输入法中使用自然鹤形打单](https://github.com/impishian/input_method/blob/main/%E9%B9%A4%E5%BD%A2%E8%BE%85%E7%A0%81/README.md) 的 2.3 小节。
 
 小鹤音形，应该也是受自然码启发而作，只是双拼键位稍微换了些位置，并且二者的辅码字根也有些是相同的。
 
