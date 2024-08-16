@@ -279,7 +279,9 @@ tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些�
 │   ├── t9_preedit.lua
 │   ├── unicode.lua
 │   ├── v_filter.lua
-│   └── wubi86-code.txt（添加：辅码插件的 五笔86的辅码表）
+│   ├── wubi86-code.txt（添加：辅码插件的 五笔86的辅码表）
+│   ├── zhengma.txt    （添加：辅码插件的 郑码的辅码表）
+│   └── tiger.txt      （添加：辅码插件的 虎码的辅码表）
 ├── melt_eng.dict.yaml
 ├── melt_eng.schema.yaml（修改speller的algebra，由全拼改为自然码双拼。删除5行其他双拼）
 ├── opencc
