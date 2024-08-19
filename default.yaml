@@ -242,6 +242,9 @@ key_binder:
     - { when: composing, accept: Alt+Left, send: Shift+Left }
     - { when: composing, accept: Alt+Right, send: Shift+Right }
 
+    - { accept: semicolon, send: 2, when: has_menu } # 分号次选
+    - { when: has_menu, accept: apostrophe, send: 3 } # 引号三选
+
     # 翻页 - =
     - { when: has_menu, accept: minus, send: Page_Up }
     - { when: has_menu, accept: equal, send: Page_Down }
