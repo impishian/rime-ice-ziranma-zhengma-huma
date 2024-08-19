@@ -41,15 +41,17 @@
 
 雾凇里本已整合了“部件拆字”、“以词定字”等功能，以减少同音字的重码和翻页，以及能打出难字。
 
-这里新增 custom_phrase_double.txt，添加了近 7000 常用字（带自然码的单辅码）的编码。
+复制 custom_phrase_double_zrm.txt 为 custom_phrase_double.txt，重新部署。这是添加了 6000 多常用字（带自然码的单辅码）的编码。
 
 打同音单字减少重码翻页和打难字，有以下几种方法，都可以使用。
 
-**3.1 第一种：自然单辅**
+**3.1 第一种：单字辅码**
 
 声韵双拼后多打一键（自然码单辅码），或许就能看到所要的字。
 
-这是依赖 custom_phrase_double.txt 自定义短语来做到的，只有近7000常用字。
+这是依赖 custom_phrase_double.txt 自定义短语来做到的，只有 6000 多常用字。
+
+若将 custom_phrase_double_zrm_hu.txt 复制为 custom_phrase_double.txt，则是 自然双拼 + 虎码首末 的双辅码，涵盖规范字 8000-9000 字，适合双拼+虎码都熟悉者使用。
 
 |  字   | 双拼 | 辅码 | 说明 |
 |-------|----------|--------|--------|
@@ -241,7 +243,8 @@ tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些�
 │   ├── sogou_network_pop_new_words.dict.yaml（新增）
 │   └── tencent.dict.yaml
 ├── custom_phrase.txt
-├── custom_phrase_double.txt（新增，自然码双拼单辅的近7000常用单字）
+├── custom_phrase_double_zrm.txt   （新增，自然码双拼，单字辅码，6000 多常用单字。需复制到 custom_phrase_double.txt，重新部署）
+├── custom_phrase_double_zrm_hu.txt（新增，自然码双拼，虎码首末作为辅码，8000多常用单字。需复制到 custom_phrase_double.txt，重新部署）
 ├── default.yaml（修改schema_list、page_size，增加一个switcher的hotkey，启用，.翻页）
 ├── double_pinyin.schema.yaml（修改 schema name ，由“自然码双拼”改为“双拼”。删除其他双拼方案的schema.yaml文件）
 ├── double_pinyin2.schema.yaml（添加“双拼2”。 部件拆字的辅码，改为自然码辅码，或鹤形辅码、五笔86辅码。）
