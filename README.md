@@ -524,7 +524,7 @@ ugrep '[\x{2E80}-\x{2EFF}\x{2F00}-\x{2FDF}\x{2FF0}-\x{2FFF}\x{3000}-\x{303F}\x{3
 
 未经太多练习，日常现代文，每分钟也能打 60-100 字。
 
-若使用手心或搜狗输入法，可参考：[手心或搜狗输入法中使用自然虎形打单](https://github.com/impishian/input_method/tree/main/%E8%99%8E%E5%BD%A2%E8%BE%85%E7%A0%81)
+若使用手心或搜狗输入法，可参考：[手心或搜狗输入法中使用自然虎形打单](https://github.com/impishian/input_method/tree/main/%E8%99%8E%E5%BD%A2%E8%BE%85%E7%A0%81) , 对 8105 规范字，用虎码首末根作为辅码。
 
 ----
 
