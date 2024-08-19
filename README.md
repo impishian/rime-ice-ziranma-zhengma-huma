@@ -88,7 +88,7 @@ BTW, 若将 custom_phrase_double_zrm_hu.txt 复制为 custom_phrase_double.txt�
   schema_id: double_pinyin               |         schema_id: double_pinyin2
   name: 双拼                              |         name: 双拼2
     - lua_filter@search@radical_pinyin   |           #- lua_filter@search@radical_pinyin  # 部件拆字二次筛选
-                                         >           - lua_filter@*aux_code@tiger  # 几种筛选方案：ZRM_Aux-code_4.3, flypy_full, wubi86-code, tiger
+                                         >           - lua_filter@*aux_code@ZRM_Aux-code_4.3  # 几种筛选方案：ZRM_Aux-code_4.3, flypy_full, wubi86-code, tiger
                                          >         aux_code_trigger: "`"
 ```
 
@@ -270,7 +270,7 @@ tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些�
 │   ├── corrector.lua
 │   ├── date_translator.lua
 │   ├── en_spacer.lua
-│   ├── flypy_full.txt（添加：二次筛选插件的 鹤形辅码表）
+│   ├── flypy_full.txt（添加：二次筛选插件的 鹤形表）
 │   ├── is_in_user_dict.lua
 │   ├── long_word_filter.lua
 │   ├── lunar.lua
@@ -282,9 +282,9 @@ tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些�
 │   ├── t9_preedit.lua
 │   ├── unicode.lua
 │   ├── v_filter.lua
-│   ├── wubi86-code.txt（添加：二次筛选插件的 五笔86的辅码表）
-│   ├── zhengma.txt    （添加：二次筛选插件的 郑码的辅码表）
-│   └── tiger.txt      （添加：二次筛选插件的 虎码的辅码表）
+│   ├── wubi86-code.txt（添加：二次筛选插件的 五笔86表）
+│   ├── zhengma.txt    （添加：二次筛选插件的 郑码表）
+│   └── tiger.txt      （添加：二次筛选插件的 虎码表）
 ├── melt_eng.dict.yaml
 ├── melt_eng.schema.yaml（修改speller的algebra，由全拼改为自然码双拼。删除5行其他双拼）
 ├── opencc
@@ -491,7 +491,7 @@ ugrep '[\x{2E80}-\x{2EFF}\x{2F00}-\x{2FDF}\x{2FF0}-\x{2FFF}\x{3000}-\x{303F}\x{3
 
 ### 12. 其他
 
-在此提一下一位打字冠军。某音号：`打字快的州州`，她主要用：搜狗输入法 + 自然码双拼 + 独家词库 + 独家辅码。尽量整句输入。独家辅码，让单字尽量唯一化。
+在此提一下一位打字冠军。某音号：`打字快的州州`，她主要用：搜狗输入法 + 自然码双拼 + 独家词库 + 独家辅码。尽量整句输入。独家辅码，尽量 **让单字唯一化**。
 
 不少 Rime 的用户，是担心大厂输入法上传隐私，才使用 Rime。 
 
@@ -521,13 +521,13 @@ ugrep '[\x{2E80}-\x{2EFF}\x{2F00}-\x{2FDF}\x{2FF0}-\x{2FFF}\x{3000}-\x{303F}\x{3
 
 (1) 绝大部分时候用双拼（自然码方案），打词打句为主，因为有数百万级别词条的词库。
 
-(2) [] 以词定字。uU 组字输入。` 以虎码作为二次筛选（因为它是比自然码辅码、鹤形辅码更全能和精准的形码)。 【注】反单撇 后面，目前用的是正常虎码取码法的方案，而不是 custom_phrase_double_zrm_hu.txt 里的只取虎码首末两码。这是二者的小区别，应该比较容易适应。
+(2) **断句很重要。断句很重要。断句很重要**。
 
-(3) 实在打不出的个别字，就切到虎码。
+边输入边思考，还能连续打词吗？能连续打词的，就继续打词，不急于空格推上去（都是4键以上的）。需及时断句的，及时把前面内容推上去，接下来个别字用自然虎形（虎码首末两码为辅码）打单字（刚好4键），... ，接着再继续思考，再接着尽量打词。
 
-(4) **断句很重要。断句很重要。断句很重要**。
+(3) [] 以词定字。uU 组字输入。` 以虎码作为二次筛选（因为它是比自然码辅码、鹤形辅码更全能和精准的形码)。 【注】反单撇 后面，目前用的是正常虎码取码法的表，而不是 custom_phrase_double_zrm_hu.txt 里的只取虎码首末两码。这是二者的小区别，也比较容易适应。
 
-边输入边思考，还能连续打词吗？能连续打词的，就继续打词，不急于空格推上去（都是4键以上的）。需及时断句的，及时把前面内容推上去，接下来个别字改打单字（刚好4键），... ，接着再继续思考，再接着尽量打词。
+(4) 实在不会念的个别字，才切到虎码。
 
 未经太多练习，日常现代文，每分钟也能打 60-100 字。
 
