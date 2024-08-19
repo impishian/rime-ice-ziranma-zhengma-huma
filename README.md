@@ -254,9 +254,9 @@ tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些�
 │   ├── en.dict.yaml
 │   └── en_ext.dict.yaml
 ├── lua
-│   ├── ZRM_Aux-code_4.3.txt （添加：辅码插件的 自然码辅码表）
+│   ├── ZRM_Aux-code_4.3.txt （添加：二次筛选插件的 自然码辅码表）
 │   ├── autocap_filter.lua
-│   ├── aux_code.lua   （添加：独立处理辅码的插件）
+│   ├── aux_code.lua   （添加：独立处理二次筛选的插件）
 │   ├── cn_en_spacer.lua
 │   ├── cold_word_drop
 │   │   ├── drop_words.lua
@@ -270,7 +270,7 @@ tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些�
 │   ├── corrector.lua
 │   ├── date_translator.lua
 │   ├── en_spacer.lua
-│   ├── flypy_full.txt（添加：辅码插件的 鹤形辅码表）
+│   ├── flypy_full.txt（添加：二次筛选插件的 鹤形辅码表）
 │   ├── is_in_user_dict.lua
 │   ├── long_word_filter.lua
 │   ├── lunar.lua
@@ -282,9 +282,9 @@ tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些�
 │   ├── t9_preedit.lua
 │   ├── unicode.lua
 │   ├── v_filter.lua
-│   ├── wubi86-code.txt（添加：辅码插件的 五笔86的辅码表）
-│   ├── zhengma.txt    （添加：辅码插件的 郑码的辅码表）
-│   └── tiger.txt      （添加：辅码插件的 虎码的辅码表）
+│   ├── wubi86-code.txt（添加：二次筛选插件的 五笔86的辅码表）
+│   ├── zhengma.txt    （添加：二次筛选插件的 郑码的辅码表）
+│   └── tiger.txt      （添加：二次筛选插件的 虎码的辅码表）
 ├── melt_eng.dict.yaml
 ├── melt_eng.schema.yaml（修改speller的algebra，由全拼改为自然码双拼。删除5行其他双拼）
 ├── opencc
