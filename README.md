@@ -1,4 +1,4 @@
-### 【雾自郑虎】 雾凇拼音加搜狗词库和多种拆字辅码 + 双辅自然码 + CJK-E郑码 + CJK-I虎码
+### 【雾自郑虎】 雾凇拼音加搜狗词库和多种拆字二次筛选方案 + 双辅自然码 + CJK-E郑码 + CJK-I虎码
 
 **TLDR：**
 
@@ -17,7 +17,7 @@
 
 |  功能   | 用法 | 说明 |
 |-------|----------|--------|
-| **拆字辅码** | 输完拼音，` +汉字部件的音作为<br>拆字辅码，以减少重码 | **注意：与自然码辅码 不同** <br><br> 它是通过[汉字部件拆字](https://github.com/mirtlecn/rime-radical-pinyin)实现的 |
+| **拆字二次筛选** | 输完拼音，` +汉字部件的音作为<br>进行二次筛选，以减少重码 | **注意：与自然码辅码 不同** <br><br> 它是通过[汉字部件拆字](https://github.com/mirtlecn/rime-radical-pinyin)实现的 |
 | **拆字组字** | uU 开头 + 各部件的音 | 常用于输多个常见字作为部件所组成的难字。<br><br>反查时前缀会消失，影响打英文，<br>所以设定为两个字母，或可改成一个非字母符号|
 | **以词定字** | 打词组，用两个中括号 [ ] 分别取首字、尾字| |
 | 符号 | 双拼大写 V 开头，全拼 v 开头 | symbols_caps_v.yaml 和 <br>symbols_v.yaml 里的各种符号。 |
@@ -61,7 +61,7 @@ BTW, 若将 custom_phrase_double_zrm_hu.txt 复制为 custom_phrase_double.txt�
 
 可是词库大了，字词一起编码，难免重码也不少。
 
-**3.2 第二种：以词定字**、**拆字辅码**、**拆字组字**
+**3.2 第二种：以词定字**、**拆字二次筛选**、**拆字组字**
 
 都是雾凇里整合好的功能。
 
@@ -70,45 +70,45 @@ BTW, 若将 custom_phrase_double_zrm_hu.txt 复制为 custom_phrase_double.txt�
 |  功能   | 用法 | 举例 | 说明 |
 |-------|----------|--------|--------|
 | 以词定字 | 打词后,<br> [选词首的字, <br>]选词尾的字 | mzgv = 玫瑰，<br>mzgv[ = 玫<br>mzgv] = 瑰| mzgv是 mei gui 的双拼  |
-| 拆字辅码 | 为打难字，在双拼后,<br> \`+部件的辅码 | mu\`uv = 沐<br> mu\`mojn = 幕<br>mu\`nqtu = 牡 | uv = 三点水的双拼<br>mo = 莫，jn = 巾，jn 不必输，就看到该字<br>nq = 牛，tu = 土，nqtu 也不必全输，就看到该字 |
+| 拆字二次筛选 | 为打难字，在双拼后,<br> \`+部件的音 | mu\`uv = 沐<br> mu\`mojn = 幕<br>mu\`nqtu = 牡 | uv = 三点水的双拼<br>mo = 莫，jn = 巾，jn 不必输，就看到该字<br>nq = 牛，tu = 土，nqtu 也不必全输，就看到该字 |
 | 拆字组字 | 打难字时，uU+各部件双拼 |uUmojn 幕<br>uUnqtu 牡 | mo = 莫，jn = 巾<br>nq = 牛，tu = 土 |
 
 【注】
 
-如果觉得雾凇整合的拆字部件作为辅码，辅码太长，不够顺手，还可由 "双拼" 切换到 “**双拼2**”。
+如果觉得雾凇整合的拆字部件作为筛选条件，输入码太长，不够顺手，还可由 "双拼" 切换到 “**双拼2**”。
 
-后者是 copy & paste 双拼而得到的一个新schema，只是 **是将拆字辅码方案，改为自然码辅码方案**。
+后者是 copy & paste 双拼而得到的一个新schema，只是 **是将拆字的筛选方案，由汉字部件，改为自然码辅码**。
 
 |  功能   | 用法 | 举例 | 说明 |
 |-------|----------|--------|--------|
-| 自然码辅码 | 在双拼后,<br> \`+部件的辅码 |mu\`dm = 沐<br><br>mu\`cj = 幕<br>或<br>mu\`jm = 幕<br><br>mu\`nt = 牡 |  |
+| 自然码辅码 | 在双拼后,<br> \`+部件的音 |mu\`dm = 沐<br><br>mu\`cj = 幕<br>或<br>mu\`jm = 幕<br><br>mu\`nt = 牡 |  |
 
 对比 double_pinyin.schema.yaml 和 double_pinyin2.schema.yaml，可看到 “双拼”和 “双拼2” 这二者的细微区别。
 ```
   schema_id: double_pinyin               |         schema_id: double_pinyin2
   name: 双拼                              |         name: 双拼2
-    - lua_filter@search@radical_pinyin   |           #- lua_filter@search@radical_pinyin  # 部件拆字辅码
-                                         >           - lua_filter@*aux_code@tiger  # 几种辅码：ZRM_Aux-code_4.3, flypy_full, wubi86-code, tiger
+    - lua_filter@search@radical_pinyin   |           #- lua_filter@search@radical_pinyin  # 部件拆字二次筛选
+                                         >           - lua_filter@*aux_code@tiger  # 几种筛选方案：ZRM_Aux-code_4.3, flypy_full, wubi86-code, tiger
                                          >         aux_code_trigger: "`"
 ```
 
 双拼2，很简单地通过[辅助码的音形分离插件](https://github.com/HowcanoeWang/rime-lua-aux-code) 来实现的（btw, 触发码由;改为`）。
 
-这个插件的**辅码码表，与现有的拼音码表，是分离的，是独立的文件。带了自然码辅码、鹤形辅码、五笔86辅码、郑码辅码、虎码辅码。** 想用哪个都可以。
+这个插件的**二次筛选码表，与现有的拼音码表，是分离的，是独立的文件。带了自然码辅码、鹤形辅码、五笔86、郑码、虎码。** 想用哪个都可以。
 
-如果想用小鹤音形的形码、86五笔、郑码或虎码作为辅码，可以修改 double_pinyin2.schema.yaml 里的这行配置，@ 后面改为具体的辅码码表。打难字或重码太多的词组时，往往加一两码辅码，就能减少很多翻页。
+如果想用小鹤音形的形码、86五笔、郑码或虎码作为二次筛选，可以修改 double_pinyin2.schema.yaml 里的这行配置，@ 后面改为具体的方案。打难字或重码太多的词组时，往往加一两码筛选，就能减少很多翻页。
 
 ```
 - lua_filter@*aux_code@ZRM_Aux-code_4.3
 # rime-lua-aux-code。几种选择：
-# (1) 自然码辅码：ZRM_Aux-code_4.3；
-# (2) 鹤形辅码：flypy_full；
-# (3) 86五笔作为辅码：wubi86-code；
-# (4) 郑码作为辅码：zhengma；
-# (5) 虎码作为辅码：tiger
+# (1) 自然码辅码作为二次筛选：ZRM_Aux-code_4.3；
+# (2) 鹤形辅码作为二次筛选：flypy_full；
+# (3) 86五笔作为二次筛选：wubi86-code；
+# (4) 郑码作为二次筛选：zhengma；
+# (5) 虎码作为二次筛选：tiger
 ```
 
-辅码表格式也很简单，如果有自己的定制其他方案的辅码码表，也可自行替换。**双拼方案 + 辅码方案，可以自由组合**。
+文件格式也很简单，如果有自己的定制其他方案的辅码码表，也可自行替换。**双拼方案 + 二次筛选方案，可以自由组合**。
 
 **"自然鹤形" （自然码的双拼 + 小鹤的形辅）**，这样的搭配是不是也挺有意思呢。
 
@@ -151,7 +151,7 @@ BTW, 若将 custom_phrase_double_zrm_hu.txt 复制为 custom_phrase_double.txt�
 (3) 红色字：难念的项，特别标出了拼音，以便理解记忆。
 ```
 
-3. 再次提醒注意：**自然码辅码**，与雾凇整合的 **拆字辅码**，是不同的。二者均是减少重码的好手段。
+3. 再次提醒注意：**自然码辅码**，与雾凇整合的 **拆字二次筛选**，是不同的。二者均是减少重码的好手段。
 
 4. [mutoe](https://github.com/mutoe/rime) 或 [henices](https://github.com/henices/rime) 的码表
   
@@ -247,7 +247,7 @@ tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些�
 ├── custom_phrase_double_zrm_hu.txt（新增，自然码双拼，虎码首末作为辅码，8000多常用单字。需复制到 custom_phrase_double.txt，重新部署）
 ├── default.yaml（修改schema_list、page_size，增加一个switcher的hotkey，启用，.翻页）
 ├── double_pinyin.schema.yaml（修改 schema name ，由“自然码双拼”改为“双拼”。删除其他双拼方案的schema.yaml文件）
-├── double_pinyin2.schema.yaml（添加“双拼2”。 部件拆字的辅码，改为自然码辅码，或鹤形辅码、五笔86辅码。）
+├── double_pinyin2.schema.yaml（添加“双拼2”。 部件拆字的二次筛选查询，由汉字部件改为自然码辅码 或 鹤形辅码、五笔86、虎码。）
 ├── en_dicts
 │   ├── cn_en.txt
 │   ├── cn_en_double_pinyin.txt（只留下自然码双拼，删除其他双拼方案的txt文件）
@@ -521,7 +521,7 @@ ugrep '[\x{2E80}-\x{2EFF}\x{2F00}-\x{2FDF}\x{2FF0}-\x{2FFF}\x{3000}-\x{303F}\x{3
 
 (1) 绝大部分时候用双拼（自然码方案），打词打句为主，因为有数百万级别词条的词库。
 
-(2) [] 以词定字。uU 组字输入。` 以虎码作为辅码（因为它是比自然码辅码、鹤形辅码更全能和精准的形码)  【注】用 反单撇 查询，使用的是正常虎码取码法，而不是自定义短语里的只取首末两码）。
+(2) [] 以词定字。uU 组字输入。` 以虎码作为二次筛选（因为它是比自然码辅码、鹤形辅码更全能和精准的形码)。 【注】反单撇 后面，目前用的是正常虎码取码法的方案，而不是 custom_phrase_double_zrm_hu.txt 里的只取虎码首末两码。这是二者的小区别，应该比较容易适应。
 
 (3) 实在打不出的个别字，就切到虎码。
 
