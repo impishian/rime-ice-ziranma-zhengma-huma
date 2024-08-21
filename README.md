@@ -46,7 +46,7 @@
 
 雾凇里本已整合了“部件拆字”、“以词定字”等功能，以减少同音字的重码和翻页，以及能打出难字。
 
-还可通过复制 custom_phrase_double_zrm.txt 为 custom_phrase_double.txt，再重新部署，自定义短语。（这是 6000 多带有自然码的单或双辅码的常用字）。
+还可通过复制 custom_phrase_double_zrm.txt 为 custom_phrase_double.txt，再重新部署，自定义短语。这是 6000 多带有自然码的单或双辅码的常用字。
 
 打同音单字减少重码翻页和打难字，有以下几种方法，都可以使用。
 
@@ -56,7 +56,7 @@
 
 这是依赖 custom_phrase_double.txt 自定义短语来做到的，只有 6000 多常用字。
 
-BTW, 若将 custom_phrase_double_zrm_hu.txt 复制为 custom_phrase_double.txt，则是 自然双拼 + 虎码首末 的双辅码，涵盖规范字 8000-9000 字，适合双拼+虎码都熟悉者使用。
+BTW, 若将 custom_phrase_double_zrm_hu.txt 复制为 custom_phrase_double.txt，则是 **自然虎形** (自然双拼 + 虎码首末 的双辅码)，涵盖规范字 8000-9000 字，适合双拼+虎码都熟悉者使用。
 
 |  字   | 双拼 | 辅码 | 说明 |
 |-------|----------|--------|--------|
