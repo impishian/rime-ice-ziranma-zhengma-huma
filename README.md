@@ -1,5 +1,9 @@
 ### 自然虎形
 
+<img width="818" alt="image" src="https://github.com/user-attachments/assets/bb207e7c-b1e5-4d1a-946a-6034c7410eef">
+
+<img width="1155" alt="image" src="https://github.com/user-attachments/assets/1e6f7934-2d8f-4cc9-a670-378e4770ae1f">
+
 
 **TLDR：**
 
