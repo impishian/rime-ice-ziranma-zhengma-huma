@@ -25,7 +25,7 @@ schema:
     https://github.com/iDvel/rime-ice
   dependencies:
     - melt_eng        # 英文输入，作为次翻译器挂载到拼音方案
-    - radical_pinyin  # 部件拆字，反查及辅码
+    - radical_pinyin  # 部件拆字，反查及二次筛选
 
 
 # 开关
@@ -44,7 +44,7 @@ switches:
     reset: 1
   - name: full_shape
     states: [ 半角, 全角 ]
-  - name: search_single_char  # search.lua 的功能开关，辅码查词时是否单字优先
+  - name: search_single_char  # search.lua 的功能开关，二次筛选查词时是否单字优先
     abbrev: [词, 单]
     states: [正常, 单字]
 
@@ -88,7 +88,7 @@ engine:
     - lua_filter@reduce_english_filter              # 降低部分英语单词在候选项的位置
     - simplifier@emoji                              # Emoji
     - simplifier@traditionalize                     # 简繁切换
-    - lua_filter@search@radical_pinyin              # 部件拆字辅码
+    - lua_filter@search@radical_pinyin              # 部件拆字二次筛选
     - uniquifier                                    # 去重
 
 
@@ -296,7 +296,7 @@ recognizer:
 # 从 default 继承快捷键
 key_binder:
   import_preset: default  # 从 default.yaml 继承通用的
-  search: "`"             # 辅码引导符，要添加到 speller/alphabet
+  search: "`"             # 二次筛选引导符，要添加到 speller/alphabet
   # bindings:             # 也可以再增加方案专有的
 
 
