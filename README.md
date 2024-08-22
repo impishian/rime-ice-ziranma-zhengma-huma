@@ -33,7 +33,7 @@
 | Unicode | 大写 U 开头 | 如 U62fc 得到「拼」|
 | 在拼音中前后移动 | Tab 或 Shift + Tab | |
 | 删词/降频| 鼠须管 Fn + ⇧ + ⌫，<br>小狼毫 Ctrl/Shift + Del <br>删除自造词，<br>或降低词库中已有词语的权重<br>（回到原始权重，不是降到最低） |想永久删除一个词库中<br>存在的词汇，<br>只能编辑词库，重新部署 |
-| 中英混熟 | 带了2万多常用单词 | 如果需纯英文单词输入的方案，可以换用 [rime-easy-en](https://github.com/BlindingDark/rime-easy-en)，支持语句流；或者直接换个输入法，例如这个很好用的[哈利路亚输入法](https://github.com/dongyuwei/hallelujahIM) |
+| 中英混输 | 带了2万多常用单词 | 如果需纯英文单词输入的方案，可以换用 [rime-easy-en](https://github.com/BlindingDark/rime-easy-en)，支持语句流；或者直接换个输入法，例如这个很好用的[哈利路亚输入法](https://github.com/dongyuwei/hallelujahIM) |
 
 ### 2. 搜狗细胞词库
 
