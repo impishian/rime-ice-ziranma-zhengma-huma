@@ -33,6 +33,7 @@
 | Unicode | 大写 U 开头 | 如 U62fc 得到「拼」|
 | 在拼音中前后移动 | Tab 或 Shift + Tab | |
 | 删词/降频| 鼠须管 Fn + ⇧ + ⌫，<br>小狼毫 Ctrl/Shift + Del <br>删除自造词，<br>或降低词库中已有词语的权重<br>（回到原始权重，不是降到最低） |想永久删除一个词库中<br>存在的词汇，<br>只能编辑词库，重新部署 |
+| 中英混熟 | 带了2万多常用单词 | 如果需纯英文单词输入的方案，可以换用 [rime-easy-en](https://github.com/BlindingDark/rime-easy-en)，支持语句流；或者直接换个输入法，例如这个很好用的[哈利路亚输入法](https://github.com/dongyuwei/hallelujahIM) |
 
 ### 2. 搜狗细胞词库
 
@@ -130,6 +131,8 @@ BTW, 若将 custom_phrase_double_zrm_hu.txt 复制为 custom_phrase_double.txt�
 可是鹤形主要是8105个规范汉字。（按一些专家观点，这也已经[覆盖日常打字99.999%以上的字](https://flypy.cc/#/zf)了） 
 
 自然码辅码码表，大概覆盖 CJK 约两万的字（但也不一定全有 8105 规范汉字的全部）。
+
+多年前也有人做过 “自然鹤形” 的码表，若对此有兴趣，也可参考 [ziranma_flyx_for_Rime](https://github.com/daya-prac/ziranma_flyx_for_Rime)
 
 **3.3 第三种：切换到自然码，用双辅**
 
