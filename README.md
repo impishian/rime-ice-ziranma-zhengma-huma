@@ -5,7 +5,7 @@
 <img width="1155" alt="image" src="https://github.com/user-attachments/assets/1e6f7934-2d8f-4cc9-a670-378e4770ae1f">
 
 
-**TLDR：**
+**TL;DR**
 
 **雾凇拼音、搜狗细胞词库、自定义短语辅码方案、多种对候选字词二次筛选的方案 + 双辅自然码 + CJK-E郑码 + CJK-I虎码**
 
