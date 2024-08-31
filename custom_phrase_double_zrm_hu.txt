@@ -1,4 +1,4 @@
-e Rime table
+# Rime table
 # coding: utf-8
 #@/db_name	custom_phrase_double.txt
 #@/db_type	tabledb
