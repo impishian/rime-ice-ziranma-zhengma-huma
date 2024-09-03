@@ -107,7 +107,7 @@
 ≥	dydy
 ‘	dyh
 ’	dyh
-の	e
+#の	e
 ε	epsilon
 Ⅱ	er
 ②	er
@@ -145,7 +145,7 @@
 ㎜	haomi
 #[＄￠￡￥¤]	hbfh
 ※	hch
-＆	he
+#＆	he
 ♤	heitao
 ♠	heitao
 ♡	hongtao
@@ -174,7 +174,7 @@
 →	jiantou
 ←	jiantou
 廴	jianzhipang
-∠	jiao
+#∠	jiao
 ∠	jiaodu
 ∩	jiaoji
 纟	jiaosipang
@@ -238,7 +238,7 @@ MTV	mtv
 ♂	nanxing
 #$(YYYY)年$(MM)月$(DD)日 $(hh):$(mm):$(ss)	now
 ♀	nvxing
-(⊙o⊙)哦	o
+#(⊙o⊙)哦	o
 Ω	omega
 ω	omega
 Orz	orz
@@ -475,7 +475,7 @@ T恤	txu
 ↙	zuoxia
 /	zuoxiegang
 ↔	zuoyou
-	zuzipang
+⻊ zuzipang
 #[㈠㈡㈢㈣㈤㈥㈦㈧㈨㈩]	zwsz
 /	zxg
 ↙	zxjt
