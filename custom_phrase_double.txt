@@ -31,8 +31,8 @@
 α	alpha
 ＆	and
 ＠	at
-Ⅷ	ba
-⑧	ba
+#Ⅷ	ba
+#⑧	ba
 ％	baifenhao
 ©	banquan
 ⌒	banyuan
@@ -77,7 +77,7 @@
 ＞	dayuhao
 ◐	dbd
 ∶	dbh
-の	de
+#の	de
 Δ	deerta
 δ	delta
 Δ	delta
@@ -109,8 +109,8 @@
 ’	dyh
 #の	e
 ε	epsilon
-Ⅱ	er
-②	er
+#Ⅱ	er
+#②	er
 η	eta
 ♢	fangkuai
 ♦	fangkuai
@@ -182,8 +182,8 @@
 ＃	jing
 ＃	jinghao
 钅	jinzipang
-Ⅸ	jiu
-⑨	jiu
+#Ⅸ	jiu
+#⑨	jiu
 →	jt
 ☠	judu
 。	juhao
@@ -213,8 +213,8 @@ m³	lifangmi
 〇	ling
 ◇	lingxing
 ◆	lingxing
-Ⅵ	liu
-⑥	liu
+#Ⅵ	liu
+#⑥	liu
 亠	liuzitou
 ✪	longzhu
 ◇	lx
@@ -234,7 +234,7 @@ MP3	mp
 MP4	mp
 MP5	mp
 MTV	mtv
-＄	my
+#＄	my
 ♂	nanxing
 #$(YYYY)年$(MM)月$(DD)日 $(hh):$(mm):$(ss)	now
 ♀	nvxing
@@ -265,8 +265,8 @@ Orz	orz
 ——	pzh
 ≡	qdy
 ‰	qfh
-Ⅶ	qi
-⑦	qi
+#Ⅶ	qi
+#⑦	qi
 ✎	qianbi
 ‰	qianfenhao
 ㎞	qianmi
@@ -279,8 +279,8 @@ Orz	orz
 #$(YYYY)年$(MM)月$(DD)日	rq
 #$(Year)-$(month)-$(day)	rq
 #$(YearCn)年$(monthCn)月$(dayCn)日	rq
-Ⅲ	san
-③	san
+#Ⅲ	san
+#③	san
 ∵	sandian
 ∴	sandian
 氵	sandianshui
@@ -300,8 +300,8 @@ Orz	orz
 ……	shengluehao
 …	shengluehao
 ℃	sheshidu
-Ⅹ	shi
-⑩	shi
+#Ⅹ	shi
+#⑩	shi
 【	shixinkuohao
 】	shixinkuohao
 ✟	shizijia
@@ -315,8 +315,8 @@ Orz	orz
 《	shuminghao
 》	shuminghao
 忄	shuxinpang
-Ⅳ	si
-④	si
+#Ⅳ	si
+#④	si
 灬	sidianshui
 Σ	sigma
 σ	sigma
@@ -351,7 +351,7 @@ Orz	orz
 牜	tiniupang
 扌	tishoupang
 T恤	tixu
-™	tm
+#™	tm
 冖 	tubaogai
 T恤	txu
 #[亻彳讠饣艹丶乛亠冖宀冫丷扌氵灬丨亅丿乚勹匚冂凵爫忄丬纟疒阝刂卩犭辶廴钅礻衤罒覀夂癶耂牜虍歺糹釒飠]	vpianpang
@@ -366,8 +366,8 @@ T恤	txu
 ？	wh
 ★	wjx
 ☆	wjx
-Ⅴ	wu
-⑤	wu
+#Ⅴ	wu
+#⑤	wu
 ★	wujiaoxing
 ☆	wujiaoxing
 ∞	wuxian
@@ -415,11 +415,11 @@ T恤	txu
 →	xyjt
 ←	xzjt
 讠	yanzipang
-￡	yb
+#￡	yb
 ·	yd
 ≈	ydy
-Ⅰ	yi
-①	yi
+#Ⅰ	yi
+#①	yi
 ·	yidian
 ♪	yinfu
 ♬	yinfu
