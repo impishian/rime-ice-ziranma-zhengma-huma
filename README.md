@@ -382,9 +382,11 @@ ugrep '[\x{2B820}-\x{2CEAF}]' zhengma.dict.yaml |wc -l
 
 [CJK](https://zh.wikipedia.org/wiki/%E4%B8%AD%E6%97%A5%E9%9F%93%E7%B5%B1%E4%B8%80%E8%A1%A8%E6%84%8F%E6%96%87%E5%AD%97)
 
-[通用规范汉字表](https://zh.wikipedia.org/wiki/%E9%80%9A%E7%94%A8%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97%E8%A1%A8)
+[通用规范汉字表 wikipedia](https://zh.wikipedia.org/wiki/%E9%80%9A%E7%94%A8%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97%E8%A1%A8)
 
-通用规范汉字表虽然只有 8105 个字，可是直到 CJK-E 才全覆盖。其中，在 CJK 区有 7832 字，在 CJK-A/B/C/D/E 区分别有 77/36/44/8/108 字。
+[通用规范汉字表 8105字](https://zh.wiktionary.org/wiki/Appendix:%E9%80%9A%E7%94%A8%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97%E8%A1%A8)
+
+通用规范汉字表的 8105 个字，可是直到 CJK-E 才全覆盖。其中，在 CJK 区有 7832 字，在 CJK-A/B/C/D/E 区分别有 77/36/44/8/108 字。
 
 因此，为覆盖《通用规范汉字表》的所有字：
 
@@ -393,12 +395,12 @@ ugrep '[\x{2B820}-\x{2CEAF}]' zhengma.dict.yaml |wc -l
 2.输入法码表，也不应只是 CJK 字。（雾凇里单列了 8105 字的码表。实际上，还补充了 35 个字，并注释掉里1个字(呣)。 加上多音字，码表总行数比 8105 还多几百行）
 
 ```
-#8105.txt：8105行，每行一字（第$1列为字）。
-#8105.dict.yaml：码表
-#为了找出码表里属于 8105.txt 的字，先用 awk 在两个文件间做 pattern match，再去重，得到 8104.txt。经比较，码表里未启用“呣”这1字。
+# 8105.txt：8105行，每行一字（第$1列为字）。
+# 8105.dict.yaml：码表
+# 为了找出码表里属于 8105.txt 的字，先用 awk 在两个文件间做 pattern match，再去重，得到 8104.txt。经比较，码表里未启用“呣”这1字。
 $ awk 'NR==FNR{a[$1]=++i;next} { if ($1 in a) {print $0}}' 8105.txt  8105.dict.yaml| awk '{print $1}' | awk '!a[$0]++'  > 8104.txt
 
-#相反的条件，可找出补充的35个字：
+# 使用相反的条件，则可找出补充的35个字：
 $ awk 'NR==FNR{a[$1]=++i;next} { if (!($1 in a)) {print $0}}' 8105.txt  8105.dict.yaml |grep .|grep -v -E "#|name|version|sort|\.|\-"|wc -l
 35
 ```
