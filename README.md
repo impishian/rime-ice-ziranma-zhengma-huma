@@ -370,7 +370,7 @@ tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些�
 #6.人工整理 新的 dict.yaml，在前面加些行。
 #...
 
-#7.提取 CJK-E 字
+#7.提取 CJK-E 字  （MacOS: ugrep, Linux: grep -P）
 ugrep '[\x{2B820}-\x{2CEAF}]' zhengma.dict.yaml |wc -l
 5815
 #可以导入5815个字到bzzm
@@ -384,7 +384,7 @@ ugrep '[\x{2B820}-\x{2CEAF}]' zhengma.dict.yaml |wc -l
 
 [通用规范汉字表](https://zh.wikipedia.org/wiki/%E9%80%9A%E7%94%A8%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97%E8%A1%A8)
 
-通用规范汉字表虽然只有 8105 个字，可是直到 CJK-E 才全覆盖。其中，在 CJK 区有 7832 字，在 CJK-A/B/C/D/E 区分别有 77/36/44/8/180 字。
+通用规范汉字表虽然只有 8105 个字，可是直到 CJK-E 才全覆盖。其中，在 CJK 区有 7832 字，在 CJK-A/B/C/D/E 区分别有 77/36/44/8/108 字。
 
 因此，为覆盖《通用规范汉字表》的所有字：
 
