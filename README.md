@@ -384,13 +384,13 @@ ugrep '[\x{2B820}-\x{2CEAF}]' zhengma.dict.yaml |wc -l
 
 [CJK](https://zh.wikipedia.org/wiki/%E4%B8%AD%E6%97%A5%E9%9F%93%E7%B5%B1%E4%B8%80%E8%A1%A8%E6%84%8F%E6%96%87%E5%AD%97)
 
-[通用规范汉字表 wikipedia](https://zh.wikipedia.org/wiki/%E9%80%9A%E7%94%A8%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97%E8%A1%A8)
+[通用规范汉字表](https://zh.wikipedia.org/wiki/%E9%80%9A%E7%94%A8%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97%E8%A1%A8)
 
-[通用规范汉字表 8105字](https://zh.wiktionary.org/wiki/Appendix:%E9%80%9A%E7%94%A8%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97%E8%A1%A8)
+[通用规范汉字表 8105 字的 Unicode 编码](https://zh.wiktionary.org/wiki/Appendix:%E9%80%9A%E7%94%A8%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97%E8%A1%A8)
 
-通用规范汉字表的 8105 个字，可是直到 CJK-E 才全覆盖。其中，在 CJK 区有 7832 字，在 CJK-A/B/C/D/E 区分别有 77/36/44/8/108 字。
+通用规范汉字表的 8105 个字，直到 CJK-E 才全覆盖。其中，在 CJK 区有 7832 字，在 CJK-A/B/C/D/E 区分别有 77/36/44/8/108 字。
 
-因此，为覆盖《通用规范汉字表》的所有字：
+为覆盖《通用规范汉字表》的所有字：
 
 1.字体至少应支持到 CJK-E。
 
