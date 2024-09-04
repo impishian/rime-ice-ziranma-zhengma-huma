@@ -401,7 +401,7 @@ ugrep '[\x{2B820}-\x{2CEAF}]' zhengma.dict.yaml |wc -l
 $ awk 'NR==FNR{a[$1]=++i;next} { if ($1 in a) {print $0}}' 8105.txt  8105.dict.yaml| awk '{print $1}' | awk '!a[$0]++'  > 8104.txt
 
 # 用相反的条件，可找出补充的35个字：
-$ awk 'NR==FNR{a[$1]=++i;next} { if (!($1 in a)) {print $0}}' 8105.txt  8105.dict.yaml |grep .|grep -v -E "#|name|version|sort|\.|\-"|wc -l
+$ awk 'NR==FNR{a[$1]=++i;next} { if (!($1 in a)) {print $0}}' 8105.txt  8105.dict.yaml |grep .|grep -v -E "#|name|version|sort|\.|-"|wc -l
 35
 ```
 
@@ -489,7 +489,7 @@ ugrep '[\x{FE30}-\x{FE4F}]'
 ugrep '[\x{1F200}-\x{1F2FF}]' 
 ugrep '[\x{2F800}-\x{2FA1F}]' 
 
-ugrep '[\x{2E80}-\x{2EFF}\x{2F00}-\x{2FDF}\x{2FF0}-\x{2FFF}\x{3000}-\x{303F}\x{31C0}-\x{31EF}\x{3200}-\x{32FF}\x{3300}-\x{33FF}\x{F900}-\x{FAFF}\x{FE30}-\x{FE4F}\x{1F200}-\x{1F2FF}\x{2F800}-\x{2FA1F}]' ...
+#### ugrep '[\x{2E80}-\x{2EFF}\x{2F00}-\x{2FDF}\x{2FF0}-\x{2FFF}\x{3000}-\x{303F}\x{31C0}-\x{31EF}\x{3200}-\x{32FF}\x{3300}-\x{33FF}\x{F900}-\x{FAFF}\x{FE30}-\x{FE4F}\x{1F200}-\x{1F2FF}\x{2F800}-\x{2FA1F}]' ... 似乎不支持多个范围？？
 ```
 
 ### 12. 其他
