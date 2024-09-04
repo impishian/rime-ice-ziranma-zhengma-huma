@@ -562,6 +562,10 @@ btw, 虎码比五笔拆字更直观简单，比郑码打字打词规则一致。
 
 在B站上搜索：[虎码](https://search.bilibili.com/all?keyword=虎码&from_source=webtop_search&spm_id_from=333.1007&search_source=5)，可看到不少人每分钟能打 100-250 字。
 
+----
+
+[一些输入法的简介](https://github.com/impishian/input_method)
+
 ### 13. 感谢 ❤️
 
 感谢上述提到的词库、方案及功能参考。
