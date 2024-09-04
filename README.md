@@ -370,7 +370,7 @@ tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些�
 #6.人工整理 新的 dict.yaml，在前面加些行。
 #...
 
-#7.提取 CJK-E 字  （MacOS: ugrep, Linux: grep -P）
+#7.提取 CJK-E 字  （MacOS: ugrep, Linux: grep -P。 因为 MacOS 的 grep/sed 是 BSD 的版本，不是 GNU 的版本，支持的特性弱一些）
 ugrep '[\x{2B820}-\x{2CEAF}]' zhengma.dict.yaml |wc -l
 5815
 #可以导入5815个字到bzzm
