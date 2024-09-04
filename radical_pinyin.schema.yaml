@@ -11,6 +11,7 @@ schema:
     码表：开放词典 / henrysting / Mirtle
     注音、校对、方案：Mirtle
     仓库：https://github.com/mirtlecn/rime_radical_pinyin
+    注：8105规范字，此dict码表全覆盖
 
 engine:
   processors:

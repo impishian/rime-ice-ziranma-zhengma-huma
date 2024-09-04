@@ -8,7 +8,7 @@ schema:
   author:
     - 佚名
   description: |
-    源自 Android 拼音
+    源自 Android 拼音 (注：8105规范字，此dict码表只有7486字)
   dependencies:
     - stroke
 
