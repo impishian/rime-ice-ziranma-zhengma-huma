@@ -1,0 +1,143 @@
+schema:
+  author:
+    - {}
+  dependencies:
+    - pinyin_simp  # 拼音方案
+  description: |
+    虎码8105单字
+    敲 ` 鍵進入拼音反查
+  name: "虎码8105单字"
+  schema_id: tiger3
+  version: 0.9
+
+switches: # 0 默认关，1 默认开
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]  #中英文状态
+  #- name: extended_charset  #自定义字集
+    #states: [ 常用字 , 全字集 ]
+  - name: pinyin  #拼音滤镜
+    reset: 0
+    states: [ 拼, pīn ]
+  - name: chaifen
+    reset: 0 
+    states: [ 拆隐, 拆显 ]
+  - name: full_shape
+    reset: 0
+    states: [ 半角, 全角 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor #计算
+  segmentors:  # 分段
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - reverse_lookup_translator #拼音反查
+    - table_translator
+  filters:
+    # - reverse_lookup_filter@reverse_lookup #反查词典滤镜
+    - simplifier@pinyin #拼音滤镜
+    - simplifier@chaifen #拆分滤镜
+    - uniquifier #过滤重复
+
+speller:
+  auto_clear: max_length # 3种选择， manual|auto|max_length 空码按下一键确认清屏|空码自动清|达到最长码时后码顶上清屏
+  auto_select: true
+  max_code_length: 4
+  alphabet: "[;'zyxwvutsrqponmlkjihgfedcba]"
+  # initials: "abcdefghijklmnopqrstuvwxyz;'"
+  auto_select_pattern: ^;\w+ #自动上屏规则  对 [;] 引导的编码实行候选唯一自动上屏
+  # 若要添加四码上屏功能，在  ^;\w+ 后面 加上  |^\w{4}$  即可
+
+translator:
+  dictionary: tiger3
+  enable_charset_filter: true
+  enable_encoder: true
+  enable_sentence: false
+  encode_commit_history: true
+  max_phrase_length: 4
+  enable_user_dict: false
+  enable_completion: false	# 编码提示 true 开启  false 关闭
+
+# 拼音反查
+reverse_lookup:
+  dictionary: pinyin_simp
+  prefix: "`"
+  tips: "〔拼音〕"
+  preedit_format:
+    - "xform/([nl])v/$1ü/"
+    - "xform/([nl])ue/$1üe/"
+    - "xform/([jqxy])v/$1u/"
+  # suffix: "'"
+
+key_binder:
+#  import_preset: default
+  bindings:
+    - { accept: semicolon, send: 2, when: has_menu } # 分号次选
+    - { when: has_menu, accept: apostrophe, send: 3 } # 引号三选
+    - { when: composing, accept: Tab, send: Escape } # tab清屏
+    - { when: has_menu, accept: minus, send: Page_Up } # - 向后翻页
+    - { when: has_menu, accept: equal, send: Page_Down } # = 向前翻页
+    # - { when: composing, accept: bracketleft, send: Page_Up } # [ 后翻
+    # - { when: composing, accept: bracketright, send: Page_Down } # ] 前翻
+    - { when: has_menu, accept: Right, send: Down } # 右方向键 向后移动焦点
+    - { when: has_menu, accept: Left, send: Up } # 左方向键 向前移动焦点
+
+recognizer:
+  import_preset: default
+  patterns:
+    punct: '^/([0-9]0?|[A-Za-z]+)$'
+    reverse_lookup: "^`[a-z]*'?$"
+
+ascii_composer:
+  switch_key:
+    Caps_Lock: clear
+    Control_L: noop
+    Control_R: noop
+    Eisu_toggle: clear
+    Shift_L: commit_code
+    Shift_R: commit_text
+
+#menu:
+#  page_size: 3
+
+# ↓拼音滤镜
+pinyin:
+  opencc_config: pinyin.json
+  option_name: pinyin
+  show_in_comment: true #作为注解在后面显示
+  comment_format:
+    - 'xform/&nbsp;/ /'
+    # - "xform/^/ /"
+  tips: char
+  tags:
+    - abc
+
+# 拆分滤镜
+chaifen:
+  opencc_config: hu_cf.json
+  option_name: chaifen
+  show_in_comment: true 
+  comment_format:     
+    - "xform/&nbsp;/ /"
+  tags:     
+    - abc
+    - tiger
+    - tigress
+    - reverse_lookup
+  tips: char # char: 只给单字加滤镜；all：字词都加滤镜
+
+punctuator:
+  import_preset: symbols
