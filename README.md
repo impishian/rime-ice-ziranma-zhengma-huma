@@ -411,7 +411,7 @@ ugrep '[\x{2B820}-\x{2CEAF}]' zhengma.dict.yaml |wc -l
 
 [通用规范汉字表](https://zh.wikipedia.org/wiki/%E9%80%9A%E7%94%A8%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97%E8%A1%A8)
 
-[通用规范汉字表 8105 字的 Unicode 编码](https://zh.wiktionary.org/wiki/Appendix:%E9%80%9A%E7%94%A8%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97%E8%A1%A8)
+[通用规范汉字表 8105 字的 Unicode 编码和拼音](https://zh.wiktionary.org/wiki/Appendix:%E9%80%9A%E7%94%A8%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97%E8%A1%A8)
 
 通用规范汉字表的 8105 个字，直到 CJK-E 才全覆盖。其中，在 CJK 区有 7832 字，在 CJK-A/B/C/D/E 区分别有 77/36/44/8/108 字。
 
