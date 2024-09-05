@@ -14,8 +14,9 @@ switches: # 0 默认关，1 默认开
   - name: ascii_mode
     reset: 0
     states: [ 中文, 西文 ]  #中英文状态
-  #- name: extended_charset  #自定义字集
-    #states: [ 常用字 , 全字集 ]
+  - name: extended_charset  #自定义字集
+    states: [ 常用字 , 全字集 ]
+    reset: 1
   - name: pinyin  #拼音滤镜
     reset: 0
     states: [ 拼, pīn ]
