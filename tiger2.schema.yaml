@@ -4,7 +4,7 @@ schema:
   dependencies:
     - pinyin_simp  # 拼音方案
   description: |
-    虎码 https://github.com/humaIME/huma fcitx5_字词.txt
+    虎码字词
     敲 ` 鍵進入拼音反查    
   name: "虎码字词"
   schema_id: tiger2
