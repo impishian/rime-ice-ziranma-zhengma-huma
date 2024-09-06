@@ -83,7 +83,6 @@ reverse_lookup:
     - "xform/([nl])v/$1ü/"
     - "xform/([nl])ue/$1üe/"
     - "xform/([jqxy])v/$1u/"
-  # suffix: "'"
   comment_format:
     - "xform/^/ /"
   # suffix: "'"
