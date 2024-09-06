@@ -358,7 +358,7 @@ BTW，如果只需打《通用规范汉字表》的8105单字，可切换到 "�
 ├── tiger.dict.yaml.orig (原始官方单字码表)
 ├── tiger.schema.yaml (官方 schema 适当简化，减少依赖等)
 
-├── tiger2.dict.yaml  (增加虎码字词，无太多用不上的字，有不少词。适用于日常使用。码表不用官方 tigress 的，而是从 https://github.com/humaIME/huma 的 fcitx5_字词.txt 转换而来)
+├── tiger2.dict.yaml  (增加虎码字词)
 ├── tiger2.schema.yaml
 
 ├── tiger3.dict.yaml  (增加虎码单字：《通用规范汉字表》的8105字)
