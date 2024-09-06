@@ -243,21 +243,17 @@ BTW, 若将 custom_phrase_double_zrm_hu.txt 复制为 custom_phrase_double.txt�
 
 tiger.dict.yaml.orig 是官方原始单字码表，tiger.dict.yaml 移除一些部首和笔画等影响正常选字的编码。
 
-完全支持 CJK to CJK-I 所有单字，近10万。适合录入古籍。
+完全支持 CJK to CJK-I 所有单字，近 10 万。适合录入古籍。
 
 支持拼音滤镜、拆字滤镜（Ctrl + Shift + 0， <- 和 ->， Enter，启用/禁用），在输入的同时，可看到某个字的读音 或者 拆法。
 
 BTW，如果只需打《通用规范汉字表》的8105单字，可切换到 "虎码8105单字"。(实现方式很简单：将 tiger.dict.yaml 过滤 8105字集 的字，得到 tiger3.dict.yaml)
 
-### 7. 虎码字词
+### 7. CJK-I 虎码字词
 
-为了简化配置，不采用虎码官网网盘里的 tigress*.dict.yaml 这几个码表文件。
+为了简化配置，虎码官方的三个 tigress*.dict.yaml 合为 tiger2.dict.yaml。
 
-而是采用了 [fcitx5_字词.txt](https://github.com/humaIME/huma) 这一个字词码表文件（似乎这是虎码官方的小企鹅输入法的词库？），再转换得到 tiger2.dict.yaml。
-
-支持 28127字（CJK 全 20992 字 + CJK-A 全 6592 字 + B 158字, C 83字, D 10字, E 153字, F 37, G 56, H 37, I 6 字），通用规范汉字表 8105 个字全覆盖。
-
-支持 十几万词。适合日常打字。
+除了所有的近 10 万单字外，还支持 16 万词。
 
 ### 8. 文件列表
 
