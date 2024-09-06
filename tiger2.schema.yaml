@@ -70,6 +70,9 @@ translator:
   max_phrase_length: 4
   enable_user_dict: false
   enable_completion: true	# 编码提示 true 开启  false 关闭
+  comment_format:  #提示码自定义
+    - "xform/~/ /" #去掉编码提示前的~号
+    # - "xform/^/ /" #提示前面 +间距
 
 # 拼音反查
 reverse_lookup:
@@ -80,6 +83,9 @@ reverse_lookup:
     - "xform/([nl])v/$1ü/"
     - "xform/([nl])ue/$1üe/"
     - "xform/([jqxy])v/$1u/"
+  # suffix: "'"
+  comment_format:
+    - "xform/^/ /"
   # suffix: "'"
 
 key_binder:
