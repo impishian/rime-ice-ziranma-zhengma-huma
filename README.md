@@ -423,10 +423,10 @@ ugrep '[\x{2B820}-\x{2CEAF}]' zhengma.dict.yaml |wc -l
 # 8105.txt：8105行，每行一字（第$1列为字）。
 # 8105.dict.yaml：码表
 # 为了找出码表里属于 8105.txt 的字，先用 awk 在两个文件间做 pattern match，再去重，得到 8104.txt。经比较，码表里未启用“呣”这1字。
-$ awk 'NR==FNR{a[$1];next} { if ($1 in a) {print $0}}' 8105.txt  8105.dict.yaml| awk '{print $1}' | awk '!a[$0]++'  > 8104.txt
+$ awk 'NR==FNR{a[$1];next} { if ($1 in a) {print $0}}' 8105.txt  cn_dicts/8105.dict.yaml| awk '{print $1}' | awk '!a[$0]++'  > 8104.txt
 
 # 用相反的条件，可找出补充的35个字：
-$ awk 'NR==FNR{a[$1];next} { if (!($1 in a)) {print $0}}' 8105.txt  8105.dict.yaml |grep .|grep -v -E "#|name|version|sort|\.|-"|wc -l
+$ awk 'NR==FNR{a[$1];next} { if (!($1 in a)) {print $0}}' 8105.txt  cn_dicts/8105.dict.yaml |grep .|grep -v -E "#|name|version|sort|\.|-"|wc -l
 35
 ```
 
