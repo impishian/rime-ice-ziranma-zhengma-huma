@@ -480,7 +480,7 @@ T恤	txu
 /	zxg
 ↙	zxjt
 #[ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦ]	zyfh
-#	❶	一简字·全部 1 码
+#	一简字
 啊	a
 不	b
 才	c
@@ -507,7 +507,7 @@ T恤	txu
 小	x
 一	y
 在	z
-#	❷	二简字·全部 2 码
+#	二简字
 阿	aa
 昂	ah
 爱	ai
@@ -915,7 +915,7 @@ T恤	txu
 贼	zz
 尊	zp
 走	zb
-#	❸	三简字·全部 3 码
+#	三简字
 吖	aad
 阿	aat
 腌	aav
@@ -5188,16 +5188,16 @@ T恤	txu
 锿	aizd
 霭	aitf
 嗌	aida
-叆	aibr
-嫒	aibr
+叆	aibr	5
+嫒	aibr	4
 皑	aiuv
 按	anub
-安	anwb
+安	anwb	4
 案	anwe
-俺	anja
+俺	anja	5
 暗	anox
-氨	anvb
-胺	anvb
+氨	anvb	5
+胺	anvb	4
 庵	anxa
 岸	anve
 鞍	antb
@@ -5207,25 +5207,25 @@ T恤	txu
 唵	anda
 谙	ansx
 埯	anga
-盦	anja
+盦	anja	4
 垵	angb
 犴	anme
 鹌	anmx
-𩽾	anwb
+𩽾	anwb	5
 昂	ahoz
 卬	ahbz
 盎	ahma
 肮	ahvo
-奥	aotm
-熬	aoac
+奥	aotm	5
+熬	aoac	5
 嗷	aodh
 澳	aokm
 凹	aomf
 傲	aojh
 敖	aoah
 鳌	aoaw
-袄	aotm
-螯	aoac
+袄	aotm	4
+螯	aoac	4
 拗	aous
 坳	aogs
 獒	aoam
@@ -5239,7 +5239,7 @@ T恤	txu
 璈	aonh
 鏖	aoxz
 骜	aoan
-隩	aotm
+隩	aotm	3
 聱	aoaq
 奡	aofp
 廒	aoxh
@@ -5255,10 +5255,10 @@ T恤	txu
 爸	bahm
 靶	batm
 钯	bazm
-疤	baam
+疤	baam	4
 霸	batv
 芭	balm
-耙	baam
+耙	baam	5
 坝	bago
 灞	bakv
 捌	baup
@@ -5282,23 +5282,23 @@ T恤	txu
 掰	bluu
 败	bloh
 柏	bleu
-佰	blju
+佰	blju	4
 稗	blxn
 捭	blun
-伯	blju
-版	bjar
-班	bjnn
+伯	blju	5
+版	bjar	5
+班	bjnn	4
 半	bjhu
 板	bjer
 般	bjir
 办	bjsh
-搬	bjur
+搬	bjur	5
 拌	bjuu
-斑	bjnn
+斑	bjnn	5
 伴	bjju
-瓣	bjnn
+瓣	bjnn	3
 扮	bjup
-扳	bjur
+扳	bjur	4
 绊	bjiu
 颁	bjhw
 坂	bjgr
@@ -5307,7 +5307,7 @@ T恤	txu
 癍	bjan
 柈	bjeu
 攽	bjhh
-瘢	bjar
+瘢	bjar	4
 昄	bjor
 湴	bjkc
 靽	bjtu
@@ -5338,33 +5338,33 @@ T恤	txu
 抱	bkuv
 薄	bklk
 堡	bkjg
-曝	bkok
+曝	bkok	5
 饱	bkqv
 鲍	bkwv
 煲	bkjc
 剥	bkbp
-暴	bkok
+暴	bkok	4
 豹	bkmi
 刨	bknp
-褒	bkte
+褒	bkte	5
 胞	bkvv
 葆	bkle
-苞	bklv
+苞	bklv	5
 鸨	bkvx
 炮	bkcv
 雹	bktv
 孢	bkhv
 枹	bkev
-龅	bklv
+龅	bklv	4
 趵	bkpi
-褓	bkte
+褓	bkte	4
 瀑	bkkk
-被	bztr
-背	bzav
+被	bztr	4
+背	bzav	4
 倍	bzjd
 呗	bzdo
 杯	bzec
-北	bzav
+北	bzav	5
 贝	bzob
 备	bzhq
 悲	bzrh
@@ -5374,13 +5374,13 @@ T恤	txu
 焙	bzcd
 邶	bzat
 卑	bzun
-悖	bzhh
+悖	bzhh	4
 孛	bznh
 蓓	bzld
-陂	bztr
+陂	bztr	5
 碚	bzmd
 琲	bznr
-惫	bzhh
+惫	bzhh	5
 鹎	bzux
 鞴	bztt
 狈	bzmo
@@ -5390,7 +5390,7 @@ T恤	txu
 糒	bzpt
 臂	bzcv
 鐾	bzcz
-鞁	bztr
+鞁	bztr	3
 𬇙	bzko
 本	bfef
 笨	bfrf
@@ -5416,10 +5416,10 @@ T恤	txu
 琫	bgnu
 祊	bgfl
 镚	bgzv
-比	bivv
-笔	birv
-逼	bifu
-必	biht
+比	bivv	5
+笔	birv	4
+逼	bifu	5
+必	biht	5
 币	bitr
 鼻	biol
 臂	bicv
@@ -5435,13 +5435,13 @@ T恤	txu
 铋	bizt
 敝	bifh
 匕	bivb
-毙	bivv
+毙	bivv	4
 俾	bijn
-鄙	bidt
-蔽	bilh
+鄙	bidt	5
+蔽	bilh	5
 婢	bibn
 濞	bikl
-庇	bixv
+庇	bixv	4
 畀	biql
 陛	bitg
 弼	bibb
@@ -5451,41 +5451,40 @@ T恤	txu
 吡	bidv
 屄	bice
 箅	birl
-滗	bikv
+滗	bikv	5
 庳	bixn
 嬖	bicb
-芘	bilv
-沘	bikv
+芘	bilv	4
+沘	bikv	4
 毖	bivt
-蓖	bilv
+蓖	bilv	5
 裨	bitn
 苾	bilt
 愎	bihh
-篦	birv
-邲	biht
-皕	bifu
+篦	birv	5
+邲	biht	4
+皕	bifu	4
 襞	bict
-萆	biln
-荜	biln
-薜	biln
+萆	biln	4
+荜	biln	5
+薜	biln	3
 跸	bipn
-咇	bidt
-珌	bint
+咇	bidt	4
+珌	bint	5
 舭	biiv
 辟	bicn
 佖	bijt
 赑	bioo
-荸	bilh
+荸	bilh	4
 诐	bisr
 筚	birn
-秕	bixv
+秕	bixv	5
 贲	bino
 狴	bimg
-佛	bijt
-觱	bint
-馝	bixt
+觱	bint	4
+馝	bixt	4
 泌	bikt
-秘	bixt
+秘	bixt	5
 鲾	biwq
 坒	bivg
 便	bmjb
@@ -5494,15 +5493,15 @@ T恤	txu
 遍	bmmu
 编	bmii
 贬	bmor
-辩	bmnn
-扁	bmmi
+辩	bmnn	5
+扁	bmmi	5
 鞭	bmtb
-辨	bmnn
-蝙	bmci
+辨	bmnn	4
+蝙	bmci	4
 卞	bmzy
-煸	bmci
+煸	bmci	5
 弁	bmkl
-辫	bmnn
+辫	bmnn	3
 匾	bmni
 汴	bmky
 抃	bmuy
@@ -5513,7 +5512,7 @@ T恤	txu
 鳊	bmwi
 萹	bmli
 忭	bmhy
-碥	bmmi
+碥	bmmi	4
 褊	bmti
 𨚕	bmkt
 𰻝	bdeu
@@ -5573,8 +5572,8 @@ T恤	txu
 禀	byzf
 屏	bycl
 秉	byxb
-炳	bycj
-蛃	bycj
+炳	bycj	4
+蛃	bycj	5
 昺	byoj
 摒	byul
 槟	byeh
@@ -5641,36 +5640,36 @@ T恤	txu
 怖	buhr
 卟	budy
 晡	buon
-埠	bugn
+埠	bugn	4
 逋	bunu
 堡	bujg
 哺	budn
 蔀	bult
 瓿	buir
 醭	buyi
-埔	bugn
+埔	bugn	5
 埗	bugs
 𬷕	bunx
 擦	cauf
 嚓	cadf
-才	clnt
+才	clnt	5
 菜	clle
 踩	clpe
 猜	clmv
 蔡	cllf
 财	clot
-采	clye
+采	clye	5
 材	clet
-裁	clnt
-彩	clye
+裁	clnt	4
+彩	clye	4
 睬	clqe
 偲	cljh
 惨	cjhe
 餐	cjgq
-残	cjgp
+残	cjgp	4
 参	cjke
 蚕	cjfc
-粲	cjgp
+粲	cjgp	5
 灿	cjcv
 骖	cjne
 惭	cjht
@@ -5678,12 +5677,12 @@ T恤	txu
 黪	cjpe
 䅟	cjxe
 藏	chlq
-仓	chjz
+仓	chjz	5
 舱	chiz
 苍	chlz
 沧	chkz
 鸧	chjx
-伧	chjz
+伧	chjz	4
 草	ckln
 槽	ckeo
 曹	ckfo
@@ -5715,21 +5714,21 @@ T恤	txu
 嶒	cgvo
 差	iagu
 茶	iale
-查	iaef
+查	iaef	5
 插	iaup
 叉	iari
 侘	iajr
 茬	ialg
 镲	iazf
 察	iawf
-猹	iamf
+猹	iamf	5
 搽	iaue
 槎	iaeu
 岔	iahv
-檫	iaef
+檫	iaef	5
 杈	iaei
-嚓	iadf
-碴	iamf
+嚓	iadf	4
+碴	iamf	4
 姹	iabr
 汊	iaki
 衩	iati
@@ -5738,10 +5737,10 @@ T恤	txu
 诧	iasr
 馇	iaqf
 刹	iabp
-喳	iadf
-蹅	iapf
+喳	iadf	5
+蹅	iapf	5
 嵖	iavf
-𥻗	iapf
+𥻗	iapf	4
 拆	ilui
 柴	ilse
 差	ilgu
@@ -5756,9 +5755,9 @@ T恤	txu
 馋	ijqw
 缠	ijid
 禅	ijfn
-蝉	ijcn
+蝉	ijcn	4
 掺	ijue
-颤	ijzw
+颤	ijzw	5
 搀	ijuw
 谗	ijsw
 浐	ijkx
@@ -5768,14 +5767,14 @@ T恤	txu
 觇	ijye
 阐	ijan
 躔	ijpg
-襜	ijts
+襜	ijts	5
 谄	ijsp
 镡	ijzn
 刬	ijfp
 辿	ijvu
 忏	ijhl
 巉	ijvw
-韂	ijts
+韂	ijts	4
 羼	ijcg
 廛	ijxg
 潺	ijkh
@@ -5785,12 +5784,12 @@ T恤	txu
 啴	ijdn
 单	ijhn
 骣	ijnh
-镵	ijzw
+镵	ijzw	4
 瀍	ijkg
 旵	ijov
 冁	ijht
 儳	ijjw
-𬊤	ijcn
+𬊤	ijcn	5
 唱	ihdo
 场	ihge
 长	ihpc
@@ -5862,16 +5861,16 @@ T恤	txu
 谌	ifsa
 瞋	ifqh
 忱	ifhp
-梣	ifea
+梣	ifea	5
 煁	ifca
 榇	ifee
 龀	iflv
 疢	ifac
-棽	ifea
+棽	ifea	4
 碜	ifme
 郴	ifet
 𬘭	ifie
-成	igna
+成	igna	4
 称	igxy
 城	igga
 呈	igdn
@@ -5879,8 +5878,8 @@ T恤	txu
 撑	iguu
 橙	igez
 程	igxn
-秤	igxh
-盛	igna
+秤	igxh	5
+盛	igna	5
 承	igat
 诚	igsa
 丞	igaf
@@ -5889,7 +5888,7 @@ T恤	txu
 惩	igwh
 枨	igep
 埕	iggn
-骋	igna
+骋	igna	3
 铖	igza
 澂	igkh
 珵	ignn
@@ -5903,13 +5902,13 @@ T恤	txu
 宬	igwa
 柽	igeg
 瞠	igqg
-珹	igna
+珹	igna	2
 牚	igsl
 晟	igoa
 铛	igzb
 憕	ighz
 裎	igtn
-庱	igxh
+庱	igxh	4
 吃	iida
 池	iike
 持	iiuk
@@ -5921,8 +5920,8 @@ T恤	txu
 痴	iiad
 驰	iine
 翅	iicz
-耻	iiqs
-嗤	iidc
+耻	iiqs	4
+嗤	iidc	4
 豉	iizc
 斥	iiti
 螭	iicv
@@ -5931,9 +5930,9 @@ T恤	txu
 蚩	iisc
 炽	iich
 笞	iird
-哧	iidc
+哧	iidc	5
 媸	iibc
-饬	iiqs
+饬	iiqs	5
 侈	iijl
 弛	iibe
 褫	iitz
@@ -5978,18 +5977,18 @@ T恤	txu
 臭	ibom
 愁	ibxh
 瞅	ibqc
-仇	ibjk
-筹	ibrk
+仇	ibjk	4
+筹	ibrk	4
 稠	ibxd
 酬	ibyo
 雠	ibuu
-俦	ibjk
+俦	ibjk	5
 绸	ibid
 畴	ibqk
 瘳	ibae
 惆	ibhd
 杻	ibeg
-帱	ibrk
+帱	ibrk	5
 椆	ibed
 犨	ibuq
 踌	ibpk
@@ -6119,9 +6118,9 @@ T恤	txu
 丛	csjf
 琮	csnf
 悰	cshf
-骢	csnh
+骢	csnh	5
 枞	csej
-璁	csnh
+璁	csnh	4
 淙	cskf
 熜	csch
 匆	csni
@@ -6191,7 +6190,7 @@ T恤	txu
 大	damd
 打	daua
 答	dard
-达	damu
+达	damu	4
 搭	daud
 哒	dadu
 嗒	dadd
@@ -6209,23 +6208,23 @@ T恤	txu
 瘩	daad
 褡	datd
 荙	dalu
-鿎	damu
+鿎	damu	5
 𨱏	dazd
 𫟼	dazu
 带	dllr
-代	dljp
+代	dljp	5
 待	dlwk
 呆	dlde
 戴	dlnh
 贷	dljo
 袋	dljt
-黛	dljp
-逮	dlbu
+黛	dljp	4
+逮	dlbu	4
 岱	dljv
-殆	dlgd
+殆	dlgd	5
 迨	dlku
 呔	dldi
-歹	dlgd
+歹	dlgd	4
 玳	dlnp
 傣	dljk
 怠	dlkh
@@ -6234,16 +6233,16 @@ T恤	txu
 大	dlmd
 轪	dlym
 骀	dlnd
-叇	dlbu
+叇	dlbu	5
 垈	dljg
 但	djjf
-单	djhn
+单	djhn	4
 蛋	djtc
 弹	djbn
 淡	djkc
 丹	djmz
 氮	djvc
-胆	djvf
+胆	djvf	4
 担	djuf
 旦	djof
 啖	djdc
@@ -6252,17 +6251,17 @@ T恤	txu
 亶	djzf
 石	djms
 诞	djsu
-惮	djhn
-耽	djqp
+惮	djhn	5
+耽	djqp	4
 儋	djjs
 聃	djqg
 殚	djgn
 疍	djtf
 箪	djrn
 憺	djhs
-膻	djvf
+膻	djvf	5
 瘅	djan
-眈	djqp
+眈	djqp	5
 萏	djlp
 赕	djoc
 郸	djht
@@ -6270,7 +6269,7 @@ T恤	txu
 𫢸	djjn
 𬘘	djip
 当	dhyb
-党	dhsp
+党	dhsp	4
 档	dheb
 挡	dhub
 裆	dhtb
@@ -6280,7 +6279,7 @@ T恤	txu
 砀	dhme
 凼	dhkm
 珰	dhnb
-谠	dhsp
+谠	dhsp	5
 菪	dhlm
 垱	dhgb
 筜	dhrb
@@ -6334,11 +6333,11 @@ T恤	txu
 低	diji
 滴	dikc
 底	dixi
-帝	diir
+帝	diir	4
 迪	didu
 敌	diah
 蒂	dilr
-抵	diui
+抵	diui	5
 笛	dird
 递	dihu
 狄	dimc
@@ -6349,8 +6348,8 @@ T恤	txu
 堤	digt
 骶	difi
 棣	diek
-邸	dibt
-的	diui
+邸	dibt	5
+的	diui	4
 碲	dimr
 嘀	didc
 睇	diqt
@@ -6361,18 +6360,18 @@ T恤	txu
 鞮	ditt
 涤	dike
 荻	dilc
-菂	dili
-娣	dibt
+菂	dili	4
+娣	dibt	4
 诋	disi
 觌	dine
-羝	digi
+羝	digi	4
 柢	diei
 翟	dizu
 杕	diem
 髢	dipe
-坻	digi
-茋	dili
-缔	diir
+坻	digi	5
+茋	dili	5
+缔	diir	5
 踶	dipt
 媂	dibr
 提	diut
@@ -6418,10 +6417,10 @@ T恤	txu
 钓	dczi
 雕	dcmu
 刁	dcaf
-貂	dcmd
-凋	dcwd
-鲷	dcwd
-碉	dcmd
+貂	dcmd	5
+凋	dcwd	4
+鲷	dcwd	5
+碉	dcmd	4
 铫	dczw
 窎	dcex
 铞	dczr
@@ -6448,13 +6447,13 @@ T恤	txu
 定	dywt
 顶	dyaw
 丁	dyad
-盯	dyqa
+盯	dyqa	3
 订	dysa
 钉	dyza
-鼎	dyqa
+鼎	dyqa	5
 叮	dyda
 碇	dymt
-町	dyqa
+町	dyqa	4
 腚	dyvt
 锭	dyzt
 玎	dyna
@@ -6462,11 +6461,11 @@ T恤	txu
 酊	dyya
 仃	dyja
 疔	dyaa
-耵	dyqa
+耵	dyqa	2
 萣	dylt
 丢	dqtk
 铥	dqzk
-懂	dshd
+懂	dshd	5
 动	dsbs
 东	dsry
 洞	dskd
@@ -6478,13 +6477,13 @@ T恤	txu
 氡	dsvw
 侗	dsjd
 鸫	dsrx
-胴	dsvd
-峒	dsvd
-恫	dshd
+胴	dsvd	5
+峒	dsvd	4
+恫	dshd	4
 硐	dsmd
-岽	dsvy
+岽	dsvy	5
 垌	dsgd
-胨	dsvy
+胨	dsvy	4
 𬟽	dscy
 都	dbqt
 斗	dbjd
@@ -6504,7 +6503,7 @@ T恤	txu
 度	duxr
 都	duqt
 赌	duoo
-毒	duak
+毒	duak	4
 堵	dugo
 杜	dueg
 独	dumc
@@ -6522,7 +6521,7 @@ T恤	txu
 椟	duem
 牍	duam
 阇	duao
-厾	duak
+厾	duak	5
 芏	dulg
 黩	dupm
 髑	dufc
@@ -6553,10 +6552,10 @@ T恤	txu
 炖	dpcs
 顿	dpfw
 惇	dphh
-墩	dpgh
+墩	dpgh	5
 遁	dpxu
 钝	dpzs
-敦	dpgh
+敦	dpgh	4
 趸	dpfp
 囤	dprs
 盹	dpqs
@@ -6603,7 +6602,7 @@ T恤	txu
 欸	eeke
 蛾	eecp
 颚	eedw
-腭	eeva
+腭	eeva	5
 锇	eezp
 扼	eeuz
 阿	eetz
@@ -6619,7 +6618,7 @@ T恤	txu
 峨	eevp
 涐	eekp
 垩	eefg
-崿	eeva
+崿	eeva	4
 噩	eend
 哦	eedp
 婀	eebz
@@ -6635,7 +6634,7 @@ T恤	txu
 摁	enuh
 蒽	enlh
 嗯	egdh
-而	erle
+而	erle	4
 二	erme
 儿	erpe
 耳	erqe
@@ -6648,7 +6647,7 @@ T恤	txu
 鸸	erlx
 洱	erkq
 鲕	erwl
-耏	erle
+耏	erle	5
 陑	ertl
 咡	erdq
 发	fasi
@@ -6662,7 +6661,7 @@ T恤	txu
 垡	fajg
 砝	famk
 反	fjxr
-饭	fjqr
+饭	fjqr	4
 翻	fjtz
 犯	fjmz
 范	fjlz
@@ -6672,11 +6671,11 @@ T恤	txu
 烦	fjcw
 返	fjxu
 帆	fjri
-藩	fjlq
-繁	fjei
-梵	fjei
+藩	fjlq	5
+繁	fjei	4
+梵	fjei	5
 樊	fjem
-蕃	fjlq
+蕃	fjlq	4
 贩	fjor
 钒	fjzi
 矾	fjmi
@@ -6686,7 +6685,7 @@ T恤	txu
 蘩	fjli
 璠	fjnq
 蹯	fjpq
-畈	fjqr
+畈	fjqr	5
 墦	fjgq
 𫔍	fjzq
 𬸪	fjtx
@@ -6700,24 +6699,24 @@ T恤	txu
 访	fhsl
 钫	fhzl
 昉	fhol
-纺	fhil
+纺	fhil	4
 枋	fhel
 鲂	fhwl
 妨	fhbl
 肪	fhvl
-舫	fhil
+舫	fhil	5
 蚄	fhcl
 邡	fhlt
 牥	fhql
 非	fzrf
 费	fzto
 飞	fzcf
-肺	fzvr
+肺	fzvr	5
 废	fzxi
-肥	fzvm
-菲	fzlr
+肥	fzvm	4
+菲	fzlr	5
 妃	fzbv
-匪	fznr
+匪	fznr	4
 绯	fzir
 斐	fzrv
 吠	fzdm
@@ -6726,10 +6725,10 @@ T恤	txu
 霏	fztr
 榧	fzer
 扉	fzmr
-腓	fzvr
+腓	fzvr	4
 淝	fzkm
 蜚	fzrc
-朏	fzvm
+朏	fzvm	5
 镄	fzzo
 诽	fzsr
 痱	fzar
@@ -6737,13 +6736,13 @@ T恤	txu
 狒	fzmt
 鲱	fzwr
 悱	fzhr
-芾	fzlr
+芾	fzlr	4
 棐	fzre
 剕	fzrp
 篚	fzrr
-𬴂	fznr
+𬴂	fznr	5
 分	ffhp
-粉	ffpp
+粉	ffpp	4
 份	ffjp
 坟	ffgv
 芬	fflp
@@ -6754,7 +6753,7 @@ T恤	txu
 忿	ffhh
 愤	ffho
 奋	ffmq
-偾	ffjo
+偾	ffjo	5
 纷	ffip
 氛	ffvp
 棻	ffle
@@ -6765,8 +6764,8 @@ T恤	txu
 翂	ffzp
 吩	ffdp
 坋	ffgp
-鼢	ffpp
-豮	ffjo
+鼢	ffpp	5
+豮	ffjo	4
 𣸣	ffko
 风	fgob
 封	fggk
@@ -6780,30 +6779,30 @@ T恤	txu
 丰	fgaf
 凤	fgor
 枫	fgeb
-蜂	fgca
+蜂	fgca	4
 俸	fgju
-沣	fgka
+沣	fgka	4
 讽	fgsb
 葑	fglk
 沨	fgkb
-烽	fgca
+烽	fgca	5
 酆	fgvt
 唪	fgdu
 砜	fgmb
 崶	fgvk
 赗	fgoq
-浲	fgka
+浲	fgka	5
 佛	fojt
 否	fbcd
 缶	fbaf
-负	fuxo
+负	fuxo	4
 附	futk
 服	fuvr
 副	fufp
-付	fujk
+付	fujk	3
 福	fufq
 府	fuxk
-复	fueh
+复	fueh	5
 富	fuwq
 夫	fuhf
 赴	fupy
@@ -6814,80 +6813,80 @@ T恤	txu
 弗	futf
 符	furk
 伏	fujm
-傅	fujk
+傅	fujk	5
 幅	furq
-敷	funh
-芙	fulh
-斧	fuht
+敷	funh	5
+芙	fulh	4
+斧	fuht	5
 釜	fuhz
-腹	fuvh
+腹	fuvh	4
 浮	fukh
 辅	fuyn
 妇	fubb
 甫	funf
-覆	fuvh
+覆	fuvh	3
 抚	fuud
 拂	fuut
 腐	fuxj
 缚	fuik
 俘	fujh
-俯	fujk
+俯	fujk	4
 腑	fuvk
 辐	fuyq
 孚	fuyh
 孵	fubh
 佛	fujt
 阜	futn
-凫	fuxo
-肤	fuvh
+凫	fuxo	5
+肤	fuvh	5
 蝠	fucq
 祓	fufi
 脯	fuvn
 芣	fulc
 黼	fucn
 鄜	fuxt
-馥	fuxh
+馥	fuxh	5
 涪	fukd
-桴	fueh
+桴	fueh	4
 黻	fuci
 苻	fulk
 拊	fuuk
 麸	fuah
 郛	fuyt
-玞	funh
+玞	funh	4
 簠	fura
 绂	fuii
 宓	fuwt
 跗	fupk
 茯	fulm
 赙	fuok
-莩	fulh
+莩	fulh	5
 趺	fuph
 茀	fult
-蝮	fuch
-稃	fuxh
+蝮	fuch	3
+稃	fuxh	4
 匐	funq
 罘	fuyc
 驸	funk
-怫	fuht
+怫	fuht	4
 呋	fudh
-袱	futm
+袱	futm	5
 洑	fukm
 榑	fuek
 鲋	fuwk
-菔	fulr
+菔	fulr	4
 滏	fukz
-芾	fulr
+芾	fulr	5
 咐	fudk
 幞	furi
-艴	futm
+艴	futm	4
 绋	fuit
-蚨	fuch
+蚨	fuch	4
 韨	fugi
-琈	funh
+琈	funh	3
 垺	fugh
 讣	fusy
-蜉	fuch
+蜉	fuch	5
 砆	fumh
 㕮	fudb
 㳇	fukb
@@ -6913,10 +6912,10 @@ T恤	txu
 垓	glgk
 陔	gltk
 溉	glkd
-赅	glok
+赅	glok	4
 荄	gllk
 戤	glvp
-晐	glok
+晐	glok	5
 𬮿	gltv
 感	gjnh
 干	gjeg
@@ -6926,7 +6925,7 @@ T恤	txu
 赶	gjpe
 甘	gjzg
 柑	gjez
-淦	gjkz
+淦	gjkz	4
 赣	gjxo
 苷	gjlz
 擀	gjue
@@ -6939,13 +6938,13 @@ T恤	txu
 鳡	gjwh
 玕	gjne
 矸	gjme
-泔	gjkz
+泔	gjkz	5
 坩	gjgz
 旰	gjoe
 疳	gjaz
 澉	gjkh
 虷	gjce
-㽏	gjkz
+㽏	gjkz	3
 刚	ghmp
 岗	ghvb
 港	ghkv
@@ -7007,9 +7006,9 @@ T恤	txu
 胳	gevs
 蛤	gecd
 骼	gefs
-盖	gega
+盖	gega	5
 舸	geiz
-圪	gega
+圪	gega	4
 疙	geaa
 饹	geqs
 滆	gekn
@@ -7042,19 +7041,19 @@ T恤	txu
 绠	ggib
 鹒	ggxx
 𬒔	ggmv
-共	gslh
+共	gslh	4
 供	gsjh
 弓	gsbg
 工	gsug
 公	gshk
 宫	gswd
-攻	gsuh
+攻	gsuh	5
 功	gsus
-拱	gsuh
+拱	gsuh	4
 龚	gsth
 汞	gsuk
 贡	gsuo
-恭	gslh
+恭	gslh	5
 巩	gsui
 躬	gszb
 肱	gsvk
@@ -7072,7 +7071,7 @@ T恤	txu
 苟	gblg
 构	gbek
 垢	gbgd
-篝	gbrg
+篝	gbrg	5
 遘	gbqu
 彀	gbgr
 诟	gbsd
@@ -7083,7 +7082,7 @@ T恤	txu
 雊	gbgu
 鞲	gbtg
 句	gbgj
-笱	gbrg
+笱	gbrg	4
 缑	gbio
 佝	gbjg
 岣	gbvg
@@ -7095,7 +7094,7 @@ T恤	txu
 谷	guhg
 骨	gufg
 顾	guxw
-钴	guzc
+钴	guzc	4
 雇	gumu
 孤	guhy
 固	gurc
@@ -7110,19 +7109,19 @@ T恤	txu
 菰	guly
 诂	gusc
 辜	gucn
-毂	gugr
-榖	gugr
+毂	gugr	4
+榖	gugr	5
 觚	guxy
 贾	guvo
-酤	guyc
-锢	guzc
-崮	guvc
+酤	guyc	4
+锢	guzc	5
+崮	guvc	5
 堌	gugc
 蛄	gucc
-罟	guyc
+罟	guyc	3
 汩	guko
 鹘	gufx
-轱	guyc
+轱	guyc	5
 牯	guqc
 嘏	gucr
 梏	gued
@@ -7131,13 +7130,13 @@ T恤	txu
 鹄	guqx
 痼	guac
 鸪	gucx
-羖	gugr
+羖	gugr	3
 瀔	gukr
-臌	guvc
+臌	guvc	3
 馉	guqf
 牿	guqd
 蓇	gulf
-𦙶	guvc
+𦙶	guvc	4
 挂	gwug
 刮	gwap
 瓜	gwyg
@@ -7157,30 +7156,30 @@ T恤	txu
 掴	gyui
 管	grrk
 关	grhm
-官	grwk
+官	grwk	3
 观	grre
 馆	grqk
-冠	grwk
-灌	grku
+冠	grwk	5
+灌	grku	5
 罐	grau
 棺	grek
 贯	grko
 惯	grho
-毌	grku
+毌	grku	4
 倌	grjk
 掼	gruo
 瓘	grnu
 祼	grfe
 鹳	grlx
 琯	grnk
-鳏	grwk
+鳏	grwk	4
 筦	grrp
 爟	grcu
 盥	grpa
 涫	grkk
 纶	grij
 莞	grlp
-鳤	grwk
+鳤	grwk	2
 蒄	grlk
 光	gdmg
 广	gdxg
@@ -7195,12 +7194,12 @@ T恤	txu
 𨐈	gdym
 贵	gvco
 归	gvpb
-鬼	gvag
+鬼	gvag	4
 柜	gven
 跪	gvpz
 轨	gvyk
 硅	gvmg
-龟	gvwg
+龟	gvwg	4
 桂	gveg
 圭	gvgg
 规	gvhe
@@ -7211,10 +7210,10 @@ T恤	txu
 癸	gvhm
 妫	gvbi
 邽	gvgt
-鲑	gvwg
+鲑	gvwg	5
 刿	gvvp
 晷	gvod
-闺	gvag
+闺	gvag	5
 桧	gveb
 刽	gvjp
 鳜	gvwe
@@ -7234,10 +7233,10 @@ T恤	txu
 绲	gpiv
 磙	gpmk
 过	goku
-国	gori
+国	gori	5
 锅	gozj
 郭	gogt
-果	goqe
+果	goqe	4
 裹	gote
 粿	gope
 虢	goyz
@@ -7245,10 +7244,10 @@ T恤	txu
 馘	gohf
 腘	govi
 掴	goui
-馃	goqe
+馃	goqe	5
 崞	govh
 呙	godj
-帼	gori
+帼	gori	4
 蝈	goci
 聒	goqa
 蜾	goce
@@ -7260,18 +7259,18 @@ T恤	txu
 铪	hazd
 还	hlcu
 海	hlkk
-嗨	hldk
+嗨	hldk	4
 害	hlwd
-氦	hlvk
+氦	hlvk	4
 孩	hlhk
 亥	hlkh
-嗐	hldd
+嗐	hldd	5
 醢	hlya
 骇	hlnk
 骸	hlfk
-咳	hldk
-咍	hldd
-胲	hlvk
+咳	hldk	5
+咍	hldd	4
+胲	hlvk	5
 含	hjjd
 喊	hjdd
 汉	hjkr
@@ -7281,8 +7280,8 @@ T恤	txu
 邯	hjzt
 函	hjam
 憨	hjah
-焊	hjce
-旱	hjoe
+焊	hjce	4
+旱	hjoe	4
 焓	hjcd
 悍	hjhe
 罕	hjwe
@@ -7290,23 +7289,23 @@ T恤	txu
 翰	hjnz
 憾	hjhh
 酣	hjyz
-撼	hjuh
+撼	hjuh	5
 瀚	hjkz
 颔	hjjw
 晗	hjod
-捍	hjue
+捍	hjue	4
 蚶	hjcz
-鼾	hjoe
-扞	hjue
+鼾	hjoe	5
+扞	hjue	5
 菡	hjlm
 邗	hjet
 琀	hjnd
 暵	hjoh
 犴	hjme
 顸	hjew
-撖	hjuh
+撖	hjuh	4
 浛	hjkd
-虷	hjce
+虷	hjce	5
 㘎	hjdh
 垾	hjge
 崡	hjvm
@@ -7326,10 +7325,10 @@ T恤	txu
 薅	hklk
 耗	hkav
 浩	hkkd
-豪	hkgj
-壕	hkgj
+豪	hkgj	5
+壕	hkgj	4
 嚎	hkdj
-郝	hkgt
+郝	hkgt	5
 蚝	hkcv
 皓	hkud
 蒿	hklg
@@ -7339,7 +7338,7 @@ T恤	txu
 濠	hkkj
 灏	hkkw
 貉	hkms
-鄗	hkgt
+鄗	hkgt	4
 淏	hkkm
 嗥	hkdn
 颢	hkow
@@ -7352,16 +7351,16 @@ T恤	txu
 何	hejz
 合	hejd
 河	hekz
-呵	hedz
+呵	hedz	4
 贺	heso
 鹤	hewx
 赫	hegc
-荷	helz
+荷	helz	4
 禾	hexh
 阖	heaa
 龁	hela
-嗬	hedz
-褐	hetf
+嗬	hedz	5
+褐	hetf	4
 曷	heof
 颌	hejw
 郃	hejt
@@ -7377,14 +7376,14 @@ T恤	txu
 吓	hedy
 龢	hejx
 熇	hecg
-菏	helz
+菏	helz	5
 饸	heqd
 翮	henz
 翯	hezg
 阂	heak
 垎	hegs
 隺	hewu
-鞨	hetf
+鞨	hetf	5
 𬌗	held
 黑	hzph
 嘿	hzdp
@@ -7402,9 +7401,9 @@ T恤	txu
 珩	hgnp
 桁	hgep
 蘅	hglw
-鸻	hgpx
+鸻	hgpx	4
 姮	hgbf
-行	hgpx
+行	hgpx	5
 堼	hggg
 红	hsiu
 烘	hsch
@@ -7417,10 +7416,10 @@ T恤	txu
 薨	hslv
 弘	hsbk
 泓	hskk
-纮	hsik
+纮	hsik	4
 闳	hsak
 吽	hsdq
-竑	hsik
+竑	hsik	5
 黉	hskn
 翃	hsnz
 訇	hsns
@@ -7435,9 +7434,9 @@ T恤	txu
 后	hbxd
 厚	hbxh
 吼	hbda
-侯	hbjo
+侯	hbjo	5
 猴	hbmo
-候	hbjo
+候	hbjo	4
 喉	hbdo
 齁	hbog
 鲎	hbkw
@@ -7454,7 +7453,7 @@ T恤	txu
 壶	hugc
 户	humh
 湖	hukv
-胡	hucv
+胡	hucv	3
 虎	huzh
 乎	hutn
 糊	hupv
@@ -7465,39 +7464,39 @@ T恤	txu
 沪	hukm
 忽	hunh
 弧	huby
-狐	humy
+狐	humy	4
 唬	hudz
 核	huek
 斛	huxj
 瑚	hunv
-瓠	humy
-縠	hugr
-笏	hure
+瓠	humy	5
+縠	hugr	4
+笏	hure	5
 鹄	huqx
 鄠	hutt
 葫	hulv
-煳	hucv
+煳	hucv	4
 扈	humm
 烀	hucn
 祜	hufc
 怙	huhc
 惚	huhh
-觳	hugr
+觳	hugr	5
 鹘	hufx
 岵	huvc
 唿	hudh
 冱	huwb
 鹱	huxr
 鳠	huwr
-蝴	hucv
+蝴	hucv	5
 琥	hunz
 淴	hukh
-浒	hukn
+浒	hukn	5
 鹕	hucx
 醐	huyv
 槲	huej
-滹	hukn
-囫	hure
+滹	hukn	4
+囫	hure	4
 戽	humj
 嫭	hubn
 轷	huyn
@@ -7571,33 +7570,33 @@ T恤	txu
 晃	hdom
 荒	hdlo
 谎	hdso
-簧	hdrn
-煌	hdcn
-篁	hdrn
+簧	hdrn	5
+煌	hdcn	4
+篁	hdrn	4
 凰	hdon
 幌	hdrm
-蝗	hdcn
+蝗	hdcn	5
 恍	hdhm
 滉	hdkm
 遑	hduu
-潢	hdkn
-璜	hdnn
-湟	hdkn
+潢	hdkn	4
+璜	hdnn	4
+湟	hdkn	5
 磺	hdmn
 肓	hdfv
-锽	hdzn
-徨	hdwn
+锽	hdzn	4
+徨	hdwn	4
 惶	hdhn
-鳇	hdwn
+鳇	hdwn	5
 隍	hdtn
 喤	hddn
 艎	hdin
 癀	hdan
-蟥	hdcn
+蟥	hdcn	3
 媓	hdbn
-瑝	hdnn
+瑝	hdnn	5
 㿠	hdum
-𨱑	hdzn
+𨱑	hdzn	5
 会	hvjb
 回	hvrd
 灰	hvnc
@@ -7649,10 +7648,10 @@ T恤	txu
 𬭬	hvzb
 混	hpkv
 魂	hpba
-婚	hpbo
+婚	hpbo	5
 荤	hply
 浑	hpky
-昏	hpbo
+昏	hpbo	4
 溷	hpkj
 珲	hpny
 阍	hpao
@@ -7691,23 +7690,23 @@ T恤	txu
 即	jiiz
 级	jiic
 机	jieo
-既	jiid
+既	jiid	5
 集	jiue
 记	jisv
 鸡	jirx
 极	jiec
 几	jioj
-季	jixh
+季	jixh	4
 肌	jivo
-基	jizg
-急	jixh
+基	jizg	4
+急	jixh	5
 系	jiti
 继	jiia
 挤	jiuq
 计	jisn
 剂	jiqp
-给	jiid
-寄	jiwz
+给	jiid	4
+寄	jiwz	4
 姬	jibq
 技	jiuc
 祭	jihf
@@ -7718,14 +7717,14 @@ T恤	txu
 纪	jiiv
 忌	jivh
 己	jivj
-积	jixh
+积	jixh	3
 暨	jiif
 辑	jiyq
-脊	jiwv
-疾	jiao
+脊	jiwv	5
+疾	jiao	4
 戟	jinp
 箕	jirh
-激	jikh
+激	jikh	5
 济	jikq
 矶	jimo
 叽	jido
@@ -7734,23 +7733,23 @@ T恤	txu
 绩	jiio
 冀	jiah
 棘	jiem
-藉	jilo
+藉	jilo	5
 际	jitf
-稷	jixh
+稷	jixh	2
 妓	jibc
 汲	jikc
-蓟	jilp
-伋	jijc
-赍	jino
+蓟	jilp	5
+伋	jijc	5
+赍	jino	5
 亟	jirf
 髻	jipd
 殛	jigf
-鲫	jiwz
-伎	jijc
-稽	jixo
+鲫	jiwz	5
+伎	jijc	4
+稽	jixo	5
 偈	jijf
-畸	jiqz
-霁	jitq
+畸	jiqz	5
+霁	jitq	5
 圾	jigc
 嫉	jibo
 讥	jiso
@@ -7762,9 +7761,9 @@ T恤	txu
 齑	jiqf
 乩	jiya
 戢	jidp
-玑	jino
-畿	jiiq
-芰	jilc
+玑	jino	4
+畿	jiiq	4
+芰	jilc	4
 嵇	jixv
 洎	jiko
 罽	jiyp
@@ -7772,46 +7771,46 @@ T恤	txu
 楫	jieq
 羁	jiyn
 跻	jipq
-麂	jixo
+麂	jixo	4
 垍	jigo
 姞	jibd
 荠	jilq
-蕺	jilp
+蕺	jilp	4
 屐	jicc
 跽	jiph
 觊	jive
 漈	jikf
 悸	jihh
-缉	jiiq
+缉	jiiq	5
 剞	jimp
 鲚	jiwq
 觭	jixz
 佶	jijd
 掎	jiuz
 岌	jivc
-惎	jizh
-耤	jiao
+惎	jizh	4
+耤	jiao	5
 虮	jico
-芨	jilc
+芨	jilc	5
 瘠	jiav
 期	jizv
 蹐	jipv
-犄	jiqz
+犄	jiqz	4
 穄	jixf
 堲	jiig
-蒺	jilo
+蒺	jilo	4
 墼	jiyg
 瀱	jikp
 鹡	jiwx
-鱾	jiwv
-㴔	jikh
-徛	jiwz
+鱾	jiwv	4
+㴔	jikh	4
+徛	jiwz	3
 枅	jiel
 𪟝	jias
 𫌀	jito
-𫓯	jizg
-𫓹	jizh
-𬯀	jitq
+𫓯	jizg	5
+𫓹	jizh	5
+𬯀	jitq	4
 𬶨	jiiw
 𬶭	jiwf
 加	jwsd
@@ -7835,7 +7834,7 @@ T恤	txu
 枷	jwed
 迦	jwsu
 葭	jwlr
-岬	jwvs
+岬	jwvs	4
 珈	jwnd
 斝	jwdj
 笳	jwrd
@@ -7846,7 +7845,7 @@ T恤	txu
 稼	jwxj
 浃	jwkh
 茄	jwld
-胛	jwvs
+胛	jwvs	5
 槚	jweo
 跏	jwpd
 蛱	jwch
@@ -7856,15 +7855,15 @@ T恤	txu
 𬂩	jweh
 间	jmao
 见	jmej
-件	jmjq
+件	jmjq	5
 键	jmzu
 剑	jmjp
-兼	jmhc
+兼	jmhc	4
 建	jmbu
 减	jmwd
-煎	jmhc
+煎	jmhc	5
 捡	jmuf
-箭	jmrp
+箭	jmrp	5
 剪	jmhp
 肩	jmmv
 简	jmro
@@ -7874,10 +7873,10 @@ T恤	txu
 健	jmju
 碱	jmmd
 歼	jmgl
-茧	jmlc
+茧	jmlc	4
 监	jmpa
 荐	jmlh
-溅	jmkp
+溅	jmkp	5
 渐	jmkt
 拣	jmuy
 检	jmef
@@ -7886,7 +7885,7 @@ T恤	txu
 奸	jmbe
 坚	jmpg
 鉴	jmpz
-笺	jmrp
+笺	jmrp	4
 涧	jmko
 践	jmpp
 蹇	jmwp
@@ -7896,37 +7895,37 @@ T恤	txu
 俭	jmjf
 柬	jmxh
 缄	jmid
-腱	jmvu
+腱	jmvu	4
 笕	jmre
 缣	jmic
 锏	jmzo
 睑	jmqf
-戋	jmfp
+戋	jmfp	5
 鞬	jmtu
 謇	jmws
-湔	jmkp
+湔	jmkp	4
 踺	jmpu
 犍	jmqu
 裥	jmto
 槛	jmea
-蒹	jmlc
+蒹	jmlc	5
 搛	jmuc
 鲣	jmwg
 枧	jmee
-戬	jmfp
+戬	jmfp	4
 鹣	jmhx
 楗	jmeu
 暕	jmoh
-谫	jmsp
-毽	jmvu
+谫	jmsp	5
+毽	jmvu	5
 趼	jmpl
-篯	jmrp
+篯	jmrp	3
 饯	jmqp
 鞯	jmth
-牮	jmjq
+牮	jmjq	4
 鳒	jmwc
-𬣡	jmsp
-将	jdak
+𬣡	jmsp	4
+将	jdak	4
 讲	jdsq
 奖	jdam
 酱	jday
@@ -7937,7 +7936,7 @@ T恤	txu
 僵	jdjf
 匠	jdnt
 桨	jdae
-浆	jdak
+浆	jdak	5
 犟	jdbq
 绛	jdiv
 疆	jdbf
@@ -7959,7 +7958,7 @@ T恤	txu
 教	jcqh
 脚	jcvz
 角	jcxt
-胶	jcvb
+胶	jcvb	4
 浇	jckp
 缴	jcih
 焦	jcuc
@@ -7972,8 +7971,8 @@ T恤	txu
 跤	jcpb
 鲛	jcwb
 轿	jcyp
-矫	jcop
-剿	jcop
+矫	jcop	4
+剿	jcop	5
 蛟	jccb
 徼	jcwh
 骄	jcnp
@@ -7991,9 +7990,9 @@ T恤	txu
 校	jceb
 鹪	jcux
 醮	jcyc
-皦	jcuh
+皦	jcuh	4
 觉	jcke
-敫	jcuh
+敫	jcuh	5
 艽	jclk
 茭	jclb
 峤	jcvp
@@ -8003,7 +8002,7 @@ T恤	txu
 侥	jcjp
 斠	jcqj
 皭	jcuk
-峧	jcvb
+峧	jcvb	5
 藠	jclu
 噍	jcdc
 漖	jckh
@@ -8022,22 +8021,22 @@ T恤	txu
 结	jxid
 截	jxnu
 杰	jxec
-劫	jxgs
+劫	jxgs	4
 戒	jxpl
 阶	jxtp
 揭	jxuf
-介	jxjp
+介	jxjp	4
 蚧	jxcp
 洁	jxkd
 捷	jxus
 芥	jxlp
 藉	jxlo
-嗟	jxdu
+嗟	jxdu	4
 诘	jxsd
 羯	jxgf
 桀	jxle
 竭	jxif
-价	jxjp
+价	jxjp	5
 桔	jxed
 颉	jxgw
 疖	jxaz
@@ -8049,7 +8048,7 @@ T恤	txu
 睫	jxqs
 碣	jxmf
 絜	jxai
-劼	jxgs
+劼	jxgs	5
 秸	jxxd
 拮	jxud
 檞	jxeq
@@ -8059,7 +8058,7 @@ T恤	txu
 蜐	jxcs
 鲒	jxwd
 讦	jxse
-喈	jxdu
+喈	jxdu	5
 悈	jxhl
 褯	jxtr
 岊	jxmv
@@ -8070,12 +8069,12 @@ T恤	txu
 金	jnzj
 斤	jntj
 今	jnja
-尽	jncw
-劲	jnrs
+尽	jncw	4
+劲	jnrs	5
 紧	jnpi
 晋	jnfo
 禁	jnef
-筋	jnrs
+筋	jnrs	4
 津	jnkb
 巾	jnrj
 锦	jnzr
@@ -8086,7 +8085,7 @@ T恤	txu
 槿	jnea
 衿	jnta
 瑾	jnna
-烬	jncw
+烬	jncw	5
 襟	jntf
 矜	jnia
 瑨	jnno
@@ -8100,16 +8099,16 @@ T恤	txu
 浕	jnkw
 赆	jnow
 荩	jnlw
-殣	jnga
+殣	jnga	4
 珒	jnnb
 廑	jnxa
 琎	jnnu
-墐	jnga
+墐	jnga	5
 卺	jnaz
 𬬱	jnzt
 经	jyiu
 竟	jyxp
-精	jypv
+精	jypv	5
 镜	jyzp
 净	jywb
 静	jyab
@@ -8119,7 +8118,7 @@ T恤	txu
 敬	jylh
 京	jygy
 鲸	jywy
-惊	jyhy
+惊	jyhy	4
 颈	jyrw
 警	jyls
 境	jygp
@@ -8144,34 +8143,34 @@ T恤	txu
 迳	jyru
 儆	jyjh
 腈	jyvv
-憬	jyhy
+憬	jyhy	5
 痉	jyau
 倞	jyjy
 刭	jyrp
 靓	jyae
 獍	jymp
 兢	jycp
-鼱	jypv
+鼱	jypv	4
 汫	jykq
 璥	jynh
 麖	jyxy
 猄	jymy
 䴖	jyax
 囧	jsrm
-冏	jsmd
+冏	jsmd	5
 炯	jscd
 迥	jsmu
 窘	jsed
-扃	jsmd
+扃	jsmd	4
 颎	jsvw
 炅	jsoc
 坰	jsgd
 泂	jskd
 䌹	jsid
 𬳶	jsnd
-就	jqgo
+就	jqgo	5
 酒	jqky
-旧	jqgo
+旧	jqgo	4
 救	jqfh
 九	jqkj
 久	jqxi
@@ -8199,24 +8198,24 @@ T恤	txu
 㠇	jqvo
 据	juuc
 剧	jucp
-局	jucd
+局	jucd	4
 句	jugj
 举	juku
 距	jupn
 聚	juqk
 巨	junn
 居	jucc
-具	juqh
+具	juqh	5
 拒	juun
-狙	jumf
+狙	jumf	4
 俱	jujh
 菊	julp
 锯	juzc
-焗	jucd
-橘	jued
-车	juyc
+焗	jucd	5
+橘	jued	5
+车	juyc	5
 惧	juhh
-車	juyc
+車	juyc	4
 矩	juon
 钜	juzn
 鞠	jutp
@@ -8227,9 +8226,9 @@ T恤	txu
 莒	juld
 掬	juup
 踞	jupc
-桔	jued
+桔	jued	4
 锔	juzd
-苴	julf
+苴	julf	4
 炬	jucn
 讵	jusn
 咀	judf
@@ -8250,30 +8249,30 @@ T恤	txu
 窭	jueb
 醵	juyj
 飓	juoh
-龃	julf
-崌	juvc
+龃	julf	5
+崌	juvc	5
 柜	juen
 泃	jukg
-砠	jumf
+砠	jumf	5
 踽	jupv
-犋	juqh
+犋	juqh	4
 岨	juvf
 枸	jueg
 趄	jupf
 澽	jukj
 岠	juvn
-腒	juvc
+腒	juvc	4
 弆	jugl
 䴗	juqx
 𬶋	juwg
 卷	jrhz
-捐	jruv
+捐	jruv	4
 圈	jrrz
 绢	jriv
 涓	jrkv
 娟	jrbv
 倦	jrjz
-隽	jruv
+隽	jruv	5
 狷	jrmv
 镌	jrzv
 蠲	jrkc
@@ -8284,7 +8283,7 @@ T恤	txu
 锩	jrzz
 桊	jrhe
 绝	jtim
-觉	jtke
+觉	jtke	4
 嚼	jtdk
 决	jtwj
 撅	jtue
@@ -8295,7 +8294,7 @@ T恤	txu
 厥	jtxe
 诀	jtsj
 珏	jtni
-玦	jtnj
+玦	jtnj	5
 蕨	jtle
 蹶	jtpe
 噘	jtde
@@ -8315,9 +8314,9 @@ T恤	txu
 镢	jtze
 劂	jtxp
 砄	jtmj
-㵐	jtke
+㵐	jtke	5
 𫔎	jtzd
-𫘝	jtnj
+𫘝	jtnj	4
 均	jpgw
 君	jpbd
 军	jpwy
@@ -8344,22 +8343,22 @@ T恤	txu
 鲪	jpwd
 䐃	jpvx
 卡	kayy
-咯	kads
+咯	kads	4
 咖	kadd
 咔	kady
-喀	kads
+喀	kads	5
 胩	kavy
 开	klfl
 凯	klvo
 铠	klzv
-恺	klhv
+恺	klhv	4
 揩	kluu
 楷	kleu
 锎	klzl
 慨	klhd
 闿	klav
 锴	klzu
-忾	klhv
+忾	klhv	5
 垲	klgv
 炌	klcp
 剀	klvp
@@ -8387,9 +8386,9 @@ T恤	txu
 康	khxk
 炕	khco
 糠	khpk
-钪	khzo
+钪	khzo	5
 慷	khhk
-亢	khzo
+亢	khzo	4
 伉	khjo
 闶	khao
 𡐓	khgk
@@ -8418,15 +8417,15 @@ T恤	txu
 柯	keez
 嗑	keda
 珂	kenz
-棵	keee
+棵	keee	5
 渴	kekf
 恪	kehs
 颏	kekw
 苛	kelz
-窠	keee
+窠	keee	4
 轲	keyz
 髁	kefe
-疴	keaz
+疴	keaz	4
 瞌	keqa
 坷	kegz
 蝌	kecj
@@ -8438,7 +8437,7 @@ T恤	txu
 溘	keka
 稞	kexe
 匼	kend
-牁	keaz
+牁	keaz	5
 剋	kzcp
 啃	kfdv
 肯	kfsv
@@ -8490,12 +8489,12 @@ T恤	txu
 姱	kwba
 快	kyhj
 块	kygj
-会	kyjb
+会	kyjb	5
 筷	kyrj
 哙	kydb
 脍	kyvb
 郐	kyjt
-侩	kyjb
+侩	kyjb	4
 蒯	kylp
 鲙	kywb
 浍	kykb
@@ -8506,45 +8505,45 @@ T恤	txu
 髋	krfe
 狂	kdmn
 框	kden
-矿	kdmx
+矿	kdmx	5
 筐	kdrn
 况	kdwp
 哐	kddn
 匡	kdnn
 旷	kdox
-诓	kdsn
+诓	kdsn	5
 邝	kdxt
-诳	kdsn
+诳	kdsn	4
 眶	kdqn
 圹	kdgx
 贶	kdop
 纩	kdix
 夼	kdmo
 洭	kdkn
-𫛭	kdmx
+𫛭	kdmx	4
 亏	kvma
 奎	kvmg
 窥	kvee
-蝰	kvcg
+蝰	kvcg	4
 盔	kvna
 葵	kvlm
 夔	kvhh
 魁	kvaj
 匮	kvno
 愧	kvha
-溃	kvko
+溃	kvko	4
 揆	kvum
-馈	kvqo
+馈	kvqo	4
 逵	kvgu
 愦	kvho
 傀	kvja
 睽	kvqm
 櫆	kvej
-馗	kvko
+馗	kvko	5
 骙	kvnm
-聩	kvqo
+聩	kvqo	5
 跬	kvpg
-煃	kvcg
+煃	kvcg	5
 悝	kvhd
 戣	kvhp
 喟	kvdv
@@ -8600,9 +8599,9 @@ T恤	txu
 赖	llxo
 铼	llzh
 濑	llko
-赉	llao
+赉	llao	4
 徕	llwh
-癞	llao
+癞	llao	5
 涞	llkh
 睐	llqh
 崃	llvh
@@ -8649,8 +8648,8 @@ T恤	txu
 桹	lhei
 埌	lhgi
 塱	lhig
-莨	lhli
-蒗	lhli
+莨	lhli	4
+蒗	lhli	5
 稂	lhxi
 筤	lhri
 㫰	lhoi
@@ -8660,7 +8659,7 @@ T恤	txu
 捞	lkus
 佬	lkjq
 唠	lkds
-劳	lkls
+劳	lkls	4
 牢	lkwq
 烙	lkcs
 铑	lkzq
@@ -8668,26 +8667,26 @@ T恤	txu
 涝	lkks
 醪	lkye
 酪	lkys
-落	lkls
-痨	lkas
+落	lkls	5
+痨	lkas	4
 铹	lkzs
 嫪	lkbe
 崂	lkvs
 栳	lkeq
 荖	lklq
 络	lkis
-耢	lkas
+耢	lkas	5
 𫭼	lkgs
 了	lerl
 乐	leby
 勒	lets
-叻	leds
+叻	leds	4
 仂	lejs
 鳓	lews
 簕	lers
 饹	leqs
 泐	leks
-嘞	leds
+嘞	leds	5
 类	lzpm
 累	lzqi
 雷	lztq
@@ -8695,7 +8694,7 @@ T恤	txu
 嘞	lzds
 垒	lzkg
 勒	lzts
-蕾	lzlq
+蕾	lzlq	4
 镭	lzzq
 肋	lzvs
 磊	lzmm
@@ -8708,7 +8707,7 @@ T恤	txu
 嫘	lzbi
 缧	lzii
 儡	lzjq
-藟	lzlq
+藟	lzlq	5
 檑	lzeq
 礌	lzmq
 癗	lzaq
@@ -8723,14 +8722,14 @@ T恤	txu
 离	lizv
 力	lisl
 李	lieh
-例	lijp
-利	lixp
+例	lijp	4
+利	lixp	4
 理	lind
 立	liil
 礼	lifa
 粒	lipi
 梨	lixe
-历	lixs
+历	lixs	5
 锂	lizd
 丽	lifv
 哩	lirg
@@ -8744,25 +8743,25 @@ T恤	txu
 厘	lixd
 笠	liri
 犁	lixq
-璃	linv
+璃	linv	5
 狸	limd
-厉	lixp
+厉	lixp	5
 隶	libk
 栎	liey
-骊	linv
-荔	lils
+骊	linv	4
+荔	lils	5
 沥	liks
 俪	lijv
-励	lixs
+励	lixs	4
 砾	limy
 醴	liyz
-砺	limp
+砺	limp	5
 澧	likz
 詈	liys
 鬲	ling
-痢	liap
+痢	liap	4
 罹	liyu
-疠	liap
+疠	liap	5
 莅	lili
 俚	lijd
 郦	lift
@@ -8772,35 +8771,35 @@ T恤	txu
 漓	likv
 浬	lieg
 轹	liyy
-俐	lijp
+俐	lijp	5
 蓠	lilv
-蛎	licp
+蛎	licp	4
 蠡	libc
 唳	lidm
 呖	lids
 溧	like
-蜊	licp
+蜊	licp	5
 鲡	liwv
 醨	liyv
 嫠	liab
 凓	liwe
-枥	lies
+枥	lies	5
 逦	lifu
 娌	libd
 粝	lipp
 鹂	lifx
-苈	lils
-黧	lixp
+苈	lils	4
+黧	lixp	3
 缡	liiv
 傈	lije
 坜	ligs
 疬	lias
 跞	lipy
-朸	lies
+朸	lies	4
 珕	lins
 浰	likp
 雳	lits
-猁	limp
+猁	limp	4
 篥	lire
 㰀	liek
 𫵷	livs
@@ -8841,7 +8840,7 @@ T恤	txu
 梁	ldke
 辆	ldym
 凉	ldwy
-粮	ldpi
+粮	ldpi	4
 良	ldii
 晾	ldoy
 靓	ldae
@@ -8853,7 +8852,7 @@ T恤	txu
 魉	ldam
 墚	ldge
 莨	ldli
-踉	ldpi
+踉	ldpi	5
 辌	ldyy
 悢	ldhi
 𫟅	ldiy
@@ -8894,20 +8893,20 @@ T恤	txu
 烈	lxgc
 裂	lxgt
 劣	lxys
-鬣	lxpp
+鬣	lxpp	5
 洌	lxkp
-冽	lxwp
+冽	lxwp	4
 埒	lxgk
-躐	lxpp
+躐	lxpp	4
 捩	lxum
-趔	lxpp
+趔	lxpp	3
 峛	lxvp
 脟	lxvk
 䴕	lxgx
-𫚭	lxwp
+𫚭	lxwp	5
 林	lnee
 拎	lnuk
-临	lnpo
+临	lnpo	4
 磷	lnmv
 琳	lnne
 凛	lnwf
@@ -8916,28 +8915,28 @@ T恤	txu
 鳞	lnwv
 邻	lnjt
 麟	lnxv
-璘	lnnv
+璘	lnnv	5
 廪	lnxf
 赁	lnjo
 蔺	lnlu
 吝	lnvd
 檩	lnef
 懔	lnhf
-膦	lnvv
+膦	lnvv	4
 潾	lnkv
-粼	lnpo
-嶙	lnvv
-躏	lnpu
+粼	lnpo	5
+嶙	lnvv	5
+躏	lnpu	5
 啉	lnde
-遴	lnpu
+遴	lnpu	4
 辚	lnyv
 箖	lnre
 瞵	lnqv
 翷	lnpz
 𬭸	lnzv
-𬴊	lnnv
+𬴊	lnnv	4
 另	lyds
-令	lyjk
+令	lyjk	4
 零	lytk
 领	lyjw
 铃	lyzk
@@ -8945,31 +8944,31 @@ T恤	txu
 玲	lynk
 岭	lyvk
 陵	lyth
-凌	lywh
-龄	lylk
+凌	lywh	4
+龄	lylk	4
 绫	lyih
 翎	lyjz
 聆	lyqk
-泠	lykk
-澪	lykk
-伶	lyjk
+泠	lykk	4
+澪	lykk	5
+伶	lyjk	5
 蛉	lyck
 菱	lylh
-苓	lylk
+苓	lylk	5
 姈	lybk
-羚	lygk
-呤	lydk
+羚	lygk	4
+呤	lydk	4
 瓴	lyjr
 棂	lyec
 祾	lyfh
-鲮	lywh
+鲮	lywh	5
 舲	lyik
 棱	lyeh
 酃	lytt
-坽	lygk
+坽	lygk	5
 囹	lyrk
 柃	lyek
-〇	lydk
+〇	lydk	5
 鸰	lyjx
 昤	lyok
 㥄	lyhh
@@ -9004,8 +9003,8 @@ T恤	txu
 碌	lqmk
 鹠	lqbx
 咯	lods
-龙	lstl
-隆	lstl
+龙	lstl	4
+隆	lstl	5
 泷	lskt
 拢	lsut
 笼	lsrt
@@ -9031,21 +9030,21 @@ T恤	txu
 漏	lbkt
 搂	lbub
 娄	lbpb
-瘘	lbab
+瘘	lbab	4
 露	lbts
 篓	lbrb
 镂	lbzb
 陋	lbta
 蒌	lblb
-耧	lbab
+耧	lbab	5
 蝼	lbcb
 偻	lbjb
 溇	lbkb
 髅	lbfb
-嵝	lbvb
+嵝	lbvb	4
 䁖	lbqb
 剅	lbzp
-𦝼	lbvb
+𦝼	lbvb	5
 𪣻	lbgb
 路	lups
 录	lubk
@@ -9053,11 +9052,11 @@ T恤	txu
 陆	lutm
 鲁	luwo
 鹿	luxl
-卢	luyc
+卢	luyc	4
 露	luts
 卤	luyb
 炉	lucm
-虏	luzs
+虏	luzs	4
 噜	ludo
 麓	luex
 掳	luus
@@ -9087,18 +9086,18 @@ T恤	txu
 箓	lurk
 辂	luys
 舻	luic
-琭	lunk
-辘	luyx
+琭	lunk	4
+辘	luyx	5
 逯	lubu
-鸬	luyx
+鸬	luyx	4
 甪	lutt
 绿	luik
-轳	luyc
-勠	luzs
+轳	luyc	5
+勠	luzs	5
 澛	luko
 氇	luvo
 稑	luxg
-𫘧	lunk
+𫘧	lunk	5
 𬬻	luzc
 乱	lraa
 卵	lrbl
@@ -9123,11 +9122,10 @@ T恤	txu
 𬬭	lpzj
 罗	loyl
 落	lols
-咯	lods
 洛	loks
 裸	lote
 啰	lodl
-骆	lons
+骆	lons	4
 摞	loui
 螺	loci
 络	lois
@@ -9135,7 +9133,7 @@ T恤	txu
 锣	lozl
 萝	loll
 雒	losu
-珞	lons
+珞	lons	5
 逻	loyu
 蠃	lofi
 箩	lorl
@@ -9167,8 +9165,8 @@ T恤	txu
 侣	lvjd
 闾	lvad
 膂	lvlv
-梠	lved
-榈	lved
+梠	lved	5
+榈	lved	4
 褛	lvtb
 偻	lvjb
 稆	lvxd
@@ -9180,11 +9178,11 @@ T恤	txu
 锊	ltzk
 圙	ltrb
 䂮	ltam
-吗	madn
+吗	madn	4
 嘛	madz
-骂	madn
+骂	madn	5
 马	manm
-码	mamn
+码	mamn	4
 妈	mabn
 麻	mazm
 玛	mann
@@ -9192,7 +9190,7 @@ T恤	txu
 抹	maue
 蟆	macm
 祃	mafn
-犸	mamn
+犸	mamn	5
 摩	mazu
 杩	maen
 买	mlam
@@ -9230,10 +9228,10 @@ T恤	txu
 忙	mhhf
 盲	mhfq
 莽	mhll
-芒	mhlf
+芒	mhlf	4
 氓	mhfd
 蟒	mhcl
-茫	mhlf
+茫	mhlf	5
 邙	mhft
 漭	mhkl
 尨	mhoe
@@ -9250,35 +9248,35 @@ T恤	txu
 贸	mkbo
 矛	mkit
 卯	mkbm
-茅	mklt
+茅	mklt	5
 貌	mkmp
 昴	mkob
 茂	mkln
 冇	mknm
-旄	mklv
+旄	mklv	5
 峁	mkvb
 髦	mkpv
 铆	mkzb
-耄	mkqv
+耄	mkqv	5
 楙	mkee
 懋	mkeh
-芼	mklv
+芼	mklv	4
 瑁	mknq
-牦	mkqv
+牦	mkqv	4
 茆	mklb
 袤	mktt
 瞀	mkiq
 泖	mkkb
-眊	mkqv
-鄚	mklt
-蝥	mkic
-蟊	mkic
+眊	mkqv	3
+鄚	mklt	4
+蝥	mkic	5
+蟊	mkic	4
 么	metk
 没	mzkr
-每	mzek
+每	mzek	4
 美	mzgm
 枚	mzeh
-梅	mzek
+梅	mzek	5
 酶	mzyk
 妹	mzba
 煤	mzce
@@ -9322,20 +9320,20 @@ T恤	txu
 锰	mgza
 盟	mgoa
 濛	mgkj
-獴	mgmj
+獴	mgmj	4
 勐	mghs
 虻	mgcf
 檬	mgej
 蠓	mgcj
 甍	mglr
 艋	mgia
-朦	mgvj
+朦	mgvj	4
 瞢	mglq
 幪	mgrj
 艨	mgij
 蜢	mgca
-礞	mgmj
-㠓	mgvj
+礞	mgmj	5
+㠓	mgvj	5
 鹲	mglx
 𫑡	mgdt
 米	mipm
@@ -9371,7 +9369,7 @@ T恤	txu
 洣	mikp
 嘧	midv
 面	mmbm
-免	mmwp
+免	mmwp	4
 棉	mmer
 眠	mmqd
 缅	mmib
@@ -9388,7 +9386,7 @@ T恤	txu
 腼	mmvb
 偭	mmjb
 渑	mmkd
-𩾃	mmwp
+𩾃	mmwp	5
 秒	mcxt
 喵	mcdq
 庙	mcxd
@@ -9410,7 +9408,7 @@ T恤	txu
 乜	mxaa
 蔑	mxli
 篾	mxri
-民	mndm
+民	mndm	4
 敏	mneh
 皿	mnam
 抿	mnud
@@ -9425,14 +9423,14 @@ T恤	txu
 悯	mnhv
 岷	mnvd
 鳘	mnew
-黾	mndm
+黾	mndm	5
 忞	mnvh
 苠	mnld
-名	myld
+名	myld	5
 命	myjz
 明	myov
 鸣	mydx
-茗	myld
+茗	myld	4
 冥	mywa
 铭	myzd
 暝	myoa
@@ -9443,8 +9441,8 @@ T恤	txu
 螟	myca
 谬	mqse
 缪	mqie
-莫	molm
-磨	mozm
+莫	molm	4
+磨	mozm	5
 魔	moza
 摸	moum
 膜	movm
@@ -9458,7 +9456,7 @@ T恤	txu
 模	moem
 馍	moqm
 沫	moke
-摹	molu
+摹	molu	5
 殁	mogr
 陌	motu
 茉	mole
@@ -9466,20 +9464,20 @@ T恤	txu
 貘	momm
 漠	mokm
 貊	momu
-镆	mozm
-蘑	molm
+镆	mozm	4
+蘑	molm	5
 秣	moxe
 蓦	moln
 寞	mowm
 万	mofp
-瘼	moam
+瘼	moam	4
 嬷	mobk
-耱	moam
+耱	moam	5
 无	modu
 脉	movk
 嫫	mobm
 靺	mote
-藦	molu
+藦	molu	4
 𬙊	moig
 某	mbze
 谋	mbse
@@ -9490,24 +9488,24 @@ T恤	txu
 侔	mbjq
 鍪	mbiz
 蛑	mbcq
-木	muem
+木	muem	4
 目	muqm
 墓	mulg
 姆	mubk
 母	mukm
 穆	muxe
 沐	muke
-亩	muzq
+亩	muzq	4
 牧	muqh
 暮	mulo
-模	muem
+模	muem	5
 慕	mulh
 幕	mulr
-钼	muzq
+钼	muzq	5
 募	muls
 拇	muuk
-睦	muqg
-牡	muqg
+睦	muqg	4
+牡	muqg	5
 呒	mudd
 苜	mulq
 牟	mukq
@@ -9594,7 +9592,7 @@ T恤	txu
 溺	nikw
 铌	nizv
 昵	niov
-霓	nitp
+霓	nitp	4
 睨	niqp
 伲	nijv
 鲵	niwp
@@ -9604,7 +9602,7 @@ T恤	txu
 坭	nigv
 怩	nihv
 薿	nilt
-𨺙	nitp
+𨺙	nitp	5
 𫐐	niyp
 𫠜	nilp
 年	nmev
@@ -9633,7 +9631,7 @@ T恤	txu
 镍	nxze
 涅	nxkg
 聂	nxqr
-孽	nxlh
+孽	nxlh	4
 镊	nxzr
 颞	nxqw
 蹑	nxpr
@@ -9643,15 +9641,15 @@ T恤	txu
 嗫	nxdr
 乜	nxaa
 嵲	nxve
-菍	nxlh
+菍	nxlh	5
 糵	nxlp
 陧	nxtg
 𫔶	nxae
 您	nnjh
 拧	nyua
 宁	nywa
-凝	nywt
-甯	nywt
+凝	nywt	4
+甯	nywt	5
 狞	nyma
 柠	nyea
 苧	nyla
@@ -9677,13 +9675,13 @@ T恤	txu
 哝	nsdt
 𬪩	nsyt
 耨	nbak
-怒	nubh
+怒	nubh	5
 努	nubs
 弩	nubb
 奴	nubr
 驽	nubn
 傉	nujk
-孥	nubh
+孥	nubh	4
 砮	nubm
 胬	nubj
 笯	nurr
@@ -9714,10 +9712,10 @@ T恤	txu
 区	ounb
 鸥	ounx
 沤	oukb
-殴	ounr
+殴	ounr	4
 耦	ouav
 讴	ousb
-瓯	ounr
+瓯	ounr	5
 怄	ouhb
 𠙶	ourm
 𬉼	oucb
@@ -9734,7 +9732,7 @@ T恤	txu
 舥	paim
 潖	pakm
 筢	parm
-拍	pluu
+拍	pluu	4
 派	plkt
 牌	plan
 排	plur
@@ -9742,7 +9740,7 @@ T恤	txu
 俳	pljr
 徘	plwr
 哌	pldt
-迫	pluu
+迫	pluu	5
 蒎	pllt
 簰	plrn
 盘	pjia
@@ -9754,11 +9752,11 @@ T恤	txu
 叛	pjhr
 爿	pjap
 磐	pjim
-袢	pjtu
+袢	pjtu	4
 槃	pjie
 蟠	pjcq
 泮	pjku
-襻	pjtu
+襻	pjtu	5
 胖	pjvu
 番	pjtq
 磻	pjmq
@@ -9766,7 +9764,7 @@ T恤	txu
 旁	phil
 胖	phvu
 庞	phxt
-彷	phwl
+彷	phwl	4
 磅	phml
 滂	phkl
 乓	phti
@@ -9774,7 +9772,7 @@ T恤	txu
 螃	phcl
 耪	phal
 雱	phtl
-鳑	phwl
+鳑	phwl	5
 膀	phvl
 跑	pkpv
 泡	pkkv
@@ -9782,10 +9780,10 @@ T恤	txu
 抛	pkus
 刨	pknp
 袍	pktv
-匏	pkmv
+匏	pkmv	5
 庖	pkxv
 咆	pkdv
-狍	pkmv
+狍	pkmv	4
 疱	pkav
 脬	pkvh
 配	pzyv
@@ -9832,15 +9830,15 @@ T恤	txu
 蟛	pgce
 搒	pgul
 皮	pirp
-屁	picv
+屁	picv	5
 批	piuv
 劈	picp
 匹	pinp
-啤	pidn
+啤	pidn	4
 脾	pivn
 癖	pian
 披	piur
-辟	picn
+辟	picn	4
 铍	pizr
 丕	picf
 疲	piar
@@ -9851,20 +9849,20 @@ T恤	txu
 僻	pijn
 罴	piyc
 譬	pics
-噼	pidn
+噼	pidn	5
 琵	pinv
-貔	pimv
-蜱	picn
+貔	pimv	5
+蜱	picn	5
 圮	pigv
 陂	pitr
 邳	pict
 郫	piut
 伾	pijf
-裨	pitn
-霹	pitn
+裨	pitn	5
+霹	pitn	4
 媲	pibv
 鼙	pihn
-陴	pitn
+陴	pitn	3
 甓	picr
 睥	piqn
 埤	pign
@@ -9873,8 +9871,8 @@ T恤	txu
 狉	pimf
 澼	pikn
 枇	piev
-砒	pimv
-蚍	picv
+砒	pimv	4
+蚍	picv	4
 纰	piiv
 仳	pijv
 否	picd
@@ -9908,9 +9906,9 @@ T恤	txu
 骠	pcnf
 朴	pcey
 殍	pcgh
-薸	pclf
+薸	pclf	4
 嘌	pcdf
-蔈	pclf
+蔈	pclf	5
 螵	pccf
 撇	pxuh
 瞥	pxfq
@@ -9929,15 +9927,15 @@ T恤	txu
 玭	pnnv
 𬞟	pnlw
 屏	pycl
-平	pyeh
+平	pyeh	5
 凭	pyjo
 瓶	pyhr
 评	pysh
 坪	pygh
-萍	pylh
-枰	pyeh
+萍	pylh	5
+枰	pyeh	4
 乒	pytt
-苹	pylh
+苹	pylh	4
 娉	pyba
 鲆	pywh
 俜	pyja
@@ -9981,15 +9979,15 @@ T恤	txu
 扑	puuy
 噗	pudi
 朴	puey
-葡	puln
-蒲	puln
+葡	puln	3
+蒲	puln	5
 璞	puni
 仆	pujy
 浦	pukn
 濮	puki
-莆	puln
-溥	pukk
-瀑	pukk
+莆	puln	4
+溥	pukk	4
+瀑	pukk	5
 圃	purn
 蹼	pupi
 曝	puok
@@ -10000,7 +9998,7 @@ T恤	txu
 菩	puld
 酺	puyn
 匍	punn
-蒱	puln
+蒱	puln	2
 潽	puko
 脯	puvn
 墣	pugi
@@ -10010,50 +10008,50 @@ T恤	txu
 起	qipv
 期	qizv
 七	qirq
-气	qivq
+气	qivq	4
 器	qidd
-骑	qinz
+骑	qinz	4
 齐	qiqq
 棋	qieh
 漆	qikk
 奇	qimz
 弃	qibl
-旗	qilh
-妻	qifb
+旗	qilh	4
+妻	qifb	4
 绮	qiiz
 欺	qize
-岂	qivv
-琪	qinh
-砌	qimp
+岂	qivv	5
+琪	qinh	5
+砌	qimp	5
 启	qimd
 企	qijs
 契	qiam
 淇	qikh
 泣	qiki
-琦	qinz
-栖	qiev
+琦	qinz	5
+栖	qiev	5
 鳍	qiwo
 乞	qiea
-祁	qift
+祁	qift	4
 戚	qiny
-祇	qifb
+祇	qifb	5
 麒	qixh
 炁	qidc
 汽	qikv
 沏	qikp
 柒	qike
-祈	qift
+祈	qift	5
 祺	qifh
 讫	qisa
-脐	qivq
+脐	qivq	5
 崎	qivz
 岐	qivc
 蕲	qilt
 迄	qieu
-杞	qiev
-萁	qilh
+杞	qiev	4
+萁	qilh	5
 嘁	qidy
-欹	qime
+欹	qime	5
 锜	qizz
 凄	qiwb
 槭	qiey
@@ -10062,32 +10060,32 @@ T恤	txu
 綦	qizi
 歧	qisc
 玘	qinv
-亓	qimp
+亓	qimp	4
 耆	qiqo
 芑	qilv
-屺	qivv
+屺	qivv	4
 埼	qigz
 憩	qiah
 跂	qipc
-芪	qilb
-棨	qime
-葺	qilq
+芪	qilb	5
+棨	qime	4
+葺	qilq	4
 蹊	qipm
 颀	qitw
-骐	qinh
+骐	qinh	4
 汔	qika
 圻	qigt
 磜	qimf
-萋	qilb
+萋	qilb	4
 蜞	qich
 蛴	qicq
 亟	qirf
 愭	qiho
-桤	qiev
+桤	qiev	3
 俟	qijo
-荠	qilq
+荠	qilq	5
 婍	qibz
-郪	qift
+郪	qift	3
 稽	qixo
 缉	qiiq
 洓	qikm
@@ -10117,10 +10115,10 @@ T恤	txu
 迁	qmlu
 乾	qmna
 谦	qmsc
-嵌	qmve
+嵌	qmve	4
 钳	qmzz
 黔	qmpa
-茜	qmlv
+茜	qmlv	5
 钤	qmza
 芡	qmle
 歉	qmhe
@@ -10148,13 +10146,13 @@ T恤	txu
 钎	qmzl
 杄	qmel
 鹐	qmxx
-蒨	qmlv
+蒨	qmlv	4
 岍	qmvl
 磏	qmmc
 纤	qmil
 掮	qmuv
 墘	qmga
-肷	qmve
+肷	qmve	5
 圲	qmgl
 伣	qmje
 𬘬	qmiv
@@ -10182,7 +10180,7 @@ T恤	txu
 蔃	qdlc
 敲	qcgh
 桥	qcep
-乔	qctp
+乔	qctp	4
 翘	qcpz
 瞧	qcqc
 巧	qcua
@@ -10204,12 +10202,12 @@ T恤	txu
 劁	qcup
 峭	qcvv
 缲	qcie
-硚	qcmp
-鞒	qctp
+硚	qcmp	5
+鞒	qctp	5
 雀	qcyu
-憔	qchc
-愀	qchc
-硗	qcmp
+憔	qchc	5
+愀	qchc	4
+硗	qcmp	4
 且	qxfq
 切	qxrp
 妾	qxib
@@ -10264,7 +10262,7 @@ T恤	txu
 磬	qygm
 顷	qyvw
 擎	qylu
-箐	qyrv
+箐	qyrv	4
 氰	qyvv
 罄	qyga
 蜻	qycv
@@ -10272,7 +10270,7 @@ T恤	txu
 綮	qymi
 檠	qyle
 亲	qyie
-圊	qyrv
+圊	qyrv	5
 勍	qygs
 碃	qymv
 庼	qyxw
@@ -10319,7 +10317,7 @@ T恤	txu
 鞧	qqty
 𨱇	qqzi
 去	qugk
-区	qunb
+区	qunb	5
 取	quqr
 曲	quyq
 娶	quqb
@@ -10327,7 +10325,7 @@ T恤	txu
 趣	qupr
 蛆	qucf
 龋	qulv
-驱	qunb
+驱	qunb	4
 瞿	ququ
 祛	qufk
 渠	quke
@@ -10365,7 +10363,7 @@ T恤	txu
 䓛	qulm
 𪨰	quvy
 𫭟	qugb
-全	qrjn
+全	qrjn	4
 圈	qrrz
 权	qrer
 劝	qrrs
@@ -10373,12 +10371,12 @@ T恤	txu
 拳	qrhu
 犬	qrmq
 泉	qruk
-醛	qryn
+醛	qryn	4
 蜷	qrcz
 荃	qrln
 颧	qrlw
 诠	qrsn
-佺	qrjn
+佺	qrjn	5
 铨	qrzn
 鬈	qrpz
 痊	qran
@@ -10386,19 +10384,19 @@ T恤	txu
 筌	qrrn
 畎	qrqm
 悛	qrhh
-辁	qryn
+辁	qryn	5
 棬	qrez
 瑔	qrnk
 鳈	qrwk
 婘	qrbz
 𨟠	qrqt
 却	qtgz
-缺	qtaj
+缺	qtaj	4
 确	qtmt
 卻	qthz
 阙	qtae
 雀	qtyu
-瘸	qtaj
+瘸	qtaj	5
 鹊	qtlx
 榷	qteu
 炔	qtcj
@@ -10444,12 +10442,12 @@ T恤	txu
 忍	rfph
 仁	rfjm
 刃	rfpi
-壬	rftg
+壬	rftg	4
 韧	rfgi
 饪	rfqg
 稔	rfxh
 妊	rfbg
-衽	rftg
+衽	rftg	5
 纫	rfii
 仞	rfji
 轫	rfyi
@@ -10481,8 +10479,8 @@ T恤	txu
 揉	rbue
 柔	rbie
 鞣	rbte
-糅	rbpe
-蹂	rbpe
+糅	rbpe	4
+蹂	rbpe	5
 𫐓	rbye
 如	rubd
 入	ruju
@@ -10568,19 +10566,19 @@ T恤	txu
 瘙	skac
 溞	skkc
 色	sexm
-瑟	sent
+瑟	sent	4
 涩	seks
 铯	sezm
 塞	sewg
 啬	segd
 穑	sexd
-璱	sent
+璱	sent	5
 森	sfee
 僧	sgjo
 啥	uada
 杀	uabe
 傻	uajh
-沙	uakt
+沙	uakt	5
 鲨	uakw
 莎	ualt
 煞	uaxc
@@ -10593,17 +10591,17 @@ T恤	txu
 歃	uale
 霎	uatb
 铩	uaze
-裟	uakt
+裟	uakt	4
 唼	uadb
 杉	uaee
 挲	uaku
 晒	ulov
 筛	ulrr
 色	ulxm
-山	ujvs
+山	ujvs	4
 删	ujip
 闪	ujaj
-善	ujgd
+善	ujgd	4
 扇	ujmz
 衫	ujte
 擅	ujuf
@@ -10627,18 +10625,18 @@ T恤	txu
 芟	ujlr
 嬗	ujbf
 埏	ujgu
-汕	ujkv
+汕	ujkv	4
 晱	ujoc
 姗	ujbi
-潸	ujkv
+潸	ujkv	5
 跚	ujpi
 烻	ujcu
 蟮	ujcd
 单	ujhn
 栅	ujei
 舢	ujiv
-墡	ujgd
-嶦	ujvs
+墡	ujgd	5
+嶦	ujvs	5
 𫮃	ujgn
 上	uhyf
 商	uhid
@@ -10649,8 +10647,8 @@ T恤	txu
 殇	uhge
 裳	uhst
 觞	uhxe
-墒	uhgd
-垧	uhgd
+墒	uhgd	5
+垧	uhgd	4
 晌	uhod
 绱	uhis
 少	ukyt
@@ -10700,9 +10698,9 @@ T恤	txu
 𪨶	uevy
 谁	uzsu
 神	uffg
-深	ufke
+深	ufke	3
 身	ufzs
-申	ufog
+申	ufog	4
 肾	ufpv
 沈	ufkp
 甚	ufza
@@ -10712,7 +10710,7 @@ T恤	txu
 砷	ufmg
 慎	ufhh
 婶	ufbg
-渗	ufke
+渗	ufke	4
 侁	ufjp
 糁	ufpe
 哂	ufdv
@@ -10721,11 +10719,11 @@ T恤	txu
 诜	ufsp
 瘆	ufae
 甡	ufll
-参	ufke
+参	ufke	5
 燊	ufce
 谌	ufsa
-椹	ufea
-矧	ufog
+椹	ufea	4
+矧	ufog	5
 绅	ufig
 呻	ufdg
 屾	ufvv
@@ -10735,11 +10733,11 @@ T恤	txu
 葚	ufla
 鲹	ufwe
 娠	ufbf
-棽	ufea
+棽	ufea	5
 瞫	ufqn
 𬬹	ufzg
 𬳽	ufnp
-生	ugls
+生	ugls	5
 声	uggc
 省	ugyq
 升	ugtl
@@ -10752,7 +10750,7 @@ T恤	txu
 盛	ugna
 晟	ugoa
 牲	ugql
-甥	ugls
+甥	ugls	4
 陞	ugtg
 眚	uglq
 乘	ugxv
@@ -10765,7 +10763,7 @@ T恤	txu
 师	uipr
 史	uidb
 诗	uisk
-市	uizr
+市	uizr	5
 屎	uicp
 十	uins
 视	uife
@@ -10778,7 +10776,7 @@ T恤	txu
 湿	uikc
 食	uiqs
 氏	uibs
-势	uius
+势	uius	4
 世	uila
 施	uile
 失	uith
@@ -10790,24 +10788,24 @@ T恤	txu
 矢	uios
 嗜	uido
 谥	uisa
-誓	uius
+誓	uius	5
 拾	uiud
 弑	uibu
-释	uitu
+释	uitu	5
 示	uifs
 恃	uihk
 侍	uijk
 仕	uijg
-逝	uiuu
+逝	uiuu	5
 豕	uijs
 轼	uiyu
 蚀	uiqc
 噬	uidj
 匙	uiov
 虱	uiac
-拭	uiuu
+拭	uiuu	4
 祏	uifm
-铈	uizr
+铈	uizr	4
 柿	uier
 奭	uimu
 莳	uilk
@@ -10818,8 +10816,8 @@ T恤	txu
 湜	uikt
 栻	uieu
 螫	uigc
-贳	uilo
-蓍	uilo
+贳	uilo	5
+蓍	uilo	4
 炻	uicm
 什	uijn
 酾	uiyv
@@ -10831,7 +10829,7 @@ T恤	txu
 鲺	uiwc
 殖	uigf
 峙	uivk
-襫	uitu
+襫	uitu	4
 邿	uigt
 浉	uikr
 埘	uigk
@@ -10881,12 +10879,12 @@ T恤	txu
 戍	uuni
 漱	uuke
 殊	uuga
-暑	uuoo
+暑	uuoo	4
 殳	uurs
-薯	uulo
-曙	uuoo
+薯	uulo	5
+曙	uuoo	5
 抒	uuui
-蔬	uulo
+蔬	uulo	4
 枢	uueb
 菽	uulr
 澍	uukk
@@ -11007,12 +11005,12 @@ T恤	txu
 搜	sbur
 艘	sbir
 嗖	sbdr
-馊	sbqr
+馊	sbqr	4
 叟	sbpr
 廋	sbxr
 薮	sblh
 溲	sbkr
-瞍	sbqr
+瞍	sbqr	5
 嗽	sbde
 蒐	sbla
 飕	sbor
@@ -11054,7 +11052,7 @@ T恤	txu
 蒜	srlf
 狻	srmh
 岁	svvl
-随	svtu
+随	svtu	4
 虽	svdc
 遂	svhu
 碎	svmn
@@ -11063,7 +11061,7 @@ T恤	txu
 髓	svfu
 燧	svcu
 尿	svck
-隧	svtu
+隧	svtu	5
 睢	svqu
 绥	svib
 祟	svsf
@@ -11075,7 +11073,7 @@ T恤	txu
 旞	svlu
 穟	svxu
 璲	svnu
-襚	svtu
+襚	svtu	3
 𫟦	svyu
 𬭼	svzu
 孙	sphy
@@ -11158,10 +11156,10 @@ T恤	txu
 滩	tjku
 坛	tjgb
 坦	tjgf
-炭	tjvc
+炭	tjvc	4
 瘫	tjau
 檀	tjef
-毯	tjvc
+毯	tjvc	5
 潭	tjkn
 昙	tjob
 钽	tjzf
@@ -11254,7 +11252,7 @@ T恤	txu
 替	tiho
 剃	tihp
 梯	tiet
-缇	tiit
+缇	tiit	5
 锑	tizt
 蹄	tipr
 剔	tiop
@@ -11268,7 +11266,7 @@ T恤	txu
 嚏	tidt
 鹈	tihx
 擿	tiuu
-绨	tiit
+绨	tiit	4
 荑	tilb
 倜	tijd
 裼	tite
@@ -11276,29 +11274,29 @@ T恤	txu
 鳀	tiwt
 逖	timu
 趯	tipu
-瑅	tint
+瑅	tint	5
 遆	tiiu
 䏲	tivt
 䴘	tixx
-𫘨	tint
+𫘨	tint	4
 天	tmfm
 甜	tmaz
 填	tmgh
 田	tmqt
-舔	tmah
-添	tmkh
+舔	tmah	5
+添	tmkh	4
 忝	tmfh
 湉	tmka
 殄	tmge
 恬	tmha
 腆	tmvh
-阗	tmah
+阗	tmah	4
 掭	tmuh
 觍	tmie
 瑱	tmnh
 沺	tmkq
 畋	tmqh
-淟	tmkh
+淟	tmkh	5
 晪	tmoh
 盷	tmqw
 黇	tmnd
@@ -11313,13 +11311,13 @@ T恤	txu
 蜩	tccd
 佻	tcjw
 眺	tcqw
-苕	tcld
+苕	tcld	4
 嬥	tcbu
 鲦	tcwe
 髫	tcpd
 迢	tcpu
 笤	tcrd
-龆	tcld
+龆	tcld	5
 贴	txod
 铁	txzh
 帖	txrd
@@ -11329,28 +11327,28 @@ T恤	txu
 挺	tyuu
 停	tyja
 厅	tyxa
-亭	tyga
-艇	tyiu
+亭	tyga	4
+艇	tyiu	4
 庭	tyxu
-汀	tyka
-廷	tytu
+汀	tyka	4
+廷	tytu	4
 婷	tyba
-霆	tytu
-烃	tycu
+霆	tytu	5
+烃	tycu	4
 铤	tyzu
 珽	tynu
 梃	tyeu
-渟	tyka
+渟	tyka	5
 葶	tyla
-蜓	tycu
+蜓	tycu	5
 莛	tylu
-圢	tyga
+圢	tyga	5
 桯	tyen
 颋	tytw
 侹	tyju
-烶	tycu
-䗴	tycu
-𬘩	tyiu
+烶	tycu	3
+䗴	tycu	2
+𬘩	tyiu	5
 同	tsmd
 通	tsku
 痛	tsat
@@ -11363,7 +11361,7 @@ T恤	txu
 童	tsid
 酮	tsyd
 瞳	tsqd
-桐	tsed
+桐	tsed	5
 彤	tsme
 砼	tsmu
 嗵	tsdu
@@ -11371,12 +11369,12 @@ T恤	txu
 恸	tshs
 仝	tsju
 穜	tsxd
-潼	tskd
+潼	tskd	5
 烔	tscd
-橦	tsed
+橦	tsed	4
 垌	tsgd
 茼	tsld
-洞	tskd
+洞	tskd	4
 峒	tsvd
 曈	tsod
 哃	tsdd
@@ -11459,9 +11457,9 @@ T恤	txu
 橐	tone
 鼍	todd
 鸵	toxv
-椭	toev
+椭	toev	4
 砣	tomv
-柁	toev
+柁	toev	5
 箨	toru
 跎	topv
 酡	toyv
@@ -11489,19 +11487,19 @@ T恤	txu
 崴	wlvb
 万	wjfp
 玩	wjnp
-完	wjwp
+完	wjwp	4
 晚	wjop
 碗	wjmz
 弯	wjzb
 丸	wjki
 湾	wjkb
-挽	wjup
+挽	wjup	4
 绾	wjik
 腕	wjvz
 纨	wjii
 烷	wjcp
-剜	wjwp
-皖	wjup
+剜	wjwp	5
+皖	wjup	5
 菀	wjlz
 卍	wjaa
 宛	wjwz
@@ -11527,7 +11525,7 @@ T恤	txu
 忘	whfh
 汪	whkn
 亡	whfw
-旺	whon
+旺	whon	4
 妄	whfb
 枉	when
 罔	whmf
@@ -11535,23 +11533,23 @@ T恤	txu
 尢	whoy
 惘	whhf
 魍	whaf
-尪	whon
+尪	whon	5
 为	wzii
-位	wzji
+位	wzji	4
 未	wzaw
 味	wzda
 微	wzwh
 喂	wzdt
-伪	wzji
+伪	wzji	5
 胃	wzqv
 维	wziu
 威	wznb
 唯	wzdu
-魏	wzxa
-尾	wzcv
-卫	wzzf
+魏	wzxa	5
+尾	wzcv	4
+卫	wzzf	4
 谓	wzsv
-围	wzrg
+围	wzrg	4
 韦	wzgw
 惟	wzhu
 委	wzxb
@@ -11565,7 +11563,7 @@ T恤	txu
 违	wzgu
 尉	wzck
 苇	wzlg
-萎	wzlb
+萎	wzlb	5
 慰	wzch
 纬	wzig
 鲔	wzwv
@@ -11574,44 +11572,44 @@ T恤	txu
 艉	wziv
 玮	wzng
 帷	wzru
-渭	wzkv
-帏	wzrg
-洧	wzkv
+渭	wzkv	4
+帏	wzrg	5
+洧	wzkv	5
 桅	wzez
-猥	wzmt
+猥	wzmt	5
 痿	wzab
-巍	wzva
-嵬	wzva
-猬	wzmv
+巍	wzva	5
+嵬	wzva	4
+猬	wzmv	4
 薳	wzlu
 鳚	wzwk
 潍	wzku
-亹	wzzf
-葳	wzlb
+亹	wzzf	5
+葳	wzlb	4
 偎	wzjt
 闱	wzag
 诿	wzsb
-韪	wzog
+韪	wzog	4
 娓	wzbv
 隗	wzta
 溦	wzkh
 沩	wzki
-硙	wzmv
+硙	wzmv	5
 崴	wzvb
-煟	wzcv
-廆	wzxa
+煟	wzcv	5
+廆	wzxa	4
 逶	wzxu
-碨	wzmt
-涠	wzkg
+碨	wzmt	4
+涠	wzkg	5
 洈	wzkz
 霨	wztk
 琟	wznu
 峗	wzvz
 螱	wzcc
 鳂	wzwt
-𣲗	wzkg
+𣲗	wzkg	4
 𫇭	wzli
-𬀩	wzog
+𬀩	wzog	5
 𬱟	wzxw
 𬶏	wzwz
 问	wfad
@@ -11621,12 +11619,12 @@ T恤	txu
 纹	wfiv
 温	wfka
 吻	wfde
-蚊	wfcv
+蚊	wfcv	4
 瘟	wfaa
-玟	wfnv
+玟	wfnv	5
 雯	wftv
 汶	wfkv
-炆	wfcv
+炆	wfcv	5
 辒	wfya
 刎	wfnp
 阌	wfar
@@ -11636,7 +11634,7 @@ T恤	txu
 芠	wflv
 鳁	wfwa
 璺	wfpi
-𫘜	wfnv
+𫘜	wfnv	4
 翁	wghz
 嗡	wgdz
 瓮	wghr
@@ -11669,20 +11667,20 @@ T恤	txu
 五	wuwu
 物	wuqe
 吴	wudm
-吾	wuwd
+吾	wuwd	5
 勿	wune
 乌	wuxu
 舞	wuev
 武	wufs
 屋	wucy
 误	wusm
-悟	wuhd
+悟	wuhd	5
 唔	wudd
 雾	wuts
 捂	wuud
 伍	wujw
 戊	wunu
-污	wuka
+污	wuka	4
 呜	wudx
 午	wuen
 务	wuhs
@@ -11694,7 +11692,7 @@ T恤	txu
 毋	wuku
 邬	wuxt
 诬	wusj
-寤	wuwd
+寤	wuwd	4
 庑	wuxd
 侮	wujk
 焐	wucd
@@ -11711,9 +11709,9 @@ T恤	txu
 鼯	wupd
 圬	wuga
 妩	wubd
-怃	wuhd
-洿	wuka
-浯	wukd
+怃	wuhd	4
+洿	wuka	5
+浯	wukd	4
 珷	wuns
 芴	wule
 婺	wuib
@@ -11729,7 +11727,7 @@ T恤	txu
 痦	wuad
 靰	wutp
 峿	wuvd
-𣲘	wukd
+𣲘	wukd	5
 系	xiti
 洗	xikp
 戏	xirp
@@ -11739,9 +11737,9 @@ T恤	txu
 喜	xihd
 兮	xiha
 希	xibr
-席	xixr
+席	xixr	4
 膝	xivk
-稀	xixr
+稀	xixr	5
 锡	xize
 习	xizx
 奚	xiym
@@ -11756,7 +11754,7 @@ T恤	txu
 曦	xiop
 析	xiet
 玺	xixi
-熄	xich
+熄	xich	5
 隙	xity
 夕	xilx
 汐	xikl
@@ -11764,14 +11762,14 @@ T恤	txu
 熙	xiqc
 茜	xilv
 嘻	xidd
-檄	xieh
+檄	xieh	5
 铣	xizp
 晞	xior
 晰	xiot
 犀	xicq
 禧	xifd
 嬉	xibd
-豨	xijr
+豨	xijr	4
 烯	xicr
 釐	xiad
 隰	xitc
@@ -11779,7 +11777,7 @@ T恤	txu
 郤	xiht
 谿	xiyh
 郗	xibt
-牺	xiqv
+牺	xiqv	4
 歙	xije
 僖	xijd
 熹	xihc
@@ -11791,7 +11789,7 @@ T恤	txu
 媳	xibh
 枲	xike
 嶲	xivm
-饩	xiqv
+饩	xiqv	5
 醯	xiya
 憙	xihh
 唏	xidr
@@ -11799,9 +11797,9 @@ T恤	txu
 浠	xikr
 舾	xiiv
 淅	xikt
-蹊	xipm
+蹊	xipm	4
 傒	xijm
-螅	xich
+螅	xich	3
 肸	xivn
 屣	xics
 觿	xixd
@@ -11812,10 +11810,10 @@ T恤	txu
 潟	xikc
 鳛	xiwu
 裼	xite
-鼷	xipm
+鼷	xipm	5
 阋	xiap
 绤	xiih
-蟋	xich
+蟋	xich	4
 葸	xilh
 樨	xieq
 爔	xicp
@@ -11823,8 +11821,8 @@ T恤	txu
 熻	xicz
 粞	xipv
 巇	xivp
-窸	xieh
-俙	xijr
+窸	xieh	4
+俙	xijr	5
 菥	xilt
 恓	xihv
 嶍	xivu
@@ -11843,7 +11841,7 @@ T恤	txu
 霞	xwtr
 峡	xwvh
 瑕	xwnr
-狭	xwmh
+狭	xwmh	4
 匣	xwns
 辖	xwyd
 呷	xwds
@@ -11851,13 +11849,13 @@ T恤	txu
 暇	xwor
 狎	xwms
 遐	xwcu
-硖	xwmh
+硖	xwmh	5
 罅	xwan
 柙	xwes
 黠	xwpd
 厦	xwxh
 翈	xwsz
-先	xmqp
+先	xmqp	4
 线	xmip
 险	xmtf
 弦	xmbi
@@ -11866,12 +11864,12 @@ T恤	txu
 嫌	xmbc
 仙	xmjv
 咸	xmnd
-显	xmoc
+显	xmoc	4
 鲜	xmwg
 限	xmti
-闲	xmae
+闲	xmae	4
 藓	xmlg
-馅	xmqp
+馅	xmqp	5
 献	xmnm
 贤	xmpo
 掀	xmue
@@ -11886,10 +11884,10 @@ T恤	txu
 霰	xmth
 筅	xmrp
 纤	xmil
-宪	xmwp
+宪	xmwp	5
 籼	xmpv
 蚬	xmce
-冼	xmwp
+冼	xmwp	4
 舷	xmii
 涎	xmku
 岘	xmve
@@ -11903,7 +11901,7 @@ T恤	txu
 暹	xmou
 缐	xmik
 猃	xmmf
-痫	xmae
+痫	xmae	5
 伭	xmji
 崄	xmvf
 跹	xmpu
@@ -11913,7 +11911,7 @@ T恤	txu
 忺	xmhe
 鹇	xmax
 禒	xmfj
-㬎	xmoc
+㬎	xmoc	5
 𪾢	xmqe
 𫍯	xmsd
 𬀪	xmoe
@@ -11938,14 +11936,14 @@ T恤	txu
 镶	xdzf
 祥	xdfg
 饷	xdqd
-飨	xdiq
+飨	xdiq	4
 详	xdsg
 襄	xdtf
 芗	xdli
 庠	xdxg
-骧	xdnf
-缃	xdiq
-瓖	xdnf
+骧	xdnf	4
+缃	xdiq	5
+瓖	xdnf	5
 鲞	xdhw
 珦	xdnd
 葙	xdlq
@@ -11954,17 +11952,17 @@ T恤	txu
 笑	xcrm
 肖	xcyv
 校	xceb
-箫	xcrh
+箫	xcrh	5
 孝	xcqh
 逍	xcyu
 萧	xclh
-消	xckv
+消	xckv	4
 削	xcyp
 晓	xcop
 效	xcah
 销	xczv
 枭	xcxe
-筱	xcrh
+筱	xcrh	4
 鸮	xcdx
 骁	xcnp
 咲	xcdm
@@ -11973,24 +11971,24 @@ T恤	txu
 硝	xcmv
 崤	xcvv
 枵	xcea
-啸	xcdh
+啸	xcdh	4
 绡	xciv
 霄	xctv
-潇	xckh
+潇	xckh	5
 蛸	xccv
 嚣	xcdd
 虓	xckz
 翛	xcjz
 猇	xcmz
-淆	xckv
+淆	xckv	5
 皛	xcuu
-哮	xcdh
+哮	xcdh	5
 洨	xckb
 哓	xcdp
-涍	xckh
-滧	xckh
+涍	xckh	4
+滧	xckh	3
 蟏	xcch
-敩	xckh
+敩	xckh	2
 𫍲	xcsr
 写	xxwf
 些	xxsm
@@ -12006,7 +12004,7 @@ T恤	txu
 屑	xxcv
 挟	xxuh
 协	xxnh
-泻	xxkf
+泻	xxkf	5
 泄	xxka
 蝎	xxcf
 械	xxel
@@ -12014,7 +12012,7 @@ T恤	txu
 燮	xxsr
 谐	xxsu
 胁	xxvh
-解	xxxq
+解	xxxq	4
 榭	xxek
 楔	xxem
 薤	xxlf
@@ -12025,12 +12023,12 @@ T恤	txu
 绁	xxia
 撷	xxuw
 絜	xxai
-廨	xxxq
+廨	xxxq	5
 獬	xxmq
 渫	xxke
 勰	xxsh
 偰	xxjm
-瀣	xxkf
+瀣	xxkf	4
 颉	xxgw
 邂	xxxu
 揳	xxum
@@ -12045,7 +12043,7 @@ T恤	txu
 心	xnhx
 信	xnjs
 芯	xnlh
-锌	xnzn
+锌	xnzn	4
 辛	xnnx
 薪	xnlt
 欣	xnte
@@ -12053,17 +12051,17 @@ T恤	txu
 馨	xngo
 昕	xnot
 忻	xnht
-歆	xnxe
+歆	xnxe	4
 衅	xntu
 炘	xnct
-镡	xnzn
+镡	xnzn	5
 囟	xntb
 伈	xnjh
 莘	xnln
 䜣	xnst
-𫷷	xnxe
+𫷷	xnxe	5
 型	xyfg
-性	xyhl
+性	xyhl	4
 星	xyol
 行	xypx
 形	xyfe
@@ -12084,7 +12082,7 @@ T恤	txu
 煋	xycl
 骍	xynn
 婞	xybg
-惺	xyhl
+惺	xyhl	5
 荥	xylk
 铏	xyzp
 悻	xyhg
@@ -12103,9 +12101,9 @@ T恤	txu
 讻	xssm
 汹	xskm
 诇	xssd
-修	xqje
+修	xqje	5
 秀	xqxv
-休	xqje
+休	xqje	4
 绣	xqiv
 嗅	xqdm
 溴	xqkm
@@ -12118,12 +12116,12 @@ T恤	txu
 朽	xqea
 髹	xqpe
 宿	xqwu
-琇	xqnv
+琇	xqnv	5
 貅	xqme
 庥	xqxe
 滫	xqkv
 臭	xqom
-珛	xqnv
+珛	xqnv	4
 馐	xqqg
 鸺	xqjx
 䗛	xqcv
@@ -12131,7 +12129,7 @@ T恤	txu
 虚	xuzc
 徐	xuwx
 须	xuew
-许	xusn
+许	xusn	4
 续	xuim
 序	xuxi
 嘘	xudc
@@ -12165,20 +12163,20 @@ T恤	txu
 畜	xuzq
 醑	xuyv
 浒	xukn
-旴	xuon
+旴	xuon	5
 垿	xugi
 魆	xuan
 谞	xusv
 珝	xunz
 㳚	xuki
-冔	xuon
+冔	xuon	4
 𦈡	xuil
-𬣙	xusn
+𬣙	xusn	5
 选	xrqu
 癣	xrag
 悬	xrfh
 炫	xrci
-玄	xrzi
+玄	xrzi	4
 宣	xrwf
 旋	xrlt
 轩	xrye
@@ -12186,24 +12184,24 @@ T恤	txu
 璇	xrnt
 泫	xrki
 渲	xrkf
-喧	xrdf
-玹	xrni
-烜	xrcf
-铉	xrzi
+喧	xrdf	4
+玹	xrni	4
+烜	xrcf	4
+铉	xrzi	5
 漩	xrkt
-暄	xrof
+暄	xrof	4
 瑄	xrnf
 谖	xrsr
 绚	xrio
 楦	xref
 券	xrhp
-煊	xrcf
+煊	xrcf	5
 衒	xrpi
 眩	xrqi
-咺	xrdf
+咺	xrdf	5
 儇	xrjt
 禤	xrfz
-晅	xrof
+晅	xrof	5
 翾	xryz
 碹	xrmf
 昡	xroi
@@ -12213,7 +12211,7 @@ T恤	txu
 愃	xrhf
 𫍽	xrst
 𫓶	xrzv
-𫠊	xrni
+𫠊	xrni	5
 学	xtkh
 血	xtta
 雪	xttb
@@ -12228,24 +12226,24 @@ T恤	txu
 茓	xtle
 峃	xtkv
 寻	xpbk
-熏	xplp
-训	xpso
+熏	xplp	4
+训	xpso	5
 逊	xphu
 巡	xpou
 勋	xpds
-埙	xpgo
+埙	xpgo	5
 巽	xpvh
 讯	xpsn
 循	xpwq
 荀	xplo
-旬	xpno
-殉	xpgo
-薰	xplp
-询	xpso
+旬	xpno	4
+殉	xpgo	4
+薰	xplp	5
+询	xpso	4
 迅	xpau
 洵	xpko
 徇	xpwo
-驯	xpno
+驯	xpno	5
 蕈	xpln
 浔	xpkk
 郇	xpnt
@@ -12257,7 +12255,7 @@ T恤	txu
 曛	xpop
 獯	xpmp
 汛	xpkn
-珣	xpno
+珣	xpno	3
 噀	xpdh
 峋	xpvo
 浚	xpkh
@@ -12271,7 +12269,7 @@ T恤	txu
 牙	yaly
 鸭	yasx
 亚	yafc
-雅	yalu
+雅	yalu	5
 押	yaus
 丫	yahg
 芽	yall
@@ -12292,7 +12290,7 @@ T恤	txu
 琊	yant
 砑	yaml
 桠	yaec
-迓	yalu
+迓	yalu	4
 讶	yasl
 揠	yaub
 睚	yaqg
@@ -12308,16 +12306,16 @@ T恤	txu
 焉	yjfc
 严	yjfx
 颜	yjiw
-腌	yjva
-岩	yjvm
+腌	yjva	5
+岩	yjvm	4
 宴	yjwb
 燕	yjlc
 验	yjnf
-炎	yjcc
+炎	yjcc	4
 咽	yjdm
 延	yjtu
 彦	yjie
-阎	yjap
+阎	yjap	5
 厌	yjxm
 艳	yjam
 掩	yjua
@@ -12329,17 +12327,17 @@ T恤	txu
 雁	yjxu
 鄢	yjft
 妍	yjbl
-嫣	yjbc
+嫣	yjbc	5
 阏	yjaw
 檐	yjes
 偃	yjjb
-焱	yjcc
+焱	yjcc	5
 衍	yjpk
 阉	yjaa
 砚	yjme
 魇	yjxa
-甗	yjzr
-兖	yjap
+甗	yjzr	5
+兖	yjap	4
 谳	yjsm
 筵	yjru
 罨	yjya
@@ -12358,9 +12356,9 @@ T恤	txu
 铅	yjzd
 谚	yjse
 黡	yjxp
-嬿	yjbc
+嬿	yjbc	4
 唁	yjds
-胭	yjvm
+胭	yjvm	5
 蜒	yjcu
 渰	yjkl
 墕	yjgc
@@ -12368,9 +12366,9 @@ T恤	txu
 戭	yjwp
 掞	yjuc
 蝘	yjcb
-殷	yjzr
+殷	yjzr	4
 鼹	yjpb
-崦	yjva
+崦	yjva	4
 厣	yjxs
 恹	yjhm
 漹	yjkc
@@ -12378,7 +12376,7 @@ T恤	txu
 扊	yjmc
 䶮	yjtm
 觃	yjeh
-𪩘	yjvm
+𪩘	yjvm	3
 𫄧	yjiu
 𬙂	yjih
 𬸘	yjnx
@@ -12395,12 +12393,12 @@ T恤	txu
 仰	yhjz
 漾	yhkk
 鞅	yhtm
-旸	yhoe
+旸	yhoe	4
 秧	yhxm
 佯	yhjg
-烊	yhcg
+烊	yhcg	4
 殃	yhgm
-飏	yhoe
+飏	yhoe	5
 炀	yhce
 钖	yhze
 羕	yhgk
@@ -12408,15 +12406,15 @@ T恤	txu
 鸯	yhmx
 恙	yhgh
 垟	yhgg
-蛘	yhcg
+蛘	yhcg	5
 泱	yhkm
 怏	yhhm
 玚	yhne
 徉	yhwg
 咉	yhdm
-要	ykvb
+要	ykvb	4
 药	ykli
-腰	ykvb
+腰	ykvb	5
 妖	ykbm
 咬	ykdb
 邀	ykuu
@@ -12440,9 +12438,9 @@ T恤	txu
 窈	ykes
 峣	ykvp
 肴	ykbv
-徭	ykwa
+徭	ykwa	4
 钥	ykzv
-鳐	ykwa
+鳐	ykwa	5
 窅	ykeq
 鹞	ykyx
 铫	ykzw
@@ -12451,7 +12449,7 @@ T恤	txu
 疟	ykab
 靿	ykts
 侥	ykjp
-崾	ykvb
+崾	ykvb	3
 猺	ykma
 媱	ykba
 㙘	ykgb
@@ -12489,33 +12487,33 @@ T恤	txu
 矣	yiko
 乙	yiai
 译	yisu
-意	yixh
+意	yixh	4
 仪	yijb
-依	yijt
+依	yijt	5
 咦	yidb
-伊	yijt
+伊	yijt	4
 椅	yiez
 衣	yiti
 医	yino
-义	yiib
-翼	yizh
+义	yiib	4
+翼	yizh	5
 宜	yiwf
 异	yivl
 裔	yitd
-益	yika
+益	yika	4
 邑	yidm
 移	yixl
-壹	yigz
+壹	yigz	4
 役	yiwr
 奕	yizm
 夷	yimb
 艺	yila
-疑	yivt
+疑	yivt	5
 倚	yijz
 逸	yiwu
 姨	yibb
 忆	yiha
-遗	yicu
+遗	yicu	4
 议	yisb
 蚁	yicb
 噫	yidh
@@ -12523,16 +12521,16 @@ T恤	txu
 怡	yihd
 乂	yibi
 铱	yizt
-溢	yika
+溢	yika	5
 驿	yinu
 疫	yiar
 翊	yiiz
 埸	yige
-胰	yivb
+胰	yivb	4
 刈	yibp
 颐	yiqw
 毅	yiir
-钇	yiza
+钇	yiza	4
 懿	yigh
 诣	yiso
 彝	yibl
@@ -12540,68 +12538,68 @@ T恤	txu
 弋	yipi
 翳	yinz
 轶	yiyh
-羿	yizl
+羿	yizl	4
 祎	yifg
 猗	yimz
 尾	yicv
-镒	yiza
+镒	yiza	5
 贻	yiod
 佚	yijh
 燚	yicc
 谊	yisf
-弈	yizl
+弈	yizl	5
 诒	yisd
 咿	yidt
 扆	yimt
-镱	yizh
+镱	yizh	4
 佾	yijv
 浥	yikm
 臆	yivh
 瘗	yiag
 缢	yiia
-沂	yikt
-殪	yigz
+沂	yikt	5
+殪	yigz	5
 峄	yivu
 圯	yigv
 绎	yiiu
-熠	yicu
+熠	yicu	5
 迤	yieu
 劓	yiop
 翌	yizi
 漪	yikz
 苡	yilj
-饴	yiqd
-嶷	yivt
+饴	yiqd	5
+嶷	yivt	4
 匜	yine
 屹	yiva
-肄	yivb
+肄	yivb	5
 挹	yium
 裛	yitm
 潩	yikh
-舣	yiib
+舣	yiib	5
 怿	yihu
 踦	yipz
 螠	yica
-嗌	yida
+嗌	yida	5
 簃	yirl
 薏	yilh
 黟	yipl
-洢	yikt
+洢	yikt	4
 繄	yini
-荑	yilb
-旖	yilz
+荑	yilb	4
+旖	yilz	5
 佁	yijd
 悒	yihm
 嫕	yibh
 鹢	yikx
 勚	yils
-呓	yida
-眙	yiqd
+呓	yida	4
+眙	yiqd	4
 蜴	yice
 酏	yiye
 鹝	yinx
-艾	yilb
-廙	yixh
+艾	yilb	5
+廙	yixh	5
 枍	yiea
 癔	yiah
 痍	yiab
@@ -12614,7 +12612,7 @@ T恤	txu
 𫖮	yivw
 𬟁	yilx
 𬬩	yizp
-𬺈	yilz
+𬺈	yilz	4
 因	ynrm
 音	ynxy
 银	ynzi
@@ -12623,7 +12621,7 @@ T恤	txu
 阴	yntv
 饮	ynqe
 隐	ynth
-瘾	ynah
+瘾	ynah	4
 殷	ynzr
 尹	ynbt
 吟	ynda
@@ -12636,7 +12634,7 @@ T恤	txu
 洇	ynkm
 蚓	yncg
 茵	ynlm
-鄞	ynlt
+鄞	ynlt	5
 堙	yngg
 愔	ynhx
 骃	ynnm
@@ -12649,9 +12647,9 @@ T恤	txu
 霪	yntg
 姻	ynbm
 訚	ynas
-龂	ynlt
+龂	ynlt	4
 崟	ynvz
-慭	ynah
+慭	ynah	5
 夤	ynlh
 溵	ynkr
 茚	ynlz
@@ -12667,7 +12665,7 @@ T恤	txu
 𬮱	ynag
 应	yyxf
 硬	yymb
-赢	yyfi
+赢	yyfi	4
 英	yylm
 营	yyld
 樱	yyeb
@@ -12675,34 +12673,34 @@ T恤	txu
 鹰	yyxx
 迎	yybu
 盈	yyva
-嬴	yyfi
+嬴	yyfi	5
 郢	yydt
 嘤	yydb
 瑛	yynm
 蝇	yycd
-颖	yyvw
+颖	yyvw	5
 映	yyom
 莺	yylx
-萤	yylc
+萤	yylc	4
 婴	yyob
-瀛	yyki
-莹	yyli
-颍	yyvw
+瀛	yyki	5
+莹	yyli	5
+颍	yyvw	4
 媵	yyvb
 鹦	yyox
 膺	yyxv
 瘿	yyab
 缨	yyib
 楹	yyea
-荧	yylc
-萦	yyli
+荧	yylc	5
+萦	yyli	4
 罂	yyoa
 撄	yyub
 锳	yyzm
-滢	yyki
+滢	yyki	4
 荥	yylk
 溁	yyke
-潆	yyki
+潆	yyki	3
 蓥	yylz
 璎	yynb
 茔	yylg
@@ -12716,39 +12714,39 @@ T恤	txu
 永	ysik
 咏	ysdk
 拥	ysut
-涌	yskt
-庸	ysxt
-蛹	ysct
+涌	yskt	5
+庸	ysxt	4
+蛹	ysct	4
 雍	yszu
 颙	ysqw
-俑	ysjt
-佣	ysjt
+俑	ysjt	5
+佣	ysjt	4
 慵	ysht
 泳	yskk
 踊	yspt
 壅	yszg
 痈	ysat
-甬	yskt
-鳙	yswt
+甬	yskt	4
+鳙	yswt	5
 饔	yszq
 邕	ysom
 镛	yszt
-鄘	ysxt
+鄘	ysxt	5
 澭	ysku
 臃	ysvu
-墉	ysgt
+墉	ysgt	4
 喁	ysdv
 恿	yskh
-埇	ysgt
+埇	ysgt	5
 栐	ysek
-㶲	ysct
-鲬	yswt
+㶲	ysct	5
+鲬	yswt	4
 有	ybnv
 又	ybry
 由	ybdy
 油	ybkd
 右	ybnd
-游	ybkh
+游	ybkh	5
 哟	ybdi
 呦	ybds
 优	ybjo
@@ -12764,14 +12762,14 @@ T恤	txu
 釉	ybtd
 幼	ybis
 邮	ybdt
-酉	ybyy
+酉	ybyy	4
 疣	ybao
 诱	ybsv
-悠	ybjh
+悠	ybjh	5
 柚	ybed
 宥	ybwv
 鱿	ybwo
-攸	ybjh
+攸	ybjh	4
 繇	ybyi
 囿	ybrv
 卣	ybyn
@@ -12790,40 +12788,40 @@ T恤	txu
 耰	ybah
 槱	ybec
 蝤	ybcy
-浟	ybkh
+浟	ybkh	4
 蝣	ybch
 蚰	ybcd
-𬨎	ybyy
+𬨎	ybyy	5
 与	yuff
 于	yufn
-鱼	yuwv
+鱼	yuwv	4
 宇	yuwn
-於	yulw
+於	yulw	5
 欲	yuhe
 语	yusd
-雨	yutv
+雨	yutv	4
 余	yujx
-预	yuiw
+预	yuiw	5
 玉	yuni
 羽	yuzv
 域	yugf
 瑜	yunp
 遇	yuqu
 御	yuwz
-禹	yutv
+禹	yutv	5
 逾	yuju
-愈	yujh
+愈	yujh	5
 俞	yujp
 虞	yuzm
-渔	yukw
+渔	yukw	4
 予	yuiv
-豫	yuiw
+豫	yuiw	4
 愚	yuqh
 驭	yunr
 喻	yudp
 渝	yukp
 裕	yuth
-育	yubv
+育	yubv	4
 郁	yunt
 狱	yumm
 瘀	yuaw
@@ -12831,23 +12829,23 @@ T恤	txu
 舆	yuph
 彧	yupe
 娱	yubm
-鹬	yuix
+鹬	yuix	5
 芋	yuln
 峪	yuvh
 誉	yuks
-隅	yutv
+隅	yutv	3
 昱	yuoi
 欤	yufe
 谕	yusp
-榆	yuep
-寓	yuwv
-淤	yukw
+榆	yuep	4
+寓	yuwv	5
+淤	yukw	5
 鬻	yubn
 煜	yuci
 毓	yueo
 阈	yuaf
 圉	yurg
-聿	yubv
+聿	yubv	5
 吁	yudn
 瑀	yunv
 鄅	yutt
@@ -12885,14 +12883,14 @@ T恤	txu
 嵛	yuvp
 蜮	yucf
 圄	yurd
-艅	yuix
+艅	yuix	4
 揄	yuup
 萸	yulj
 邘	yuft
 臾	yupj
 褕	yutp
 燏	yucd
-窬	yuep
+窬	yuep	5
 髃	yufv
 瘐	yuaj
 觎	yuje
@@ -12901,11 +12899,11 @@ T恤	txu
 尉	yuck
 蔚	yulk
 狳	yumx
-滪	yukw
+滪	yukw	3
 伛	yujb
 蝓	yucp
-蓣	yulw
-悆	yujh
+蓣	yulw	4
+悆	yujh	4
 㺄	yump
 元	yrmp
 原	yrxy
@@ -12922,18 +12920,18 @@ T恤	txu
 怨	yrlh
 冤	yrww
 苑	yrlz
-渊	yrkp
+渊	yrkp	5
 援	yrur
 爰	yryr
 垣	yrgf
 鸢	yrpx
 螈	yrcy
 鼋	yrmd
-沅	yrkp
+沅	yrkp	4
 妧	yrbp
 媛	yrbr
 掾	yruj
-塬	yrgy
+塬	yrgy	5
 瑗	yrnr
 鸳	yrlx
 嫄	yrby
@@ -12947,7 +12945,7 @@ T恤	txu
 圜	yrrt
 湲	yrkr
 箢	yrrz
-羱	yrgy
+羱	yrgy	4
 𫘪	yrny
 月	ytvy
 越	ytpn
@@ -13036,8 +13034,8 @@ T恤	txu
 拶	zjul
 昝	zjho
 酂	zjqt
-趱	zjpo
-糌	zjpo
+趱	zjpo	5
+糌	zjpo	4
 寁	zjws
 脏	zhvg
 葬	zhll
@@ -13072,12 +13070,12 @@ T恤	txu
 择	zeuu
 责	zeao
 仄	zexj
-帻	zero
+帻	zero	5
 昃	zeoj
 咋	zedw
 迮	zewu
 笮	zerw
-箦	zero
+箦	zero	4
 赜	zeqo
 舴	zeiw
 贼	zzon
@@ -13085,35 +13083,35 @@ T恤	txu
 怎	zfwh
 谮	zfso
 增	zggo
-赠	zgoo
+赠	zgoo	4
 甑	zghr
 缯	zgio
-曾	zgho
-憎	zgho
+曾	zgho	5
+憎	zgho	4
 鄫	zght
 罾	zgyo
-矰	zgoo
+矰	zgoo	5
 锃	zgzn
 综	zgif
 䎖	zghz
-炸	vacw
+炸	vacw	4
 渣	vakf
 扎	vaua
-榨	vaew
+榨	vaew	5
 乍	vawa
 札	vaea
 闸	vaas
 诈	vasw
 眨	vaqr
-吒	vadr
+吒	vadr	5
 栅	vaei
-咤	vadr
+咤	vadr	4
 铡	vazp
 轧	vaya
 揸	vauf
 鲊	vaww
 砟	vamw
-楂	vaef
+楂	vaef	4
 劄	varp
 喳	vadf
 霅	vats
@@ -13121,15 +13119,15 @@ T恤	txu
 咋	vadw
 溠	vaku
 哳	vadt
-奓	vaml
-蚱	vacw
-查	vaef
+奓	vaml	4
+蚱	vacw	5
+查	vaef	5
 馇	vaqf
 挓	vaur
-柞	vaew
+柞	vaew	4
 喋	vade
 痄	vaaw
-䃎	vaml
+䃎	vaml	5
 鲝	vagw
 齇	vaof
 债	vljo
@@ -13146,7 +13144,7 @@ T恤	txu
 站	vjid
 占	vjyd
 战	vjyp
-斩	vjyt
+斩	vjyt	5
 粘	vjpd
 沾	vjkd
 展	vjct
@@ -13159,7 +13157,7 @@ T恤	txu
 旃	vjlz
 绽	vjit
 湛	vjka
-辗	vjyt
+辗	vjyt	4
 鳣	vjwf
 鹯	vjzx
 飐	vjod
@@ -13226,12 +13224,12 @@ T恤	txu
 辄	veya
 锗	vezo
 褶	vetu
-蛰	veuc
+蛰	veuc	5
 辙	veyh
 啫	vedo
 柘	veem
 谪	vesc
-蜇	veuc
+蜇	veuc	4
 喆	vegd
 磔	veme
 赭	vego
@@ -13304,14 +13302,14 @@ T恤	txu
 之	viri
 至	viyi
 值	vijf
-指	viuo
+指	viuo	4
 纸	viib
 制	viqp
 治	vikd
 直	vinf
 知	viod
 支	vici
-致	viyh
+致	viyh	5
 质	vixo
 汁	vikn
 志	vigh
@@ -13320,11 +13318,11 @@ T恤	txu
 止	visi
 酯	viyo
 职	viqh
-执	viui
+执	viui	5
 掷	viut
 枝	viec
 痣	viah
-脂	vivo
+脂	vivo	5
 趾	vips
 彘	vibv
 织	viih
@@ -13333,33 +13331,33 @@ T恤	txu
 植	vief
 滞	vikr
 跖	vipm
-炙	vivc
+炙	vivc	4
 秩	vixh
-旨	vivo
+旨	vivo	4
 侄	vijy
 徵	viwh
 祗	vifi
-栀	viez
+栀	viez	5
 芷	vils
 址	vigs
 雉	viou
-窒	viey
-肢	vivc
+窒	viey	5
+肢	vivc	5
 陟	vits
 痔	viak
 沚	viks
-枳	vieh
-栉	viez
+枳	vieh	5
+栉	viez	4
 稚	vixu
 卮	vixz
 挚	viuu
 郅	viyt
-轵	viyh
-殖	vigf
+轵	viyh	4
+殖	vigf	5
 畤	viqk
 峙	vivk
-絷	viui
-帙	virh
+絷	viui	4
+帙	virh	5
 摭	viuc
 蛭	vicy
 鸷	viux
@@ -13367,17 +13365,17 @@ T恤	txu
 蜘	vicd
 踬	vipo
 祉	vifs
-埴	vigf
-帜	virh
+埴	vigf	4
+帜	virh	4
 豸	vimi
 扺	viub
-贽	viuo
+贽	viuo	5
 锧	vizo
 骘	vitn
 踯	vipt
 咫	vich
 觯	vixn
-桎	viey
+桎	viey	4
 滍	vikc
 泜	viki
 黹	vicf
@@ -13392,10 +13390,10 @@ T恤	txu
 胝	vivi
 晊	vioy
 庤	vixk
-梽	vieh
-榰	vieo
+梽	vieh	4
+榰	vieo	5
 𦭜	vilh
-𬃊	vieo
+𬃊	vieo	4
 中	vsdg
 种	vsxg
 重	vsld
@@ -13438,8 +13436,8 @@ T恤	txu
 鸼	vbix
 赒	vbod
 碡	vbmk
-婤	vbbd
-妯	vbbd
+婤	vbbd	4
+妯	vbbd	5
 荮	vblk
 㑇	vbjb
 㤘	vbhb
@@ -13457,7 +13455,7 @@ T恤	txu
 驻	vunn
 竹	vuru
 诛	vusa
-渚	vuko
+渚	vuko	5
 珠	vuna
 株	vuea
 铸	vuzk
@@ -13467,12 +13465,12 @@ T恤	txu
 箸	vuro
 邾	vutt
 铢	vuza
-烛	vucc
-蛀	vucn
+烛	vucc	4
+蛀	vucn	5
 贮	vuof
 嘱	vudv
 拄	vuun
-炷	vucn
+炷	vucn	4
 洙	vuka
 茱	vula
 伫	vujf
@@ -13484,16 +13482,16 @@ T恤	txu
 槠	vueo
 舳	vuid
 疰	vuan
-杼	vuei
-潴	vuko
+杼	vuei	4
+潴	vuko	4
 侏	vuja
 翥	vuqz
 砫	vumn
 柷	vuep
 躅	vupc
-蠋	vucc
+蠋	vucc	5
 橥	vume
-术	vuei
+术	vuei	5
 瘃	vuai
 𬣞	vusf
 抓	vwuy
@@ -13502,8 +13500,8 @@ T恤	txu
 拽	vyut
 转	vryi
 赚	vroc
-专	vrmi
-砖	vrmi
+专	vrmi	5
+砖	vrmi	4
 撰	vruh
 传	vrji
 篆	vrrj
@@ -13515,7 +13513,7 @@ T恤	txu
 沌	vrks
 䏝	vrvi
 装	vdat
-状	vdam
+状	vdam	4
 撞	vdud
 庄	vdxg
 妆	vdab
@@ -13523,7 +13521,7 @@ T恤	txu
 壮	vdag
 幢	vdrd
 戆	vdxh
-奘	vdam
+奘	vdam	5
 追	vvtu
 坠	vvtg
 锥	vvzu
@@ -13557,8 +13555,8 @@ T恤	txu
 焯	vocn
 镯	vozc
 琢	voni
-涿	voki
-汋	voki
+涿	voki	5
+汋	voki	4
 倬	vojn
 茁	volm
 浞	vokp
@@ -13570,11 +13568,11 @@ T恤	txu
 䓬	voln
 䦃	vozo
 𬸦	volx
-字	ziwh
+字	ziwh	5
 自	zioi
-子	zihi
+子	zihi	4
 紫	zisi
-兹	zihi
+兹	zihi	5
 资	ziwo
 仔	zijh
 籽	ziph
@@ -13585,7 +13583,7 @@ T恤	txu
 嗞	zidi
 姊	zibt
 咨	ziwd
-恣	ziwh
+恣	ziwh	4
 赀	ziso
 訾	ziss
 髭	zipv
@@ -13593,17 +13591,17 @@ T恤	txu
 粢	ziwp
 吱	zidc
 缁	ziiq
-孖	zihh
+孖	zihh	4
 眦	ziqv
-孳	zihh
+孳	zihh	3
 觜	zist
-龇	zilv
-孜	zihh
+龇	zilv	5
+孜	zihh	5
 滓	zikn
 辎	ziyq
 淄	zikq
 秭	zixt
-茈	zilv
+茈	zilv	4
 镃	zizi
 耔	ziah
 嵫	zivi
@@ -13618,9 +13616,9 @@ T恤	txu
 纵	zsij
 棕	zsef
 综	zsif
-粽	zspf
-踪	zspf
-鬃	zspf
+粽	zspf	5
+踪	zspf	4
+鬃	zspf	3
 腙	zsvf
 疭	zsaj
 倧	zsjf
@@ -13685,8 +13683,9 @@ T恤	txu
 琢	zoni
 怍	zohw
 阼	zotw
-胙	zovw
+胙	zovw	4
 捽	zoun
 柞	zoew
 笮	zorw
-岞	zovw
+岞	zovw	5
+孖	mahh
