@@ -8732,7 +8732,7 @@ T恤	txu
 历	lixs	5
 锂	lizd
 丽	lifv
-哩	lirg
+哩	lidd
 黎	lixk
 栗	live
 莉	lilp
@@ -8769,7 +8769,7 @@ T恤	txu
 篱	lirv
 鳢	liwz
 漓	likv
-浬	lieg
+浬	likd
 轹	liyy
 俐	lijp	5
 蓠	lilv
